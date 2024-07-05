@@ -1,0 +1,6 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+assignment-3,(default package),ParserTest,dndTest,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+assignment-3,(default package),ParserTest,dndTest,Eager test,The tool detected the smell in this test method because the test checks the results of more than one method from class under test. The called methods are: com.slimtrade.core.chatparser.ChatParser.addDndListener; com.slimtrade.core.chatparser.ChatParser.open
+assignment-3,(default package),ReleaseTest,checkAppSettings,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 5
+assignment-3,(default package),ReleaseTest,checkAppSettings,Conditional test logic,The tool detected the smell in this test method because the test wraps the assert statements within control flow statements.
+assignment-3,(default package),ReleaseTest,checkDebugFlags,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 11

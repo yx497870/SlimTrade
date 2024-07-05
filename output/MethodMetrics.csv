@@ -1,0 +1,1311 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+assignment-3,com.slimtrade,App,main,86,9,1,72,0,com.slimtrade.modules.stopwatch.Stopwatch,com.slimtrade.modules.stopwatch.Stopwatch; com.slimtrade.core.utility.POEInterface; com.slimtrade.modules.updater.UpdateManager; com.slimtrade.modules.updater.ZLogger; com.slimtrade.gui.managers.SetupManager; com.slimtrade.App; com.slimtrade.gui.managers.FrameManager; com.slimtrade.gui.windows.LoadingWindow; com.slimtrade.core.managers.SaveManager; com.slimtrade.core.managers.AudioManager; com.slimtrade.core.managers.LockManager; com.slimtrade.core.enums.CurrencyType; com.slimtrade.gui.managers.SystemTrayManager; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade,App,profileLaunch,4,2,1,181,0,com.slimtrade.modules.stopwatch.Stopwatch,com.slimtrade.modules.stopwatch.Stopwatch; com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade,App,runSetupWizard,8,1,0,186,0,com.slimtrade.gui.setup.SetupWindow,com.slimtrade.gui.setup.SetupWindow; com.slimtrade.gui.managers.FrameManager
+assignment-3,com.slimtrade,App,initializeThemes,11,2,0,194,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade,App,launchApp,26,5,0,206,0,com.slimtrade.gui.pinning.PinManager,com.slimtrade.gui.pinning.PinManager; com.slimtrade.modules.updater.UpdateManager; com.slimtrade.gui.windows.OptionsWindow; com.slimtrade.App; com.slimtrade.modules.saving.SaveFile; com.slimtrade.gui.windows.PatchNotesWindow; com.slimtrade.gui.managers.HotkeyManager; com.slimtrade.gui.managers.FrameManager; com.slimtrade.gui.managers.SystemTrayManager; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade,App,initParser,19,2,0,238,0,com.slimtrade.core.chatparser.ChatParser,com.slimtrade.core.chatparser.ChatParser
+assignment-3,com.slimtrade,App,readAppInfo,16,1,0,262,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade,App,parseLaunchArgs,11,8,1,278,0,,
+assignment-3,com.slimtrade,App,setState,4,1,1,291,0,,
+assignment-3,com.slimtrade,App,getState,3,1,0,296,0,,
+assignment-3,com.slimtrade,App,getPreviousState,3,1,0,300,0,,
+assignment-3,com.slimtrade,App,isRunningSetup,3,1,0,304,0,,
+assignment-3,com.slimtrade,App,closeProgram,11,1,0,308,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger; com.slimtrade.core.managers.LockManager
+assignment-3,com.slimtrade.core.audio,Sound,Sound,13,3,2,19,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.audio,Sound,getPath,11,4,0,31,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.audio,Sound,getURL,18,4,0,42,0,com.slimtrade.core.audio.Sound,com.slimtrade.core.audio.Sound
+assignment-3,com.slimtrade.core.audio,Sound,toString,3,1,0,59,0,,
+assignment-3,com.slimtrade.core.audio,Sound,equals,6,3,1,64,0,,
+assignment-3,com.slimtrade.core.audio,Sound,hashCode,3,1,0,72,0,,
+assignment-3,com.slimtrade.core.audio,SoundComponent,SoundComponent,4,1,2,8,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,open,16,4,1,43,0,com.slimtrade.modules.filetailing.FileTailer,com.slimtrade.modules.filetailing.FileTailer; com.slimtrade.modules.updater.ZLogger; com.slimtrade.core.chatparser.ChatParser; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.core.chatparser,ChatParser,close,5,1,0,60,0,com.slimtrade.modules.filetailing.FileTailer,com.slimtrade.modules.filetailing.FileTailer
+assignment-3,com.slimtrade.core.chatparser,ChatParser,getPath,3,1,0,66,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,parseLine,33,12,1,72,0,com.slimtrade.core.chatparser.IJoinedAreaListener,com.slimtrade.core.chatparser.IJoinedAreaListener; com.slimtrade.core.chatparser.ChatParser; com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handleChatScanner,57,20,1,111,0,com.slimtrade.gui.chatscanner.ChatScannerEntry,com.slimtrade.gui.chatscanner.ChatScannerEntry; com.slimtrade.core.chatparser.IChatScannerListener; com.slimtrade.modules.filetailing.FileTailer
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handleTradeOffer,26,8,1,173,0,com.slimtrade.core.data.IgnoreItemData,com.slimtrade.core.data.IgnoreItemData; com.slimtrade.core.chatparser.ChatParser; com.slimtrade.core.chatparser.ITradeListener; com.slimtrade.modules.filetailing.FileTailer; com.slimtrade.core.chatparser.IPreloadTradeListener
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handleDndToggle,20,9,1,201,0,com.slimtrade.modules.filetailing.FileTailer,com.slimtrade.modules.filetailing.FileTailer; com.slimtrade.core.chatparser.IDndListener
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handleIgnoreItem,3,2,0,222,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager; com.slimtrade.modules.filetailing.FileTailer
+assignment-3,com.slimtrade.core.chatparser,ChatParser,getCurrentZone,3,1,0,226,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,isDndEnabled,3,1,0,230,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,addOnInitCallback,3,1,1,235,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,addOnLoadedCallback,3,1,1,239,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,addPreloadTradeListener,3,1,1,243,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,addTradeListener,3,1,1,247,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,addChatScannerListener,3,1,1,251,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,addJoinedAreaListener,3,1,1,255,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,addDndListener,3,1,1,259,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,removeAllListeners,8,1,0,263,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,init,3,2,1,274,0,com.slimtrade.core.chatparser.IParserInitListener,com.slimtrade.core.chatparser.IParserInitListener
+assignment-3,com.slimtrade.core.chatparser,ChatParser,fileNotFound,2,1,0,279,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,fileRotated,2,1,0,284,0,,
+assignment-3,com.slimtrade.core.chatparser,ChatParser,onLoad,4,2,0,289,0,com.slimtrade.core.chatparser.IParserLoadedListener,com.slimtrade.core.chatparser.IParserLoadedListener; com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handle,3,1,1,295,0,com.slimtrade.core.chatparser.ChatParser,com.slimtrade.core.chatparser.ChatParser
+assignment-3,com.slimtrade.core.chatparser,IChatScannerListener,onScannerMessage,0,1,3,8,0,,
+assignment-3,com.slimtrade.core.chatparser,IDndListener,onDndToggle,0,1,2,5,0,,
+assignment-3,com.slimtrade.core.chatparser,IJoinedAreaListener,onJoinedArea,0,1,1,5,0,,
+assignment-3,com.slimtrade.core.chatparser,IParserInitListener,onParserInit,0,1,0,5,0,,
+assignment-3,com.slimtrade.core.chatparser,IParserLoadedListener,onParserLoaded,0,1,0,5,0,,
+assignment-3,com.slimtrade.core.chatparser,IPreloadTradeListener,handlePreloadTrade,0,1,1,7,0,,
+assignment-3,com.slimtrade.core.chatparser,ITradeListener,handleTrade,0,1,1,7,0,,
+assignment-3,com.slimtrade.core.data,CheatSheetData,CheatSheetData,7,1,2,14,0,,
+assignment-3,com.slimtrade.core.data,CheatSheetData,title,4,1,0,22,0,com.slimtrade.core.data.CheatSheetData,com.slimtrade.core.data.CheatSheetData
+assignment-3,com.slimtrade.core.data,CheatSheetData,extension,4,1,0,27,0,com.slimtrade.core.data.CheatSheetData,com.slimtrade.core.data.CheatSheetData
+assignment-3,com.slimtrade.core.data,CheatSheetData,isValid,10,5,0,32,0,,
+assignment-3,com.slimtrade.core.data,CheatSheetData,getFileData,6,2,0,43,0,,
+assignment-3,com.slimtrade.core.data,FontLanguageSupport,FontLanguageSupport,7,1,1,18,0,,
+assignment-3,com.slimtrade.core.data,IgnoreItemData,IgnoreItemData,12,2,3,18,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.core.data,IgnoreItemData,itemNameLower,4,2,0,30,0,,
+assignment-3,com.slimtrade.core.data,IgnoreItemData,isExpired,5,3,0,35,0,com.slimtrade.core.data.IgnoreItemData,com.slimtrade.core.data.IgnoreItemData
+assignment-3,com.slimtrade.core.data,IgnoreItemData,getRemainingMinutes,4,1,0,42,0,,
+assignment-3,com.slimtrade.core.data,IgnoreItemData,isInfinite,3,1,0,47,0,,
+assignment-3,com.slimtrade.core.data,ListPanel,ListPanel,4,1,2,8,0,,
+assignment-3,com.slimtrade.core.data,ListPanel,toString,3,1,0,13,0,,
+assignment-3,com.slimtrade.core.data,PasteReplacement,PasteReplacement,8,1,1,12,0,,
+assignment-3,com.slimtrade.core.data,PasteReplacement,PasteReplacement,8,1,6,21,0,,
+assignment-3,com.slimtrade.core.data,PatchNotesEntry,PatchNotesEntry,4,1,2,11,0,,
+assignment-3,com.slimtrade.core.data,PatchNotesEntry,getAppVersion,4,2,0,16,0,,
+assignment-3,com.slimtrade.core.data,PatchNotesEntry,toString,3,1,0,21,0,com.slimtrade.modules.updater.data.AppVersion,com.slimtrade.modules.updater.data.AppVersion; com.slimtrade.core.data.PatchNotesEntry
+assignment-3,com.slimtrade.core.data,PlayerMessage,PlayerMessage,5,1,2,9,0,,
+assignment-3,com.slimtrade.core.data,PlayerMessage,toString,3,1,0,15,0,,
+assignment-3,com.slimtrade.core.data,PriceThresholdData,PriceThresholdData,5,1,3,12,0,,
+assignment-3,com.slimtrade.core.data,PriceThresholdData,compareTo,3,1,1,18,0,,
+assignment-3,com.slimtrade.core.data,SaleItem,SaleItem,5,1,2,13,0,com.slimtrade.core.enums.CurrencyType,com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.core.data,SaleItem,toArrayList,5,1,0,25,0,,
+assignment-3,com.slimtrade.core.data,SaleItem,getItems,33,8,1,31,0,,
+assignment-3,com.slimtrade.core.data,SaleItemWrapper,SaleItemWrapper,3,1,1,12,0,,
+assignment-3,com.slimtrade.core.data,StashTabData,StashTabData,6,1,4,13,0,,
+assignment-3,com.slimtrade.core.enums,CurrencyType,CurrencyType,7,2,1,24,0,,
+assignment-3,com.slimtrade.core.enums,CurrencyType,addCustomTags,6,1,0,32,0,com.slimtrade.core.enums.CurrencyType,com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.core.enums,CurrencyType,initIconList,18,4,0,43,0,com.slimtrade.core.enums.CurrencyType,com.slimtrade.core.enums.CurrencyType; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.core.enums,CurrencyType,addCSV,6,2,1,64,0,,
+assignment-3,com.slimtrade.core.enums,CurrencyType,buildCommonCurrencyList,23,1,0,71,0,com.slimtrade.core.enums.CurrencyType,com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.core.enums,CurrencyType,addAlias,5,2,2,95,0,com.slimtrade.core.enums.CurrencyType,com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.core.enums,CurrencyType,getCurrencyType,6,2,1,101,0,,
+assignment-3,com.slimtrade.core.enums,CurrencyType,getIconPath,7,2,1,108,0,com.slimtrade.core.enums.CurrencyType,com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.core.enums,CurrencyType,getCommonCurrencyTypes,3,1,0,116,0,,
+assignment-3,com.slimtrade.core.enums,CurrencyType,path,7,2,0,120,0,,
+assignment-3,com.slimtrade.core.enums,CurrencyType,toString,3,1,0,129,0,,
+assignment-3,com.slimtrade.core.hotkeys,ChangeMessageTabHotkey,ChangeMessageTabHotkey,3,1,1,14,0,,
+assignment-3,com.slimtrade.core.hotkeys,ChangeMessageTabHotkey,execute,3,1,0,18,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.core.hotkeys,HotkeyData,HotkeyData,4,1,2,13,0,,
+assignment-3,com.slimtrade.core.hotkeys,HotkeyData,toString,6,2,0,18,0,,
+assignment-3,com.slimtrade.core.hotkeys,HotkeyData,equals,9,4,1,26,0,,
+assignment-3,com.slimtrade.core.hotkeys,HotkeyData,hashCode,6,1,0,37,0,,
+assignment-3,com.slimtrade.core.hotkeys,IHotkeyAction,execute,0,1,0,8,0,,
+assignment-3,com.slimtrade.core.hotkeys,NotificationPanelHotkey,NotificationPanelHotkey,5,1,3,19,0,,
+assignment-3,com.slimtrade.core.hotkeys,NotificationPanelHotkey,execute,4,1,0,25,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface; com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.core.hotkeys,PoeCommandHotkey,PoeCommandHotkey,3,1,1,12,0,,
+assignment-3,com.slimtrade.core.hotkeys,PoeCommandHotkey,execute,4,2,0,16,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.core.hotkeys,SearchWindowHotkey,SearchWindowHotkey,3,1,1,15,0,,
+assignment-3,com.slimtrade.core.hotkeys,SearchWindowHotkey,execute,8,3,0,19,0,com.slimtrade.gui.options.searching.StashSearchWindow,com.slimtrade.gui.options.searching.StashSearchWindow; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.core.hotkeys,SwingActionHotkey,SwingActionHotkey,3,1,1,12,0,,
+assignment-3,com.slimtrade.core.hotkeys,SwingActionHotkey,execute,3,1,0,16,0,,
+assignment-3,com.slimtrade.core.hotkeys,WindowHotkey,WindowHotkey,3,1,1,14,0,,
+assignment-3,com.slimtrade.core.hotkeys,WindowHotkey,execute,3,1,0,18,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,nativeKeyPressed,21,6,1,21,0,com.slimtrade.gui.managers.HotkeyManager,com.slimtrade.gui.managers.HotkeyManager; com.slimtrade.core.jna.GlobalKeyboardListener; com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,nativeKeyReleased,11,4,1,58,0,,
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,nativeKeyTyped,2,1,1,70,0,,
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,isCtrlPressed,3,1,0,75,0,,
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,isAltPressed,3,1,0,79,0,,
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,isShiftPressed,3,1,0,83,0,,
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,listenForHotkey,9,3,1,87,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,clearHotkeyListener,4,1,0,99,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,cleanModifiers,8,3,1,105,0,,
+assignment-3,com.slimtrade.core.jna,GlobalMouseListener,nativeMouseClicked,2,1,1,15,0,,
+assignment-3,com.slimtrade.core.jna,GlobalMouseListener,nativeMousePressed,2,1,1,20,0,,
+assignment-3,com.slimtrade.core.jna,GlobalMouseListener,nativeMouseReleased,8,2,1,25,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface; com.slimtrade.gui.managers.VisibilityManager
+assignment-3,com.slimtrade.core.jna,GlobalMouseListener,nativeMouseMoved,6,2,1,34,0,com.slimtrade.gui.managers.FrameManager,com.slimtrade.gui.managers.FrameManager; com.slimtrade.App; com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.core.jna,GlobalMouseListener,nativeMouseDragged,2,1,1,42,0,,
+assignment-3,com.slimtrade.core.language,Range,Range,4,1,2,8,0,,
+assignment-3,com.slimtrade.core.language,Range,contains,4,2,1,13,0,,
+assignment-3,com.slimtrade.core.language,UnicodeRange,UnicodeRange,3,1,1,53,0,,
+assignment-3,com.slimtrade.core.language,UnicodeRange,addRange,3,1,1,57,0,,
+assignment-3,com.slimtrade.core.language,UnicodeRange,contains,3,1,1,61,0,,
+assignment-3,com.slimtrade.core.language,UnicodeRange,contains,6,3,1,65,0,com.slimtrade.core.language.Range,com.slimtrade.core.language.Range
+assignment-3,com.slimtrade.core.language,UnicodeRange,getLanguage,8,4,1,72,0,com.slimtrade.core.language.UnicodeRange,com.slimtrade.core.language.UnicodeRange
+assignment-3,com.slimtrade.core.managers,AudioManager,init,3,1,0,35,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.core.managers,AudioManager,getSoundFiles,3,1,0,39,0,,
+assignment-3,com.slimtrade.core.managers,AudioManager,rebuildSoundList,6,1,0,43,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.core.managers,AudioManager,addDefaultSoundFiles,19,1,0,50,0,,
+assignment-3,com.slimtrade.core.managers,AudioManager,getPingCount,3,1,0,72,0,,
+assignment-3,com.slimtrade.core.managers,AudioManager,getInbuiltCount,3,1,0,76,0,,
+assignment-3,com.slimtrade.core.managers,AudioManager,indexOfSound,3,1,1,80,0,,
+assignment-3,com.slimtrade.core.managers,AudioManager,getCustomFileCount,3,1,0,84,0,,
+assignment-3,com.slimtrade.core.managers,AudioManager,addCustomSoundFiles,12,4,0,88,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.managers,AudioManager,playSoundComponent,3,1,1,101,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.core.managers,AudioManager,playSoundPercent,4,2,2,106,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.core.managers,AudioManager,playSoundRaw,13,4,2,112,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.core.managers,AudioManager,getClip,44,6,1,126,0,com.slimtrade.core.audio.Sound,com.slimtrade.core.audio.Sound
+assignment-3,com.slimtrade.core.managers,AudioManager,getPriceThresholdSound,10,5,2,167,0,com.slimtrade.core.enums.CurrencyType,com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.core.managers,AudioManager,getCachedClip,27,3,1,179,0,com.slimtrade.core.audio.Sound,com.slimtrade.core.audio.Sound
+assignment-3,com.slimtrade.core.managers,AudioManager,clearCache,16,2,0,204,0,,
+assignment-3,com.slimtrade.core.managers,AudioManager,percentToRange,4,1,1,221,0,,
+assignment-3,com.slimtrade.core.managers,FontManager,loadFonts,15,2,0,50,0,com.slimtrade.core.managers.FontManager,com.slimtrade.core.managers.FontManager; com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.core.managers,FontManager,checkPreferredFontLanguageSupport,3,1,0,66,0,,
+assignment-3,com.slimtrade.core.managers,FontManager,setPreferredFont,4,1,1,70,0,com.slimtrade.core.managers.FontManager,com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade.core.managers,FontManager,getPreferredFont,3,1,0,75,0,,
+assignment-3,com.slimtrade.core.managers,FontManager,getFont,4,1,2,79,0,com.slimtrade.core.managers.FontManager,com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade.core.managers,FontManager,getFont,22,14,1,84,0,,
+assignment-3,com.slimtrade.core.managers,FontManager,getAllFonts,11,5,0,107,0,,
+assignment-3,com.slimtrade.core.managers,FontManager,isValidFont,6,3,1,119,0,com.slimtrade.core.managers.FontManager,com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade.core.managers,FontManager,applyFont,6,2,1,126,0,com.slimtrade.core.language.UnicodeRange,com.slimtrade.core.language.UnicodeRange; com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade.core.managers,FontManager,applyFont,6,2,1,133,0,com.slimtrade.core.language.UnicodeRange,com.slimtrade.core.language.UnicodeRange; com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade.core.managers,FontManager,applyFont,6,2,1,140,0,com.slimtrade.core.language.UnicodeRange,com.slimtrade.core.language.UnicodeRange; com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade.core.managers,LockManager,LockManager,4,1,2,20,0,,
+assignment-3,com.slimtrade.core.managers,LockManager,tryAndLock,21,5,0,25,0,,
+assignment-3,com.slimtrade.core.managers,LockManager,closeLock,11,5,0,47,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,toString,3,1,0,28,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,setMode,0,5,1,34,0,com.slimtrade.core.managers.QuickPasteManager,com.slimtrade.core.managers.QuickPasteManager
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,getMode,3,1,0,54,0,,
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,attemptQuickPaste,10,3,0,58,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface; com.slimtrade.gui.managers.VisibilityManager; com.slimtrade.core.trading.TradeOffer; com.slimtrade.core.managers.QuickPasteManager
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,attemptHotkeyQuickPaste,15,3,0,69,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface; com.slimtrade.gui.managers.VisibilityManager; com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,clearClipboard,3,1,0,84,0,,
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,stopListenerThread,3,2,0,88,0,,
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,startListenerThread,46,8,0,92,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger; com.slimtrade.core.trading.TradeOffer; com.slimtrade.core.managers.QuickPasteManager
+assignment-3,com.slimtrade.core.managers,SaveManager,init,15,1,0,42,0,com.slimtrade.core.saving.savefiles.IgnoreSaveFile,com.slimtrade.core.saving.savefiles.IgnoreSaveFile; com.slimtrade.core.managers.SaveManager; com.slimtrade.core.saving.savefiles.StashSaveFile; com.slimtrade.core.saving.legacy.SaveFilePatcherManager; com.slimtrade.modules.saving.SaveFile; com.slimtrade.core.saving.savefiles.SettingsSaveFile
+assignment-3,com.slimtrade.core.managers,SaveManager,addStaticListeners,23,4,0,61,0,com.slimtrade.core.saving.savefiles.IgnoreSaveFile,com.slimtrade.core.saving.savefiles.IgnoreSaveFile; com.slimtrade.gui.stash.StashHelperContainer; com.slimtrade.modules.listening.ListenManager; com.slimtrade.core.saving.savefiles.StashSaveFile; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.managers.FrameManager; com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.core.managers,SaveManager,getAudioDirectory,4,2,0,84,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.managers,SaveManager,getImagesDirectory,4,2,0,90,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.managers,SaveManager,getLogsDirectory,4,2,0,96,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.managers,SaveManager,getSaveDirectory,13,3,0,102,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.managers,SaveManager,validateDirectory,7,3,1,115,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.core.managers,SaveManager,getPotentialClients,8,3,0,123,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.managers,SaveManager,getCommonDirectories,16,2,0,132,0,,
+assignment-3,com.slimtrade.core.saving.legacy,ISavePatcher,requiresPatch,0,1,0,7,0,,
+assignment-3,com.slimtrade.core.saving.legacy,ISavePatcher,patch,0,1,0,9,0,,
+assignment-3,com.slimtrade.core.saving.legacy,ISavePatcher,applyNewVersion,0,1,0,11,0,,
+assignment-3,com.slimtrade.core.saving.legacy,ISavePatcher,handleCorruptedFile,0,1,0,13,0,,
+assignment-3,com.slimtrade.core.saving.legacy,ISavePatcher,getErrorMessage,0,1,0,15,0,,
+assignment-3,com.slimtrade.core.saving.legacy,SaveFilePatcherManager,handleSaveFilePatching,8,1,0,21,0,com.slimtrade.core.saving.legacy.SaveFilePatcherManager,com.slimtrade.core.saving.legacy.SaveFilePatcherManager
+assignment-3,com.slimtrade.core.saving.legacy,SaveFilePatcherManager,handlePatch,21,5,1,30,0,com.slimtrade.core.saving.legacy.ISavePatcher,com.slimtrade.core.saving.legacy.ISavePatcher; com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.core.saving.legacy,SaveFilePatcherManager,copyMatchingFields,33,7,2,51,0,com.slimtrade.core.saving.legacy.SaveFilePatcherManager,com.slimtrade.core.saving.legacy.SaveFilePatcherManager
+assignment-3,com.slimtrade.core.saving.legacy,SaveFilePatcherManager,debugReport,12,8,4,93,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.core.saving.legacy,SaveFilePatcherManager,debugSaveToDisk,11,1,2,107,0,,
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherOverlay0to1,requiresPatch,3,1,0,15,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherOverlay0to1,patch,24,6,0,20,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile; com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherOverlay0to1,applyNewVersion,3,1,0,53,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherOverlay0to1,handleCorruptedFile,3,1,0,58,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherOverlay0to1,getErrorMessage,3,1,0,63,0,,
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner0to1,requiresPatch,3,1,0,15,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner0to1,patch,14,3,0,20,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile; com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner0to1,applyNewVersion,3,1,0,37,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner0to1,handleCorruptedFile,3,1,0,42,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner0to1,getErrorMessage,3,1,0,47,0,,
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner1to2,requiresPatch,3,1,0,10,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner1to2,patch,9,3,0,15,0,,
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner1to2,applyNewVersion,3,1,0,26,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner1to2,handleCorruptedFile,3,1,0,31,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner1to2,getErrorMessage,3,1,0,36,0,,
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings0to1,requiresPatch,3,1,0,22,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings0to1,patch,12,2,0,27,0,com.slimtrade.core.saving.legacy.patcher.PatcherSettings0to1,com.slimtrade.core.saving.legacy.patcher.PatcherSettings0to1; com.slimtrade.modules.saving.SaveFile; com.slimtrade.core.saving.legacy.SaveFilePatcherManager
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings0to1,applyNewVersion,4,1,0,42,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings0to1,handleCorruptedFile,4,1,0,48,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings0to1,getErrorMessage,3,1,0,54,0,,
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings0to1,handleFieldConversions,38,9,2,59,0,,
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings1to2,requiresPatch,3,1,0,9,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings1to2,patch,11,3,0,14,0,,
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings1to2,applyNewVersion,3,1,0,27,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings1to2,handleCorruptedFile,3,1,0,32,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings1to2,getErrorMessage,3,1,0,37,0,,
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherStash0to1,requiresPatch,3,1,0,14,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherStash0to1,patch,11,2,0,19,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile; com.slimtrade.core.managers.SaveManager
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherStash0to1,applyNewVersion,3,1,0,32,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherStash0to1,handleCorruptedFile,3,1,0,37,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherStash0to1,getErrorMessage,3,1,0,42,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacyOverlaySave0,getTargetFileVersion,3,1,0,25,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacyOverlaySave0,LegacyExpandDirection,3,1,1,36,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacyOverlaySave0,LegacyMenubarButtonLocation,3,1,1,49,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacyScannerSave0,getTargetFileVersion,3,1,0,13,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacySettingsSave0,getTargetFileVersion,3,1,0,114,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacySettingsSave0,LegacyColorTheme,3,1,1,142,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacySettingsSave0,LegacyDateFormat,3,1,1,158,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacySettingsSave0,LegacyHistoryOrder,3,1,1,169,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacySettingsSave0,LegacyMatchType,3,1,1,191,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacySettingsSave0,LegacyButtonRow,3,1,1,218,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacySettingsSave0,LegacySound,3,1,1,247,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacySettingsSave0,toString,3,1,0,251,0,,
+assignment-3,com.slimtrade.core.saving.legacy.savefiles,LegacyStashSave0,getTargetFileVersion,3,1,0,9,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,AbstractSaveFile,getTargetFileVersion,0,1,0,14,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,AppStateSaveFile,getTargetFileVersion,3,1,0,12,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,ChatScannerSaveFile,getTargetFileVersion,3,1,0,13,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,IgnoreSaveFile,getTargetFileVersion,3,1,0,15,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,IgnoreSaveFile,buildCache,13,4,0,20,0,com.slimtrade.core.data.IgnoreItemData,com.slimtrade.core.data.IgnoreItemData
+assignment-3,com.slimtrade.core.saving.savefiles,OverlaySaveFile,getTargetFileVersion,3,1,0,21,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,PatchNotesSaveFile,getAppVersion,4,2,0,14,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,PatchNotesSaveFile,getTargetFileVersion,3,1,0,19,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,PinSaveFile,getTargetFileVersion,3,1,0,14,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,26,1,0,118,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,getTargetFileVersion,3,1,0,147,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,buildMacroCache,22,5,0,153,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,buildThresholdMap,15,4,0,174,0,com.slimtrade.core.enums.CurrencyType,com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,triggerColorBlindModeChange,5,2,1,190,0,com.slimtrade.gui.listening.IColorBlindChangeListener,com.slimtrade.gui.listening.IColorBlindChangeListener
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,addColorBlindListener,4,2,1,196,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,removeColorBlindListener,3,1,1,201,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,appVersion,7,3,0,205,0,com.slimtrade.modules.updater.data.AppVersion,com.slimtrade.modules.updater.data.AppVersion
+assignment-3,com.slimtrade.core.saving.savefiles,StashSaveFile,getTargetFileVersion,3,1,0,11,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,StashSaveFile,buildCache,9,2,0,16,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,StashSaveFile,getCellSize,3,1,0,26,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,StashSaveFile,getCellSizeQuad,3,1,0,30,0,,
+assignment-3,com.slimtrade.core.saving.savefiles,VersionSaveFile,getTargetFileVersion,3,1,0,5,0,,
+assignment-3,com.slimtrade.core.trading,TradeOffer,getTradeFromMessage,11,5,1,43,0,com.slimtrade.core.trading.TradeOffer,com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.core.trading,TradeOffer,getTradeFromQuickPaste,11,5,1,55,0,com.slimtrade.core.trading.TradeOffer,com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.core.trading,TradeOffer,cleanItemQuantity,4,2,1,67,0,,
+assignment-3,com.slimtrade.core.trading,TradeOffer,getTradeFromMatcher,23,2,1,72,0,com.slimtrade.core.trading.TradeOffer,com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.core.trading,TradeOffer,getItem,3,1,0,96,0,,
+assignment-3,com.slimtrade.core.trading,TradeOffer,getItems,14,3,0,100,0,com.slimtrade.core.data.SaleItem,com.slimtrade.core.data.SaleItem
+assignment-3,com.slimtrade.core.trading,TradeOffer,getMessageType,0,15,1,114,0,,
+assignment-3,com.slimtrade.core.trading,TradeOffer,getStashTabColor,24,8,0,139,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.core.trading,TradeOffer,cleanResult,8,1,2,165,0,,
+assignment-3,com.slimtrade.core.trading,TradeOffer,cleanInt,9,2,1,173,0,,
+assignment-3,com.slimtrade.core.trading,TradeOffer,cleanDouble,10,2,1,182,0,,
+assignment-3,com.slimtrade.core.trading,TradeOffer,getExampleTrade,25,4,1,192,0,,
+assignment-3,com.slimtrade.core.utility,AdvancedMouseListener,mousePressed,3,1,1,11,0,,
+assignment-3,com.slimtrade.core.utility,AdvancedMouseListener,mouseReleased,5,2,1,15,0,com.slimtrade.core.utility.AdvancedMouseListener,com.slimtrade.core.utility.AdvancedMouseListener
+assignment-3,com.slimtrade.core.utility,AdvancedMouseListener,mouseEntered,3,1,1,21,0,,
+assignment-3,com.slimtrade.core.utility,AdvancedMouseListener,mouseExited,3,1,1,25,0,,
+assignment-3,com.slimtrade.core.utility,AdvancedMouseListener,click,0,1,1,29,0,,
+assignment-3,com.slimtrade.core.utility,MacroButton,MacroButton,2,1,0,21,0,,
+assignment-3,com.slimtrade.core.utility,MacroButton,MacroButton,7,1,6,26,0,,
+assignment-3,com.slimtrade.core.utility,MacroButton,getRowMacros,9,3,2,34,0,,
+assignment-3,com.slimtrade.core.utility,MarkdownParser,getHtmlFromMarkdown,13,2,1,18,0,com.slimtrade.core.utility.MarkdownParser,com.slimtrade.core.utility.MarkdownParser
+assignment-3,com.slimtrade.core.utility,MarkdownParser,convertHeader,21,5,1,33,0,,
+assignment-3,com.slimtrade.core.utility,MarkdownParser,convertLinks,8,2,1,52,0,,
+assignment-3,com.slimtrade.core.utility,MarkdownParser,convertBoldItalics,8,2,1,61,0,,
+assignment-3,com.slimtrade.core.utility,MarkdownParser,convertBold,8,2,1,71,0,,
+assignment-3,com.slimtrade.core.utility,MarkdownParser,convertItalics,8,2,1,80,0,,
+assignment-3,com.slimtrade.core.utility,POEInterface,init,8,1,0,40,0,,
+assignment-3,com.slimtrade.core.utility,POEInterface,pasteFromClipboard,23,2,0,49,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.core.utility,POEInterface,paste,3,1,1,73,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.core.utility,POEInterface,paste,24,3,2,77,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface; com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.core.utility,POEInterface,pasteWithFocus,3,1,1,101,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.core.utility,POEInterface,pasteWithFocus,8,2,2,105,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.core.utility,POEInterface,runCommand,21,5,2,113,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.core.utility,POEInterface,focusGame,42,6,0,133,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.core.utility,POEInterface,isGameFocused,3,1,0,179,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.core.utility,POEInterface,isGameFocused,6,3,1,183,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.core.utility,POEInterface,getFocusedWindowTitle,6,1,0,190,0,,
+assignment-3,com.slimtrade.core.utility,POEInterface,getGameRect,8,3,0,197,0,,
+assignment-3,com.slimtrade.core.utility,POEInterface,searchInStash,27,2,1,207,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.core.utility,SavableAsset,SavableAsset,2,1,3,7,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,getFixedItemName,8,2,3,21,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,getFixedDouble,7,2,2,30,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,applyAnchorPoint,6,3,3,38,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,applyAnchorPoint,5,2,3,45,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,getBufferedBounds,8,1,1,51,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,getAudioPercent,5,1,1,60,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,getAudioVolume,4,1,1,66,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,cleanItemName,6,3,1,71,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,fixCasing,16,4,1,80,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,intWithinRange,3,1,3,97,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,floatWithinRange,9,3,3,101,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,capitalizeString,3,1,1,110,0,com.slimtrade.core.utility.TradeUtil,com.slimtrade.core.utility.TradeUtil
+assignment-3,com.slimtrade.core.utility,TradeUtil,capitalizeString,21,5,2,114,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,isValidImagePath,14,2,1,134,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,openLink,9,1,1,148,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,openLink,8,1,1,157,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,openFolder,8,1,1,165,0,,
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,20,3,2,173,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,enumToString,14,3,1,29,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,getCommandList,28,10,2,49,0,com.slimtrade.core.chatparser.ChatParser,com.slimtrade.core.chatparser.ChatParser
+assignment-3,com.slimtrade.core.utility,ZUtil,cleanString,3,1,1,82,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,clamp,5,3,3,93,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,formatNumber,3,1,1,99,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,getGC,6,1,0,103,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,addStrutsToBorderPanel,3,1,2,116,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,addStrutsToBorderPanel,7,5,2,120,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,getScreenBoundsFromPoint,11,3,1,128,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,getCheatSheetExtension,5,1,1,146,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,isEmptyString,3,1,1,157,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,openLink,18,4,1,161,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,openExplorer,14,4,1,180,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,openFile,11,3,1,194,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,getVolumeText,3,1,1,205,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,printStackTrace,6,2,0,209,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,printCallingFunction,13,4,1,216,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,invokeAndWait,11,2,1,230,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,fileExists,11,2,1,246,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.core.utility,ZUtil,isPathRelative,4,1,1,257,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.core.utility,ZUtil,cleanPath,3,1,1,262,0,,
+assignment-3,com.slimtrade.core.utility,ZUtil,getBufferedReader,17,2,1,266,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.gui.buttons,BasicIconButton,BasicIconButton,5,1,1,18,0,com.slimtrade.gui.buttons.BasicIconButton,com.slimtrade.gui.buttons.BasicIconButton; com.slimtrade.gui.buttons.IIcon
+assignment-3,com.slimtrade.gui.buttons,BasicIconButton,BasicIconButton,6,1,2,24,0,com.slimtrade.gui.buttons.BasicIconButton,com.slimtrade.gui.buttons.BasicIconButton; com.slimtrade.gui.buttons.IIcon
+assignment-3,com.slimtrade.gui.buttons,BasicIconButton,setIcon,4,1,1,31,0,com.slimtrade.gui.buttons.BasicIconButton,com.slimtrade.gui.buttons.BasicIconButton; com.slimtrade.gui.buttons.IIcon
+assignment-3,com.slimtrade.gui.buttons,BasicIconButton,setIconSize,4,1,1,36,0,com.slimtrade.gui.buttons.BasicIconButton,com.slimtrade.gui.buttons.BasicIconButton
+assignment-3,com.slimtrade.gui.buttons,BasicIconButton,createIcon,3,1,0,41,0,,
+assignment-3,com.slimtrade.gui.buttons,BasicIconButton,updateUI,11,2,0,50,0,com.slimtrade.gui.buttons.BasicIconButton,com.slimtrade.gui.buttons.BasicIconButton
+assignment-3,com.slimtrade.gui.buttons,BasicIconButton,getBorderInsets,3,1,2,57,0,,
+assignment-3,com.slimtrade.gui.buttons,IconButton,IconButton,3,1,1,12,0,,
+assignment-3,com.slimtrade.gui.buttons,IconButton,IconButton,3,1,2,16,0,,
+assignment-3,com.slimtrade.gui.buttons,IconButton,createIcon,3,1,0,20,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.buttons,IIcon,path,0,1,0,5,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,ChatScannerCustomizerPanel,3,1,1,20,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,ChatScannerCustomizerPanel,21,1,1,24,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,addListeners,4,1,0,49,0,com.slimtrade.gui.chatscanner.ChatScannerWindow,com.slimtrade.gui.chatscanner.ChatScannerWindow
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,setData,9,1,1,54,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel; com.slimtrade.gui.chatscanner.ScannerSearchTermsPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,getData,3,1,0,64,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel; com.slimtrade.gui.chatscanner.ScannerSearchTermsPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,setTitle,3,1,1,69,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,getTitle,3,1,0,73,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,reloadExample,3,1,0,77,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel; com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,toString,3,1,0,81,0,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,compareTo,3,1,1,86,0,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerDeletePanel,ChatScannerDeletePanel,8,1,0,19,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.chatscanner.ChatScannerDeletePanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerDeletePanel,addListeners,4,1,0,28,0,com.slimtrade.gui.chatscanner.ChatScannerWindow,com.slimtrade.gui.chatscanner.ChatScannerWindow
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerDeletePanel,setCurrentName,5,1,1,33,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerEntry,ChatScannerEntry,6,1,0,32,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerEntry,ChatScannerEntry,10,1,1,39,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerEntry,ChatScannerEntry,9,1,7,50,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerEntry,getSearchTerms,6,2,0,60,0,com.slimtrade.gui.chatscanner.ChatScannerEntry,com.slimtrade.gui.chatscanner.ChatScannerEntry
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerEntry,getIgnoreTerms,6,2,0,67,0,com.slimtrade.gui.chatscanner.ChatScannerEntry,com.slimtrade.gui.chatscanner.ChatScannerEntry
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerEntry,cleanArray,14,4,1,74,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerEntry,toString,3,1,0,89,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerInfoPanel,ChatScannerInfoPanel,8,1,0,9,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerMacroPanel,ChatScannerMacroPanel,4,1,0,8,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerNewEntryPanel,ChatScannerNewEntryPanel,8,1,0,16,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerNewEntryPanel,clearName,3,1,0,25,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerNewEntryPanel,getCancelButton,3,1,0,29,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerNewEntryPanel,getCreateEntryButton,3,1,0,33,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerNewEntryPanel,getInputText,3,1,0,37,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerNewEntryPanel,setError,3,1,1,41,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerOptionPanel,ChatScannerOptionPanel,3,1,0,7,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerRenamePanel,ChatScannerRenamePanel,9,1,0,19,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.chatscanner.ChatScannerRenamePanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerRenamePanel,addListeners,8,2,0,29,0,com.slimtrade.gui.chatscanner.ChatScannerRenamePanel,com.slimtrade.gui.chatscanner.ChatScannerRenamePanel; com.slimtrade.gui.chatscanner.ChatScannerWindow
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerRenamePanel,setCurrentName,6,1,1,37,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerRenamePanel,getNewName,3,1,0,44,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerRenamePanel,setError,3,1,1,48,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerSearchingPanel,ChatScannerSearchingPanel,15,1,0,10,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,ChatScannerWindow,34,1,0,48,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.chatscanner.ChatScannerWindow; com.slimtrade.gui.windows.CustomDialog; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,addListeners,38,3,0,97,0,com.slimtrade.gui.chatscanner.ChatScannerNewEntryPanel,com.slimtrade.gui.chatscanner.ChatScannerNewEntryPanel; com.slimtrade.gui.chatscanner.ChatScannerWindow; com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,revertAll,6,2,0,133,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,tryCreateEntry,11,3,1,140,0,com.slimtrade.gui.chatscanner.ChatScannerWindow,com.slimtrade.gui.chatscanner.ChatScannerWindow; com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.chatscanner.ChatScannerNewEntryPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,toggleSearch,4,2,0,158,0,com.slimtrade.gui.chatscanner.ChatScannerWindow,com.slimtrade.gui.chatscanner.ChatScannerWindow
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,tryStartSearch,14,3,0,163,0,com.slimtrade.gui.chatscanner.ChatScannerWindow,com.slimtrade.gui.chatscanner.ChatScannerWindow; com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,stopSearch,7,2,0,178,0,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel; com.slimtrade.gui.chatscanner.ChatScannerWindow
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,enableComponents,9,2,1,186,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,showRenamePanel,9,2,0,196,0,com.slimtrade.gui.chatscanner.ChatScannerRenamePanel,com.slimtrade.gui.chatscanner.ChatScannerRenamePanel; com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,showDeletePanel,8,2,0,206,0,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel; com.slimtrade.gui.chatscanner.ChatScannerDeletePanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,showEntry,10,3,1,215,0,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,tryRenameEntry,22,6,2,226,0,com.slimtrade.gui.chatscanner.ChatScannerWindow,com.slimtrade.gui.chatscanner.ChatScannerWindow; com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,deleteEntry,15,4,1,249,0,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel; com.slimtrade.gui.chatscanner.ChatScannerWindow
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,updateList,9,1,0,265,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,isDuplicateName,3,1,1,275,0,com.slimtrade.gui.chatscanner.ChatScannerWindow,com.slimtrade.gui.chatscanner.ChatScannerWindow
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,isDuplicateName,10,5,2,279,0,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,save,9,2,0,290,0,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel,com.slimtrade.gui.chatscanner.ChatScannerCustomizerPanel
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,load,9,2,0,301,0,com.slimtrade.gui.chatscanner.ChatScannerWindow,com.slimtrade.gui.chatscanner.ChatScannerWindow
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,applyDefaultSizeAndLocation,4,1,0,312,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ScannerSearchTermsPanel,ScannerSearchTermsPanel,9,1,0,14,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.chatscanner,ScannerSearchTermsPanel,setSearchTerms,3,1,1,24,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ScannerSearchTermsPanel,getSearchTerms,3,1,0,28,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ScannerSearchTermsPanel,setIgnoreTerms,3,1,1,32,0,,
+assignment-3,com.slimtrade.gui.chatscanner,ScannerSearchTermsPanel,getIgnoreTerms,3,1,0,36,0,,
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,AddRemoveContainer,5,1,0,27,0,,
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,setSpacing,3,1,1,33,0,,
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,shiftUp,7,3,1,37,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,shiftDown,7,3,1,45,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,swapPanels,9,1,2,53,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,rebuild,17,2,0,63,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,rebuildMaps,8,2,0,81,0,,
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,getComponentsTyped,7,2,0,90,0,,
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,genericMisuse,4,1,0,101,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,checkGeneric,4,2,0,106,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,add,5,1,1,111,0,,
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,add,11,1,1,117,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,remove,5,1,1,130,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,removeAll,5,1,0,137,0,,
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,incorrectAddMethod,4,1,0,148,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,add,4,1,2,153,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,add,4,1,2,159,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,add,4,1,2,165,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemoveContainer,add,4,1,3,171,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemovePanel,AddRemovePanel,3,1,1,14,0,,
+assignment-3,com.slimtrade.gui.components,AddRemovePanel,shiftUp,4,1,1,18,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemovePanel,shiftDown,4,1,1,23,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AddRemovePanel,removeFromParent,5,1,0,28,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.components,AudioComboBox,AudioComboBox,3,1,0,9,0,,
+assignment-3,com.slimtrade.gui.components,AudioListCellRenderer,AudioListCellRenderer,3,1,0,14,0,,
+assignment-3,com.slimtrade.gui.components,AudioListCellRenderer,getListCellRendererComponent,21,3,5,18,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.gui.components,BasicIconLabel,BasicIconLabel,3,1,1,16,0,,
+assignment-3,com.slimtrade.gui.components,BasicIconLabel,BasicIconLabel,5,1,2,20,0,com.slimtrade.gui.components.BasicIconLabel,com.slimtrade.gui.components.BasicIconLabel; com.slimtrade.gui.buttons.IIcon
+assignment-3,com.slimtrade.gui.components,BasicIconLabel,setIcon,4,1,1,26,0,com.slimtrade.gui.components.BasicIconLabel,com.slimtrade.gui.components.BasicIconLabel; com.slimtrade.gui.buttons.IIcon
+assignment-3,com.slimtrade.gui.components,BasicIconLabel,applyIcon,4,1,0,31,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.components,BasicIconLabel,updateUI,5,3,0,36,0,com.slimtrade.gui.components.BasicIconLabel,com.slimtrade.gui.components.BasicIconLabel
+assignment-3,com.slimtrade.gui.components,BorderlessButton,BorderlessButton,3,1,0,7,0,com.slimtrade.gui.components.BorderlessButton,com.slimtrade.gui.components.BorderlessButton
+assignment-3,com.slimtrade.gui.components,BorderlessButton,updateUI,4,1,0,11,0,,
+assignment-3,com.slimtrade.gui.components,ButtonPanel,ButtonPanel,3,1,0,16,0,,
+assignment-3,com.slimtrade.gui.components,ButtonPanel,add,6,1,1,20,0,,
+assignment-3,com.slimtrade.gui.components,ButtonPanel,incorrectAddMethod,4,1,0,28,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.gui.components,ButtonPanel,add,3,1,2,33,0,com.slimtrade.gui.components.ButtonPanel,com.slimtrade.gui.components.ButtonPanel
+assignment-3,com.slimtrade.gui.components,ButtonPanel,add,3,1,3,38,0,com.slimtrade.gui.components.ButtonPanel,com.slimtrade.gui.components.ButtonPanel
+assignment-3,com.slimtrade.gui.components,ButtonPanel,add,4,1,2,43,0,com.slimtrade.gui.components.ButtonPanel,com.slimtrade.gui.components.ButtonPanel
+assignment-3,com.slimtrade.gui.components,ButtonPanel,add,4,1,2,49,0,com.slimtrade.gui.components.ButtonPanel,com.slimtrade.gui.components.ButtonPanel
+assignment-3,com.slimtrade.gui.components,ButtonWrapper,ButtonWrapper,3,1,1,13,0,,
+assignment-3,com.slimtrade.gui.components,ButtonWrapper,ButtonWrapper,5,1,2,17,0,,
+assignment-3,com.slimtrade.gui.components,ClientFileChooser,ClientFileChooser,5,1,0,10,0,,
+assignment-3,com.slimtrade.gui.components,ComponentPair,ComponentPair,3,1,2,12,0,,
+assignment-3,com.slimtrade.gui.components,ComponentPair,ComponentPair,8,1,3,16,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.components,CurrencyLabelFactory,applyItemToComponent,3,1,2,25,0,com.slimtrade.gui.components.CurrencyLabelFactory,com.slimtrade.gui.components.CurrencyLabelFactory
+assignment-3,com.slimtrade.gui.components,CurrencyLabelFactory,applyItemToComponent,9,3,3,29,0,com.slimtrade.gui.components.CurrencyLabelFactory,com.slimtrade.gui.components.CurrencyLabelFactory
+assignment-3,com.slimtrade.gui.components,CurrencyLabelFactory,applyColorToLabel,13,4,2,39,0,com.slimtrade.gui.components.CurrencyLabelFactory,com.slimtrade.gui.components.CurrencyLabelFactory
+assignment-3,com.slimtrade.gui.components,CurrencyLabelFactory,setupContainer,5,1,1,61,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.components,CurrencyLabelFactory,addDataToContainer,14,2,4,67,0,com.slimtrade.gui.components.CurrencyLabelFactory,com.slimtrade.gui.components.CurrencyLabelFactory; com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.gui.components,CurrencyLabelFactory,addComma,6,1,1,83,0,,
+assignment-3,com.slimtrade.gui.components,CurrencyLabelFactory,textLabel,7,3,4,94,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.components,CurrencyLabelFactory,iconLabel,8,2,1,102,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.gui.components,CustomScrollPane,CustomScrollPane,3,1,0,14,0,com.slimtrade.gui.components.CustomScrollPane,com.slimtrade.gui.components.CustomScrollPane
+assignment-3,com.slimtrade.gui.components,CustomScrollPane,CustomScrollPane,4,1,1,18,0,com.slimtrade.gui.components.CustomScrollPane,com.slimtrade.gui.components.CustomScrollPane
+assignment-3,com.slimtrade.gui.components,CustomScrollPane,CustomScrollPane,4,1,3,23,0,com.slimtrade.gui.components.CustomScrollPane,com.slimtrade.gui.components.CustomScrollPane
+assignment-3,com.slimtrade.gui.components,CustomScrollPane,CustomScrollPane,4,1,2,28,0,com.slimtrade.gui.components.CustomScrollPane,com.slimtrade.gui.components.CustomScrollPane
+assignment-3,com.slimtrade.gui.components,CustomScrollPane,setDefaults,4,1,0,33,0,,
+assignment-3,com.slimtrade.gui.components,CustomTabbedPane,getTabbedComponents,7,2,0,8,0,,
+assignment-3,com.slimtrade.gui.components,EditableRangeSpinner,EditableRangeSpinner,4,1,1,10,0,com.slimtrade.gui.components.EditableRangeSpinner,com.slimtrade.gui.components.EditableRangeSpinner
+assignment-3,com.slimtrade.gui.components,EditableRangeSpinner,makeEditable,5,1,0,15,0,,
+assignment-3,com.slimtrade.gui.components,ErrorLabel,ErrorLabel,4,1,0,8,0,com.slimtrade.gui.components.ErrorLabel,com.slimtrade.gui.components.ErrorLabel
+assignment-3,com.slimtrade.gui.components,ErrorLabel,ErrorLabel,4,1,1,13,0,com.slimtrade.gui.components.ErrorLabel,com.slimtrade.gui.components.ErrorLabel
+assignment-3,com.slimtrade.gui.components,ErrorLabel,setup,3,1,0,18,0,com.slimtrade.gui.components.ThemedStyleLabel,com.slimtrade.gui.components.ThemedStyleLabel
+assignment-3,com.slimtrade.gui.components,FontListCellRenderer,getListCellRendererComponent,14,2,5,13,0,,
+assignment-3,com.slimtrade.gui.components,HotkeyButton,HotkeyButton,8,1,0,17,0,com.slimtrade.core.jna.GlobalKeyboardListener,com.slimtrade.core.jna.GlobalKeyboardListener
+assignment-3,com.slimtrade.gui.components,HotkeyButton,updateText,4,2,0,25,0,com.slimtrade.core.hotkeys.HotkeyData,com.slimtrade.core.hotkeys.HotkeyData
+assignment-3,com.slimtrade.gui.components,HotkeyButton,getData,3,1,0,30,0,,
+assignment-3,com.slimtrade.gui.components,HotkeyButton,setData,5,2,1,34,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.components,IconLabel,IconLabel,3,1,1,11,0,,
+assignment-3,com.slimtrade.gui.components,IconLabel,IconLabel,3,1,2,15,0,,
+assignment-3,com.slimtrade.gui.components,IconLabel,applyIcon,3,1,0,19,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.components,ImageLabel,ImageLabel,3,1,1,15,0,,
+assignment-3,com.slimtrade.gui.components,ImageLabel,ImageLabel,3,1,2,19,0,,
+assignment-3,com.slimtrade.gui.components,ImageLabel,ImageLabel,7,2,3,23,0,com.slimtrade.gui.components.ImageLabel,com.slimtrade.gui.components.ImageLabel
+assignment-3,com.slimtrade.gui.components,ImageLabel,updateUI,7,3,0,31,0,,
+assignment-3,com.slimtrade.gui.components,InsetBorder,InsetBorder,4,1,0,21,0,,
+assignment-3,com.slimtrade.gui.components,InsetBorder,InsetBorder,4,1,1,26,0,,
+assignment-3,com.slimtrade.gui.components,InsetBorder,InsetBorder,4,1,1,31,0,,
+assignment-3,com.slimtrade.gui.components,InsetBorder,InsetBorder,4,1,2,36,0,,
+assignment-3,com.slimtrade.gui.components,InsetBorder,paintBorder,7,1,6,41,0,,
+assignment-3,com.slimtrade.gui.components,InsetBorder,getBorderInsets,3,1,1,50,0,,
+assignment-3,com.slimtrade.gui.components,InsetBorder,isBorderOpaque,3,1,0,55,0,,
+assignment-3,com.slimtrade.gui.components,IVisibilityFrame,showOverlay,0,1,0,6,0,,
+assignment-3,com.slimtrade.gui.components,IVisibilityFrame,hideOverlay,0,1,0,8,0,,
+assignment-3,com.slimtrade.gui.components,LabeledSlider,LabeledSlider,3,1,2,20,0,,
+assignment-3,com.slimtrade.gui.components,LabeledSlider,LabeledSlider,18,1,3,24,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.components.LabeledSlider
+assignment-3,com.slimtrade.gui.components,LabeledSlider,setPreferredWidth,4,1,1,45,0,com.slimtrade.gui.components.LabeledSlider,com.slimtrade.gui.components.LabeledSlider
+assignment-3,com.slimtrade.gui.components,LabeledSlider,updateWidth,4,2,0,50,0,,
+assignment-3,com.slimtrade.gui.components,LabeledSlider,updateLabel,4,1,0,55,0,,
+assignment-3,com.slimtrade.gui.components,LabeledSlider,paintComponent,3,1,1,60,0,,
+assignment-3,com.slimtrade.gui.components,LabeledSlider,onFontChanged,3,1,0,65,0,com.slimtrade.gui.components.LabeledSlider,com.slimtrade.gui.components.LabeledSlider
+assignment-3,com.slimtrade.gui.components,LanguageTextField,LanguageTextField,3,1,0,14,0,com.slimtrade.gui.components.LanguageTextField,com.slimtrade.gui.components.LanguageTextField
+assignment-3,com.slimtrade.gui.components,LanguageTextField,LanguageTextField,4,1,1,18,0,com.slimtrade.gui.components.LanguageTextField,com.slimtrade.gui.components.LanguageTextField
+assignment-3,com.slimtrade.gui.components,LanguageTextField,setup,14,1,0,23,0,com.slimtrade.gui.components.LanguageTextField,com.slimtrade.gui.components.LanguageTextField
+assignment-3,com.slimtrade.gui.components,LanguageTextField,insertUpdate,3,1,1,26,0,com.slimtrade.gui.components.LanguageTextField,com.slimtrade.gui.components.LanguageTextField
+assignment-3,com.slimtrade.gui.components,LanguageTextField,removeUpdate,3,1,1,31,0,com.slimtrade.gui.components.LanguageTextField,com.slimtrade.gui.components.LanguageTextField
+assignment-3,com.slimtrade.gui.components,LanguageTextField,changedUpdate,2,1,1,36,0,,
+assignment-3,com.slimtrade.gui.components,LanguageTextField,updateFont,3,1,0,43,0,,
+assignment-3,com.slimtrade.gui.components,LanguageTextField,updateUI,4,1,0,47,0,com.slimtrade.gui.components.LanguageTextField,com.slimtrade.gui.components.LanguageTextField
+assignment-3,com.slimtrade.gui.components,LimitCombo,LimitCombo,4,1,0,7,0,,
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,PlaceholderTextField,4,1,0,25,0,com.slimtrade.gui.components.PlaceholderTextField,com.slimtrade.gui.components.PlaceholderTextField
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,PlaceholderTextField,4,1,1,30,0,com.slimtrade.gui.components.PlaceholderTextField,com.slimtrade.gui.components.PlaceholderTextField
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,PlaceholderTextField,5,1,2,35,0,com.slimtrade.gui.components.PlaceholderTextField,com.slimtrade.gui.components.PlaceholderTextField
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,PlaceholderTextField,4,1,1,41,0,com.slimtrade.gui.components.PlaceholderTextField,com.slimtrade.gui.components.PlaceholderTextField
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,PlaceholderTextField,5,1,2,46,0,com.slimtrade.gui.components.PlaceholderTextField,com.slimtrade.gui.components.PlaceholderTextField
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,PlaceholderTextField,4,1,3,52,0,com.slimtrade.gui.components.PlaceholderTextField,com.slimtrade.gui.components.PlaceholderTextField
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,setPlaceholderText,3,1,1,57,0,,
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,setMode,3,1,1,61,0,,
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,setup,7,1,0,65,0,com.slimtrade.gui.components.PlaceholderTextField,com.slimtrade.gui.components.PlaceholderTextField; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,isTextEmpty,3,1,0,73,0,,
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,focusGained,3,2,1,77,0,,
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,focusLost,3,3,1,82,0,com.slimtrade.gui.components.PlaceholderTextField,com.slimtrade.gui.components.PlaceholderTextField
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,insertUpdate,3,2,1,88,0,,
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,removeUpdate,3,3,1,94,0,com.slimtrade.gui.components.PlaceholderTextField,com.slimtrade.gui.components.PlaceholderTextField
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,changedUpdate,2,1,1,100,0,,
+assignment-3,com.slimtrade.gui.components,PlaceholderTextField,updateUI,6,2,0,105,0,,
+assignment-3,com.slimtrade.gui.components,RangeSlider,RangeSlider,6,1,1,9,0,,
+assignment-3,com.slimtrade.gui.components,RangeSpinner,RangeSpinner,9,1,1,10,0,,
+assignment-3,com.slimtrade.gui.components,RangeSpinner,RangeSpinner,9,1,1,20,0,,
+assignment-3,com.slimtrade.gui.components,StyledLabel,StyledLabel,4,1,0,28,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,StyledLabel,StyledLabel,4,1,1,33,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,StyledLabel,bold,3,1,0,38,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,StyledLabel,bold,5,1,1,42,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,StyledLabel,italic,3,1,0,48,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,StyledLabel,italic,5,1,1,52,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,StyledLabel,setColor,6,1,1,58,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,StyledLabel,setColorKey,6,1,1,70,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,StyledLabel,updateFont,7,3,0,82,0,,
+assignment-3,com.slimtrade.gui.components,StyledLabel,updateColor,15,6,0,90,0,com.slimtrade.modules.theme.ThemeColorVariantSetting,com.slimtrade.modules.theme.ThemeColorVariantSetting
+assignment-3,com.slimtrade.gui.components,StyledLabel,updateUI,5,1,0,104,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,StyledLabel,setForeground,3,1,1,111,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,ThemedStyleLabel,ThemedStyleLabel,4,1,0,16,0,com.slimtrade.gui.components.ThemedStyleLabel,com.slimtrade.gui.components.ThemedStyleLabel
+assignment-3,com.slimtrade.gui.components,ThemedStyleLabel,ThemedStyleLabel,4,1,1,21,0,com.slimtrade.gui.components.ThemedStyleLabel,com.slimtrade.gui.components.ThemedStyleLabel
+assignment-3,com.slimtrade.gui.components,ThemedStyleLabel,setColor,5,1,1,26,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,ThemedStyleLabel,registerListener,3,1,0,39,0,com.slimtrade.core.saving.savefiles.SettingsSaveFile,com.slimtrade.core.saving.savefiles.SettingsSaveFile
+assignment-3,com.slimtrade.gui.components,ThemedStyleLabel,onColorBlindChange,4,1,1,43,0,com.slimtrade.modules.theme.ThemeColorVariantSetting,com.slimtrade.modules.theme.ThemeColorVariantSetting; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,TutorialPanel,TutorialPanel,7,2,0,15,0,,
+assignment-3,com.slimtrade.gui.components,TutorialPanel,addHeader,15,2,1,26,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.components.TutorialPanel; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.components,TutorialPanel,addLabel,5,1,1,47,0,com.slimtrade.gui.components.TutorialPanel,com.slimtrade.gui.components.TutorialPanel
+assignment-3,com.slimtrade.gui.components,TutorialPanel,addComponent,3,1,1,53,0,com.slimtrade.gui.components.TutorialPanel,com.slimtrade.gui.components.TutorialPanel
+assignment-3,com.slimtrade.gui.components,TutorialPanel,addComponent,10,2,2,57,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.components,TutorialPanel,addVerticalStrut,4,1,0,69,0,,
+assignment-3,com.slimtrade.gui.components,TutorialPanel,addVerticalStrutSmall,4,1,0,74,0,,
+assignment-3,com.slimtrade.gui.history,DateString,DateString,3,1,1,15,0,,
+assignment-3,com.slimtrade.gui.history,DateString,toString,10,3,0,19,0,,
+assignment-3,com.slimtrade.gui.history,HistoryPanel,HistoryPanel,27,1,0,24,0,com.slimtrade.gui.history.HistoryPanel,com.slimtrade.gui.history.HistoryPanel
+assignment-3,com.slimtrade.gui.history,HistoryPanel,addListeners,3,1,0,60,0,com.slimtrade.gui.history.HistoryPanel,com.slimtrade.gui.history.HistoryPanel
+assignment-3,com.slimtrade.gui.history,HistoryPanel,reloadUI,3,1,0,64,0,com.slimtrade.gui.history.HistoryTable,com.slimtrade.gui.history.HistoryTable
+assignment-3,com.slimtrade.gui.history,HistoryPanel,addRow,6,3,2,68,0,com.slimtrade.gui.history.HistoryTable,com.slimtrade.gui.history.HistoryTable
+assignment-3,com.slimtrade.gui.history,HistoryPanel,clearAllRows,4,1,0,75,0,com.slimtrade.gui.history.HistoryTable,com.slimtrade.gui.history.HistoryTable
+assignment-3,com.slimtrade.gui.history,HistoryPanel,refreshSelectedTrade,7,3,0,80,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.history,HistoryPanel,onSave,3,1,0,89,0,com.slimtrade.gui.history.HistoryTable,com.slimtrade.gui.history.HistoryTable
+assignment-3,com.slimtrade.gui.history,HistoryRowData,HistoryRowData,8,1,1,22,0,com.slimtrade.core.data.SaleItem,com.slimtrade.core.data.SaleItem
+assignment-3,com.slimtrade.gui.history,HistoryTable,HistoryTable,19,3,2,13,0,,
+assignment-3,com.slimtrade.gui.history,HistoryTable,getHistoryTableModel,3,1,0,37,0,,
+assignment-3,com.slimtrade.gui.history,HistoryTableModel,HistoryTableModel,4,1,2,15,0,,
+assignment-3,com.slimtrade.gui.history,HistoryTableModel,getRowCount,4,2,0,26,0,,
+assignment-3,com.slimtrade.gui.history,HistoryTableModel,getColumnCount,3,1,0,32,0,,
+assignment-3,com.slimtrade.gui.history,HistoryTableModel,isCellEditable,3,1,2,37,0,,
+assignment-3,com.slimtrade.gui.history,HistoryTableModel,getValueAt,12,2,2,42,0,,
+assignment-3,com.slimtrade.gui.history,HistoryTableModel,getColumnClass,3,1,1,56,0,,
+assignment-3,com.slimtrade.gui.history,HistoryTableModel,getColumnName,3,1,1,61,0,,
+assignment-3,com.slimtrade.gui.history,PlayerNameCellRenderer,PlayerNameCellRenderer,4,1,0,11,0,,
+assignment-3,com.slimtrade.gui.history,PlayerNameCellRenderer,getTableCellRendererComponent,14,2,6,16,0,com.slimtrade.core.managers.FontManager,com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade.gui.history,PlayerNameWrapper,PlayerNameWrapper,3,1,1,11,0,,
+assignment-3,com.slimtrade.gui.history,SaleItemCellRenderer,SaleItemCellRenderer,3,1,0,15,0,,
+assignment-3,com.slimtrade.gui.history,SaleItemCellRenderer,getTableCellRendererComponent,13,2,6,19,0,com.slimtrade.gui.components.CurrencyLabelFactory,com.slimtrade.gui.components.CurrencyLabelFactory
+assignment-3,com.slimtrade.gui.history,TimeString,TimeString,3,1,1,15,0,,
+assignment-3,com.slimtrade.gui.history,TimeString,toString,10,3,0,19,0,,
+assignment-3,com.slimtrade.gui.listening,IColorBlindChangeListener,onColorBlindChange,0,1,1,5,0,,
+assignment-3,com.slimtrade.gui.listening,IDefaultSizeAndLocation,applyDefaultSizeAndLocation,0,1,0,5,0,,
+assignment-3,com.slimtrade.gui.listening,TextChangeListener,insertUpdate,3,1,1,12,0,com.slimtrade.gui.listening.TextChangeListener,com.slimtrade.gui.listening.TextChangeListener
+assignment-3,com.slimtrade.gui.listening,TextChangeListener,removeUpdate,3,1,1,17,0,com.slimtrade.gui.listening.TextChangeListener,com.slimtrade.gui.listening.TextChangeListener
+assignment-3,com.slimtrade.gui.listening,TextChangeListener,changedUpdate,2,1,1,22,0,,
+assignment-3,com.slimtrade.gui.listening,TextChangeListener,onTextChange,2,1,1,27,0,,
+assignment-3,com.slimtrade.gui.managers,FrameManager,init,36,2,0,65,0,com.slimtrade.gui.listening.IDefaultSizeAndLocation,com.slimtrade.gui.listening.IDefaultSizeAndLocation; com.slimtrade.gui.managers.FrameManager
+assignment-3,com.slimtrade.gui.managers,FrameManager,hasBeenInitialized,3,1,0,119,0,,
+assignment-3,com.slimtrade.gui.managers,FrameManager,showAppFrames,7,3,0,123,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.managers,FrameManager,setWindowVisibility,28,8,1,132,0,com.slimtrade.App,com.slimtrade.App; com.slimtrade.gui.managers.SystemTrayManager
+assignment-3,com.slimtrade.gui.managers,FrameManager,buildCheatSheetWindows,17,7,0,162,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog; com.slimtrade.gui.pinning.PinManager; com.slimtrade.core.data.CheatSheetData; com.slimtrade.gui.windows.CheatSheetWindow; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.managers,FrameManager,buildSearchWindows,32,13,0,180,0,com.slimtrade.gui.options.searching.StashSearchWindow,com.slimtrade.gui.options.searching.StashSearchWindow; com.slimtrade.gui.options.searching.StashSearchGroupData; com.slimtrade.gui.pinning.PinManager; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.managers,FrameManager,checkMenubarVisibility,15,5,1,214,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog; com.slimtrade.gui.managers.FrameManager
+assignment-3,com.slimtrade.gui.managers,FrameManager,updateMenubarVisibility,17,3,0,229,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.managers,FrameManager,displayUpdateAvailable,7,1,0,244,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.windows.OptionsWindow
+assignment-3,com.slimtrade.gui.managers,FrameManager,requestRestoreUIDefaults,7,2,0,251,0,com.slimtrade.gui.managers.FrameManager,com.slimtrade.gui.managers.FrameManager
+assignment-3,com.slimtrade.gui.managers,FrameManager,restoreUIDefaults,23,6,0,262,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog; com.slimtrade.gui.listening.IDefaultSizeAndLocation; com.slimtrade.gui.pinning.IPinnable; com.slimtrade.gui.overlays.OverlayInfoDialog; com.slimtrade.gui.options.searching.StashSearchWindow; com.slimtrade.gui.windows.CheatSheetWindow; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.managers,HotkeyManager,loadHotkeys,32,6,0,24,0,com.slimtrade.core.data.CheatSheetData,com.slimtrade.core.data.CheatSheetData; com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.managers.HotkeyManager
+assignment-3,com.slimtrade.gui.managers,HotkeyManager,registerHotkey,5,3,2,60,0,,
+assignment-3,com.slimtrade.gui.managers,HotkeyManager,processHotkey,12,4,1,67,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface; com.slimtrade.core.hotkeys.IHotkeyAction; com.slimtrade.App; com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,MessageManager,51,3,0,71,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.managers.MessageManager; com.slimtrade.core.utility.TradeUtil
+assignment-3,com.slimtrade.gui.managers,MessageManager,addListeners,21,4,0,130,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.modules.theme.components.AdvancedButton; com.slimtrade.gui.messaging.ExpandPanel
+assignment-3,com.slimtrade.gui.managers,MessageManager,click,5,2,1,133,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,click,7,3,1,141,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,addUpdateMessage,6,2,1,153,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,addMessage,3,1,1,160,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,addMessage,3,1,2,164,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,addMessage,30,10,3,168,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,addScannerMessage,3,1,2,201,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,addScannerMessage,5,2,3,205,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,addMessageMutual,9,2,1,211,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,recheckMessageCollapse,16,5,0,221,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,addPanel,9,2,1,238,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,removeMessage,8,1,1,247,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,refreshOrder,11,4,0,256,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,quickCloseOutgoing,11,4,1,268,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.messaging.TradeMessagePanel
+assignment-3,com.slimtrade.gui.managers,MessageManager,quickCloseIncoming,13,4,1,283,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.messaging.TradeMessagePanel
+assignment-3,com.slimtrade.gui.managers,MessageManager,quickCloseIgnore,17,8,1,303,0,com.slimtrade.core.data.IgnoreItemData,com.slimtrade.core.data.IgnoreItemData; com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.messaging.TradeMessagePanel
+assignment-3,com.slimtrade.gui.managers,MessageManager,closeOldestTrade,6,2,0,323,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,expandMessages,7,2,0,330,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,collapseMessages,9,3,0,338,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,changeMessageTab,13,5,1,348,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.gui.managers,MessageManager,updateExpandText,10,2,0,362,0,com.slimtrade.gui.messaging.ExpandPanel,com.slimtrade.gui.messaging.ExpandPanel
+assignment-3,com.slimtrade.gui.managers,MessageManager,startFadeTimer,6,2,0,372,0,,
+assignment-3,com.slimtrade.gui.managers,MessageManager,stopFadeTimer,3,1,0,379,0,,
+assignment-3,com.slimtrade.gui.managers,MessageManager,refreshFadeData,4,1,0,383,0,,
+assignment-3,com.slimtrade.gui.managers,MessageManager,fadeToOpacity,4,1,1,388,0,,
+assignment-3,com.slimtrade.gui.managers,MessageManager,getMessageComponents,3,1,0,393,0,com.slimtrade.gui.components.CustomTabbedPane,com.slimtrade.gui.components.CustomTabbedPane
+assignment-3,com.slimtrade.gui.managers,MessageManager,getMessageComponent,3,1,1,397,0,,
+assignment-3,com.slimtrade.gui.managers,MessageManager,getMessageCount,3,1,0,401,0,,
+assignment-3,com.slimtrade.gui.managers,MessageManager,refresh,24,4,0,405,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.windows.BasicDialog; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.managers,MessageManager,checkMouseHover,15,4,1,432,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.managers,MessageManager,checkHotkey,11,3,1,447,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,isExpandUp,3,1,0,458,0,,
+assignment-3,com.slimtrade.gui.managers,MessageManager,setDisplayMode,22,4,1,462,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.components.CustomTabbedPane
+assignment-3,com.slimtrade.gui.managers,MessageManager,handlePlayerJoinedArea,4,1,1,486,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,handleTrade,3,1,1,491,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,onScannerMessage,4,2,3,496,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,onJoinedArea,16,6,1,502,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.messaging.TradeMessagePanel; com.slimtrade.gui.messaging.ChatScannerMessagePanel
+assignment-3,com.slimtrade.gui.managers,MessageManager,onFontChanged,3,1,0,518,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,MessageManager,onSave,3,1,0,523,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.managers,SetupManager,getSetupPhases,20,7,0,15,0,,
+assignment-3,com.slimtrade.gui.managers,SystemTrayManager,init,20,2,0,22,0,com.slimtrade.gui.managers.SystemTrayManager,com.slimtrade.gui.managers.SystemTrayManager; com.slimtrade.App; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.managers,SystemTrayManager,addListeners,7,1,0,42,0,com.slimtrade.gui.managers.FrameManager,com.slimtrade.gui.managers.FrameManager; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.managers,SystemTrayManager,showSimple,4,1,0,50,0,,
+assignment-3,com.slimtrade.gui.managers,SystemTrayManager,showDefault,10,1,0,55,0,,
+assignment-3,com.slimtrade.gui.managers,VisibilityManager,addFrame,3,1,1,18,0,,
+assignment-3,com.slimtrade.gui.managers,VisibilityManager,removeFrame,3,1,1,22,0,,
+assignment-3,com.slimtrade.gui.managers,VisibilityManager,hideOverlay,10,3,0,26,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.managers,VisibilityManager,showOverlay,10,3,0,36,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.managers,VisibilityManager,hideAllFrames,5,2,0,46,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarButton,MenubarButton,6,1,1,8,0,,
+assignment-3,com.slimtrade.gui.menubar,MenubarButtonDialog,MenubarButtonDialog,6,1,0,21,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarButtonDialog,updateIcon,7,2,1,28,0,com.slimtrade.gui.buttons.BasicIconButton,com.slimtrade.gui.buttons.BasicIconButton
+assignment-3,com.slimtrade.gui.menubar,MenubarButtonDialog,onFontChanged,4,1,0,36,0,com.slimtrade.core.utility.TradeUtil,com.slimtrade.core.utility.TradeUtil; com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarButtonDialog,onDndToggle,4,2,2,42,0,com.slimtrade.gui.menubar.MenubarButtonDialog,com.slimtrade.gui.menubar.MenubarButtonDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarButtonDialog,onParserLoaded,3,1,0,48,0,com.slimtrade.gui.menubar.MenubarButtonDialog,com.slimtrade.gui.menubar.MenubarButtonDialog; com.slimtrade.core.chatparser.ChatParser
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,MenubarDialog,8,1,0,39,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.menubar.MenubarDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,addListeners,8,1,0,48,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,rebuild,5,2,0,58,0,com.slimtrade.core.utility.TradeUtil,com.slimtrade.core.utility.TradeUtil; com.slimtrade.core.chatparser.ChatParser; com.slimtrade.gui.menubar.MenubarDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,buildIconButtons,13,2,0,66,0,com.slimtrade.gui.menubar.MenubarDialog,com.slimtrade.gui.menubar.MenubarDialog; com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,buildTextButtons,18,2,0,82,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.menubar.MenubarDialog; com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,getOrderedComponents,7,2,0,103,0,,
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,handleResize,4,1,0,121,0,com.slimtrade.core.utility.TradeUtil,com.slimtrade.core.utility.TradeUtil; com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,onFontChanged,3,1,0,126,0,com.slimtrade.gui.menubar.MenubarDialog,com.slimtrade.gui.menubar.MenubarDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,onThemeChange,3,1,0,131,0,com.slimtrade.gui.menubar.MenubarDialog,com.slimtrade.gui.menubar.MenubarDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,updateDndButton,15,4,1,136,0,com.slimtrade.gui.buttons.BasicIconButton,com.slimtrade.gui.buttons.BasicIconButton; com.slimtrade.gui.menubar.MenubarDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,onDndToggle,4,2,2,150,0,com.slimtrade.gui.menubar.MenubarDialog,com.slimtrade.gui.menubar.MenubarDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,onParserLoaded,3,1,0,156,0,com.slimtrade.core.chatparser.ChatParser,com.slimtrade.core.chatparser.ChatParser; com.slimtrade.gui.menubar.MenubarDialog
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,onSave,3,1,0,161,0,com.slimtrade.gui.menubar.MenubarDialog,com.slimtrade.gui.menubar.MenubarDialog
+assignment-3,com.slimtrade.gui.messaging,ChatScannerMessagePanel,ChatScannerMessagePanel,3,1,2,17,0,,
+assignment-3,com.slimtrade.gui.messaging,ChatScannerMessagePanel,ChatScannerMessagePanel,15,2,3,21,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.core.utility.MacroButton
+assignment-3,com.slimtrade.gui.messaging,ChatScannerMessagePanel,getPlayerMessage,3,1,0,37,0,,
+assignment-3,com.slimtrade.gui.messaging,ChatScannerMessagePanel,resolveMessageColor,3,1,0,41,0,,
+assignment-3,com.slimtrade.gui.messaging,ExpandPanel,ExpandPanel,9,1,0,9,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.modules.theme.components.ColorPanel
+assignment-3,com.slimtrade.gui.messaging,ExpandPanel,resolveMessageColor,3,1,0,19,0,,
+assignment-3,com.slimtrade.gui.messaging,ExpandPanel,setText,3,1,1,24,0,,
+assignment-3,com.slimtrade.gui.messaging,ExpandPanel,getButton,3,1,0,28,0,,
+assignment-3,com.slimtrade.gui.messaging,NotificationButton,NotificationButton,5,1,1,12,0,com.slimtrade.gui.messaging.NotificationButton,com.slimtrade.gui.messaging.NotificationButton
+assignment-3,com.slimtrade.gui.messaging,NotificationButton,setHorizontalInset,4,1,1,18,0,com.slimtrade.gui.messaging.NotificationButton,com.slimtrade.gui.messaging.NotificationButton
+assignment-3,com.slimtrade.gui.messaging,NotificationButton,updateUI,5,1,0,23,0,,
+assignment-3,com.slimtrade.gui.messaging,NotificationIconButton,NotificationIconButton,6,1,1,15,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.buttons.IIcon; com.slimtrade.gui.messaging.NotificationIconButton
+assignment-3,com.slimtrade.gui.messaging,NotificationIconButton,setInset,4,1,1,22,0,com.slimtrade.gui.messaging.NotificationIconButton,com.slimtrade.gui.messaging.NotificationIconButton
+assignment-3,com.slimtrade.gui.messaging,NotificationIconButton,updateUI,8,2,0,27,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,NotificationPanel,3,1,0,69,0,,
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,NotificationPanel,39,1,1,73,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.theme.components.AdvancedButton; com.slimtrade.modules.theme.components.ColorPanel
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,setup,7,2,0,126,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,addMacrosToPanel,38,9,2,139,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.messaging.NotificationButton; com.slimtrade.core.utility.POEInterface; com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,click,11,5,1,159,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface; com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,addListeners,4,1,0,179,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,setWidth,7,1,1,184,0,,
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,addPlayerButtonListener,13,3,1,192,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,click,8,3,1,194,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,startTimer,7,2,0,205,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,incrementTimer,17,3,0,213,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,resolveMessageColor,0,1,0,230,0,,
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,applyMessageColor,17,3,0,232,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.gui.components.CurrencyLabelFactory
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,setPlayerJoinedArea,4,1,0,250,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,stopTimer,5,2,0,255,0,,
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,resizeStrut,6,3,0,261,0,,
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,updateSize,4,1,0,268,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,checkHotkeys,4,2,1,273,0,com.slimtrade.core.hotkeys.IHotkeyAction,com.slimtrade.core.hotkeys.IHotkeyAction
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,handleHotkeyMutual,4,3,1,278,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,onInvite,2,1,0,283,0,,
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,cleanup,3,1,0,290,0,,
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,updateUI,6,1,0,298,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.messaging,NotificationTextButton,NotificationTextButton,4,1,1,10,0,com.slimtrade.gui.messaging.NotificationTextButton,com.slimtrade.gui.messaging.NotificationTextButton
+assignment-3,com.slimtrade.gui.messaging,NotificationTextButton,updateUI,9,2,0,15,0,,
+assignment-3,com.slimtrade.gui.messaging,OverlayExamplePanel,OverlayExamplePanel,10,1,2,18,0,,
+assignment-3,com.slimtrade.gui.messaging,OverlayExamplePanel,addPanel,3,1,1,30,0,,
+assignment-3,com.slimtrade.gui.messaging,OverlayExamplePanel,removePanel,3,1,1,34,0,,
+assignment-3,com.slimtrade.gui.messaging,OverlayExamplePanel,setAnchor,4,1,1,38,0,,
+assignment-3,com.slimtrade.gui.messaging,OverlayExamplePanel,setExpandDirection,4,1,1,43,0,,
+assignment-3,com.slimtrade.gui.messaging,OverlayExamplePanel,paintComponent,10,4,1,48,0,,
+assignment-3,com.slimtrade.gui.messaging,PinButton,PinButton,3,1,0,9,0,,
+assignment-3,com.slimtrade.gui.messaging,PinButton,setPinned,4,1,1,13,0,com.slimtrade.gui.messaging.PinButton,com.slimtrade.gui.messaging.PinButton
+assignment-3,com.slimtrade.gui.messaging,PinButton,updateUI,9,2,0,18,0,,
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,TradeMessagePanel,3,1,1,25,0,,
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,TradeMessagePanel,31,5,2,29,0,com.slimtrade.core.trading.TradeOffer,com.slimtrade.core.trading.TradeOffer; com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.gui.components.CurrencyLabelFactory; com.slimtrade.core.data.SaleItem
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,addListeners,38,9,0,61,0,com.slimtrade.gui.stash.StashHelperBulkWrapper,com.slimtrade.gui.stash.StashHelperBulkWrapper; com.slimtrade.gui.stash.StashHelperContainer; com.slimtrade.gui.managers.MessageManager; com.slimtrade.gui.options.ignore.ItemIgnoreWindow; com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,click,10,5,1,69,0,com.slimtrade.gui.stash.StashHelperBulkWrapper,com.slimtrade.gui.stash.StashHelperBulkWrapper; com.slimtrade.gui.stash.StashHelperContainer; com.slimtrade.gui.options.ignore.ItemIgnoreWindow
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,click,5,2,1,81,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,click,3,2,1,91,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,getTradeOffer,3,1,0,101,0,,
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,resolveMessageColor,12,3,0,105,0,com.slimtrade.core.trading.TradeOffer,com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,onInvite,6,3,0,121,0,com.slimtrade.gui.stash.StashHelperBulkWrapper,com.slimtrade.gui.stash.StashHelperBulkWrapper; com.slimtrade.gui.stash.StashHelperContainer
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,cleanup,14,4,0,129,0,com.slimtrade.gui.stash.StashHelperContainer,com.slimtrade.gui.stash.StashHelperContainer; com.slimtrade.gui.stash.StashHelperPanel; com.slimtrade.gui.stash.StashHelperBulkWrapper
+assignment-3,com.slimtrade.gui.messaging,UpdateMessagePanel,UpdateMessagePanel,8,1,0,7,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.modules.updater.UpdateManager
+assignment-3,com.slimtrade.gui.messaging,UpdateMessagePanel,resolveMessageColor,2,1,0,16,0,,
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,AbstractMacroOptionPanel,51,4,1,35,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel; com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,addListeners,8,2,0,89,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,inbuiltMacroPanel,18,1,3,97,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,createExamplePanel,42,1,0,117,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,showExamples,6,1,0,165,0,,
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,hideExamples,6,1,0,172,0,,
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,reloadExampleTrade,16,3,0,179,0,com.slimtrade.core.trading.TradeOffer,com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,reloadExampleTrade,7,1,1,196,0,,
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,clearMacros,4,1,0,204,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,setMacros,6,2,1,209,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,addMacro,6,1,1,216,0,com.slimtrade.gui.options.MacroCustomizerPanel,com.slimtrade.gui.options.MacroCustomizerPanel
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,getMacros,8,2,0,223,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer; com.slimtrade.gui.options.MacroCustomizerPanel
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,AbstractOptionPanel,3,1,0,26,0,,
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,AbstractOptionPanel,27,3,1,30,0,,
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,addHeader,14,1,1,57,0,,
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,addComponent,26,4,1,72,0,,
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,addVerticalStrut,5,1,0,101,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,addVerticalStrutSmall,5,1,0,107,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,add,4,1,1,116,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,add,4,1,2,122,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,add,4,1,2,128,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,add,4,1,2,134,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,add,4,1,3,140,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,incorrectAddMethod,4,1,0,146,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,AudioOptionPanel,29,1,0,40,0,com.slimtrade.gui.options.AudioOptionPanel,com.slimtrade.gui.options.AudioOptionPanel; com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.components.ButtonPanel; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,addListeners,11,1,0,78,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager; com.slimtrade.gui.options.AudioOptionPanel; com.slimtrade.core.utility.ZUtil; com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,addRow,26,2,1,89,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager; com.slimtrade.gui.options.AudioOptionPanel
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,updateVolumeSlider,3,1,2,119,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,refreshCombos,10,3,0,123,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager; com.slimtrade.gui.options.audio.AudioThresholdPanel
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,updateInfoLabel,12,3,0,134,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,save,8,1,0,145,0,com.slimtrade.gui.options.audio.AudioRowControls,com.slimtrade.gui.options.audio.AudioRowControls
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,load,9,1,0,155,0,com.slimtrade.gui.options.AudioOptionPanel,com.slimtrade.gui.options.AudioOptionPanel; com.slimtrade.gui.options.audio.AudioRowControls
+assignment-3,com.slimtrade.gui.options,CheatSheetsOptionPanel,CheatSheetsOptionPanel,15,1,0,29,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.components.ButtonPanel; com.slimtrade.gui.options.CheatSheetsOptionPanel; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.options,CheatSheetsOptionPanel,startRebuild,7,1,0,48,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options,CheatSheetsOptionPanel,addRow,11,1,1,56,0,,
+assignment-3,com.slimtrade.gui.options,CheatSheetsOptionPanel,rebuildFromFolder,23,7,0,70,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager; com.slimtrade.gui.options.CheatSheetsOptionPanel; com.slimtrade.core.data.CheatSheetData
+assignment-3,com.slimtrade.gui.options,CheatSheetsOptionPanel,addListeners,4,1,0,94,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager; com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.CheatSheetsOptionPanel
+assignment-3,com.slimtrade.gui.options,CheatSheetsOptionPanel,save,14,4,0,99,0,com.slimtrade.gui.options.cheatsheets.CheatSheetComponentGroup,com.slimtrade.gui.options.cheatsheets.CheatSheetComponentGroup; com.slimtrade.gui.managers.FrameManager; com.slimtrade.core.data.CheatSheetData
+assignment-3,com.slimtrade.gui.options,CheatSheetsOptionPanel,load,6,2,0,116,0,com.slimtrade.gui.options.CheatSheetsOptionPanel,com.slimtrade.gui.options.CheatSheetsOptionPanel
+assignment-3,com.slimtrade.gui.options,DebugOptionPanel,DebugOptionPanel,21,4,0,38,0,com.slimtrade.gui.options.DebugOptionPanel,com.slimtrade.gui.options.DebugOptionPanel; com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.options,DebugOptionPanel,addListeners,18,2,0,63,0,com.slimtrade.gui.managers.MessageManager,com.slimtrade.gui.managers.MessageManager; com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.gui.options,DebugOptionPanel,createFontTranslationPanel,37,1,0,81,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.core.managers.FontManager; com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,DisplayOptionPanel,DisplayOptionPanel,21,2,0,19,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.options.DisplayOptionPanel
+assignment-3,com.slimtrade.gui.options,DisplayOptionPanel,addListeners,4,1,0,48,0,com.slimtrade.core.saving.savefiles.SettingsSaveFile,com.slimtrade.core.saving.savefiles.SettingsSaveFile; com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.options,DisplayOptionPanel,save,4,1,0,53,0,,
+assignment-3,com.slimtrade.gui.options,DisplayOptionPanel,load,7,2,0,59,0,com.slimtrade.core.saving.savefiles.SettingsSaveFile,com.slimtrade.core.saving.savefiles.SettingsSaveFile
+assignment-3,com.slimtrade.gui.options,DisplayPreviewPanel,DisplayPreviewPanel,30,2,0,24,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.DisplayPreviewPanel
+assignment-3,com.slimtrade.gui.options,DisplayPreviewPanel,setPreviewFontStyle,8,1,1,60,0,com.slimtrade.gui.options.TradeColorPreviewPanel,com.slimtrade.gui.options.TradeColorPreviewPanel
+assignment-3,com.slimtrade.gui.options,DisplayPreviewPanel,setPreviewFontSize,8,1,1,69,0,com.slimtrade.gui.options.TradeColorPreviewPanel,com.slimtrade.gui.options.TradeColorPreviewPanel
+assignment-3,com.slimtrade.gui.options,DisplayPreviewPanel,setPreviewIconSize,3,1,1,78,0,com.slimtrade.gui.buttons.BasicIconButton,com.slimtrade.gui.buttons.BasicIconButton
+assignment-3,com.slimtrade.gui.options,DisplayPreviewPanel,updateUI,5,2,0,82,0,,
+assignment-3,com.slimtrade.gui.options,DonationPanel,DonationPanel,13,1,0,24,0,com.slimtrade.gui.options.DonationPanel,com.slimtrade.gui.options.DonationPanel; com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,DonationPanel,addListeners,4,1,0,42,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options,DonationPanel,createButtonPanel,9,1,0,47,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options,DonationPanel,buildSupporterPanel,11,2,0,57,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.gui.options,DonationPanel,parseSupporters,21,6,0,69,0,com.slimtrade.gui.options.DonationPanel,com.slimtrade.gui.options.DonationPanel; com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.gui.options,DonationPanel,getCurrencyType,9,6,1,90,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.gui.options,DonationPanel,getButtonToFocus,3,1,0,100,0,,
+assignment-3,com.slimtrade.gui.options,GeneralOptionPanel,GeneralOptionPanel,16,1,0,9,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel
+assignment-3,com.slimtrade.gui.options,GeneralOptionPanel,getBasicsPanel,3,1,0,27,0,,
+assignment-3,com.slimtrade.gui.options,HeaderPanel,HeaderPanel,12,2,1,20,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.options,HotkeyOptionPanel,HotkeyOptionPanel,31,1,0,39,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.options.HotkeyOptionPanel
+assignment-3,com.slimtrade.gui.options,HotkeyOptionPanel,addHotkey,15,1,3,78,0,,
+assignment-3,com.slimtrade.gui.options,HotkeyOptionPanel,showHideChangeTabHotkeys,8,3,1,95,0,,
+assignment-3,com.slimtrade.gui.options,HotkeyOptionPanel,save,17,1,0,104,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options,HotkeyOptionPanel,load,17,1,0,125,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options,IgnoreItemOptionPanel,IgnoreItemOptionPanel,12,1,0,21,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.options.IgnoreItemOptionPanel
+assignment-3,com.slimtrade.gui.options,IgnoreItemOptionPanel,addListeners,3,1,0,34,0,com.slimtrade.gui.options.ignore.IgnoreInputPanel,com.slimtrade.gui.options.ignore.IgnoreInputPanel; com.slimtrade.gui.options.IgnoreItemOptionPanel
+assignment-3,com.slimtrade.gui.options,IgnoreItemOptionPanel,tryAddIgnoreItem,7,3,1,38,0,com.slimtrade.gui.options.IgnoreItemOptionPanel,com.slimtrade.gui.options.IgnoreItemOptionPanel; com.slimtrade.core.data.IgnoreItemData
+assignment-3,com.slimtrade.gui.options,IgnoreItemOptionPanel,addNewRow,16,1,1,46,0,,
+assignment-3,com.slimtrade.gui.options,IgnoreItemOptionPanel,removeRow,9,1,1,63,0,,
+assignment-3,com.slimtrade.gui.options,IgnoreItemOptionPanel,save,8,3,0,73,0,com.slimtrade.core.data.IgnoreItemData,com.slimtrade.core.data.IgnoreItemData
+assignment-3,com.slimtrade.gui.options,IgnoreItemOptionPanel,load,9,2,0,83,0,com.slimtrade.gui.options.IgnoreItemOptionPanel,com.slimtrade.gui.options.IgnoreItemOptionPanel
+assignment-3,com.slimtrade.gui.options,IncomingMacroPanel,IncomingMacroPanel,3,1,0,10,0,,
+assignment-3,com.slimtrade.gui.options,IncomingMacroPanel,save,3,1,0,14,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel
+assignment-3,com.slimtrade.gui.options,IncomingMacroPanel,load,7,3,0,19,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel
+assignment-3,com.slimtrade.gui.options,InformationOptionPanel,InformationOptionPanel,33,1,0,29,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.options.InformationOptionPanel
+assignment-3,com.slimtrade.gui.options,InformationOptionPanel,addListeners,22,1,0,68,0,com.slimtrade.gui.windows.PatchNotesWindow,com.slimtrade.gui.windows.PatchNotesWindow; com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.windows.TutorialWindow; com.slimtrade.core.managers.SaveManager; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.options,InformationOptionPanel,getGC,6,1,0,90,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options,MacroCustomizerPanel,MacroCustomizerPanel,48,4,1,38,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.options.MacroCustomizerPanel
+assignment-3,com.slimtrade.gui.options,MacroCustomizerPanel,addListeners,14,2,0,102,0,com.slimtrade.gui.components.AddRemovePanel,com.slimtrade.gui.components.AddRemovePanel; com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.options,MacroCustomizerPanel,getMacroButton,14,2,0,115,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options,MacroCustomizerPanel,setMacro,10,1,1,130,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options,MacroCustomizerPanel,updateUI,12,3,0,141,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.options,OutgoingMacroPanel,OutgoingMacroPanel,3,1,0,10,0,,
+assignment-3,com.slimtrade.gui.options,OutgoingMacroPanel,save,3,1,0,15,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel
+assignment-3,com.slimtrade.gui.options,OutgoingMacroPanel,load,7,3,0,20,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel
+assignment-3,com.slimtrade.gui.options,TradeColorPreviewPanel,TradeColorPreviewPanel,10,1,2,19,0,com.slimtrade.core.saving.savefiles.SettingsSaveFile,com.slimtrade.core.saving.savefiles.SettingsSaveFile; com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.options,TradeColorPreviewPanel,label,3,1,0,30,0,,
+assignment-3,com.slimtrade.gui.options,TradeColorPreviewPanel,updatePreview,5,1,0,34,0,com.slimtrade.modules.theme.ThemeColorVariantSetting,com.slimtrade.modules.theme.ThemeColorVariantSetting
+assignment-3,com.slimtrade.gui.options,TradeColorPreviewPanel,onThemeChange,3,1,0,40,0,com.slimtrade.gui.options.TradeColorPreviewPanel,com.slimtrade.gui.options.TradeColorPreviewPanel
+assignment-3,com.slimtrade.gui.options,TradeColorPreviewPanel,onColorBlindChange,4,1,1,45,0,com.slimtrade.gui.options.TradeColorPreviewPanel,com.slimtrade.gui.options.TradeColorPreviewPanel
+assignment-3,com.slimtrade.gui.options.audio,AudioRowControls,AudioRowControls,4,1,2,14,0,,
+assignment-3,com.slimtrade.gui.options.audio,AudioRowControls,setSoundComponent,4,1,1,19,0,,
+assignment-3,com.slimtrade.gui.options.audio,AudioRowControls,getSoundComponent,5,1,0,24,0,,
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdPanel,AudioThresholdPanel,11,1,0,18,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.audio.AudioThresholdPanel
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdPanel,addListeners,3,1,0,31,0,,
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdPanel,refreshCombos,8,3,0,35,0,com.slimtrade.gui.options.audio.AudioThresholdPanel,com.slimtrade.gui.options.audio.AudioThresholdPanel; com.slimtrade.gui.options.audio.AudioThresholdRow
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdPanel,save,8,2,0,44,0,com.slimtrade.gui.options.audio.AudioThresholdRow,com.slimtrade.gui.options.audio.AudioThresholdRow; com.slimtrade.gui.components.AddRemoveContainer; com.slimtrade.core.saving.savefiles.SettingsSaveFile
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdPanel,load,9,2,0,54,0,com.slimtrade.gui.options.audio.AudioThresholdRow,com.slimtrade.gui.options.audio.AudioThresholdRow; com.slimtrade.core.saving.savefiles.SettingsSaveFile; com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdRow,AudioThresholdRow,24,2,1,29,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.audio.AudioThresholdRow; com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdRow,addListeners,5,1,0,56,0,com.slimtrade.gui.components.AddRemovePanel,com.slimtrade.gui.components.AddRemovePanel; com.slimtrade.gui.options.audio.AudioThresholdRow; com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdRow,updateVolumeLabel,3,1,0,62,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdRow,refreshCombo,6,2,0,66,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdRow,setData,6,1,1,73,0,com.slimtrade.core.managers.AudioManager,com.slimtrade.core.managers.AudioManager; com.slimtrade.core.enums.CurrencyType
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdRow,getData,7,1,0,80,0,,
+assignment-3,com.slimtrade.gui.options.cheatsheets,CheatSheetComponentGroup,CheatSheetComponentGroup,6,1,1,14,0,com.slimtrade.core.data.CheatSheetData,com.slimtrade.core.data.CheatSheetData; com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options.cheatsheets,CheatSheetComponentGroup,getData,3,1,0,21,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options.general,BasicsPanel,BasicsPanel,9,1,0,23,0,com.slimtrade.gui.options.general.BasicsPanel,com.slimtrade.gui.options.general.BasicsPanel
+assignment-3,com.slimtrade.gui.options.general,BasicsPanel,addListeners,4,1,0,36,0,com.slimtrade.gui.managers.FrameManager,com.slimtrade.gui.managers.FrameManager
+assignment-3,com.slimtrade.gui.options.general,BasicsPanel,addComponent,4,1,1,41,0,,
+assignment-3,com.slimtrade.gui.options.general,BasicsPanel,save,5,1,0,46,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options.general,BasicsPanel,load,5,1,0,53,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options.general,ClientPathPanel,ClientPathPanel,15,1,0,19,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.general.ClientPathPanel
+assignment-3,com.slimtrade.gui.options.general,ClientPathPanel,addListeners,8,2,0,36,0,,
+assignment-3,com.slimtrade.gui.options.general,ClientPathPanel,save,6,2,0,44,0,com.slimtrade.core.chatparser.ChatParser,com.slimtrade.core.chatparser.ChatParser; com.slimtrade.App
+assignment-3,com.slimtrade.gui.options.general,ClientPathPanel,load,8,3,0,52,0,,
+assignment-3,com.slimtrade.gui.options.general,ClientPathPanel,updateUI,3,2,0,62,0,,
+assignment-3,com.slimtrade.gui.options.general,DisplaySettingsPanel,DisplaySettingsPanel,31,2,1,24,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.general.DisplaySettingsPanel; com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade.gui.options.general,DisplaySettingsPanel,addListeners,18,1,0,63,0,com.slimtrade.gui.options.DisplayPreviewPanel,com.slimtrade.gui.options.DisplayPreviewPanel; com.slimtrade.gui.options.general.DisplaySettingsPanel
+assignment-3,com.slimtrade.gui.options.general,DisplaySettingsPanel,updateTextPreview,4,1,0,80,0,com.slimtrade.gui.options.DisplayPreviewPanel,com.slimtrade.gui.options.DisplayPreviewPanel
+assignment-3,com.slimtrade.gui.options.general,DisplaySettingsPanel,updateIconPreview,4,1,0,85,0,com.slimtrade.gui.options.DisplayPreviewPanel,com.slimtrade.gui.options.DisplayPreviewPanel
+assignment-3,com.slimtrade.gui.options.general,DisplaySettingsPanel,save,11,1,0,90,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.options.general,DisplaySettingsPanel,load,7,2,0,105,0,com.slimtrade.gui.options.general.DisplaySettingsPanel,com.slimtrade.gui.options.general.DisplaySettingsPanel
+assignment-3,com.slimtrade.gui.options.general,EnableFeaturesPanel,EnableFeaturesPanel,13,2,0,25,0,com.slimtrade.gui.options.general.EnableFeaturesPanel,com.slimtrade.gui.options.general.EnableFeaturesPanel
+assignment-3,com.slimtrade.gui.options.general,EnableFeaturesPanel,updateVisibility,5,2,0,41,0,,
+assignment-3,com.slimtrade.gui.options.general,EnableFeaturesPanel,addRow,4,1,1,47,0,,
+assignment-3,com.slimtrade.gui.options.general,EnableFeaturesPanel,save,15,2,0,52,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.options.general,EnableFeaturesPanel,load,9,1,0,72,0,com.slimtrade.gui.options.general.EnableFeaturesPanel,com.slimtrade.gui.options.general.EnableFeaturesPanel
+assignment-3,com.slimtrade.gui.options.general,HistoryOptionPanel,HistoryOptionPanel,11,4,0,21,0,com.slimtrade.gui.options.general.HistoryOptionPanel,com.slimtrade.gui.options.general.HistoryOptionPanel
+assignment-3,com.slimtrade.gui.options.general,HistoryOptionPanel,addRow,9,1,2,33,0,,
+assignment-3,com.slimtrade.gui.options.general,HistoryOptionPanel,save,5,1,0,43,0,,
+assignment-3,com.slimtrade.gui.options.general,HistoryOptionPanel,load,5,1,0,50,0,,
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,MessageSettingsPanel,20,1,0,42,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.general.MessageSettingsPanel
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,addListeners,6,1,0,68,0,com.slimtrade.gui.options.general.MessageSettingsPanel,com.slimtrade.gui.options.general.MessageSettingsPanel
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,createTabMessageHotkeyPanel,17,1,0,76,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,createCollapsePanel,14,1,0,94,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,createFadePanel,20,1,0,109,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,updatePanelVisibility,6,1,0,130,0,com.slimtrade.gui.windows.OptionsWindow,com.slimtrade.gui.windows.OptionsWindow; com.slimtrade.gui.options.HotkeyOptionPanel
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,updateOpacityLabel,3,1,0,137,0,,
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,save,8,1,0,141,0,,
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,load,10,1,0,151,0,com.slimtrade.gui.options.general.MessageSettingsPanel,com.slimtrade.gui.options.general.MessageSettingsPanel
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreInputPanel,IgnoreInputPanel,27,2,0,17,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreInputPanel,clear,3,1,0,47,0,,
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreInputPanel,getIgnoreButton,3,1,0,51,0,,
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreInputPanel,getIgnoreItem,6,1,0,55,0,,
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreInputPanel,setIgnoreItem,5,1,1,63,0,,
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreRowComponents,IgnoreRowComponents,22,3,2,24,0,com.slimtrade.gui.options.IgnoreItemOptionPanel,com.slimtrade.gui.options.IgnoreItemOptionPanel; com.slimtrade.core.saving.savefiles.IgnoreSaveFile; com.slimtrade.gui.options.ignore.IgnoreRowComponents; com.slimtrade.core.data.IgnoreItemData
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreRowComponents,updateTimeRemainingLabel,4,2,0,48,0,com.slimtrade.core.data.IgnoreItemData,com.slimtrade.core.data.IgnoreItemData
+assignment-3,com.slimtrade.gui.options.ignore,ItemIgnoreWindow,ItemIgnoreWindow,13,1,0,15,0,com.slimtrade.gui.options.ignore.ItemIgnoreWindow,com.slimtrade.gui.options.ignore.ItemIgnoreWindow
+assignment-3,com.slimtrade.gui.options.ignore,ItemIgnoreWindow,addListeners,9,1,0,29,0,com.slimtrade.gui.options.ignore.IgnoreInputPanel,com.slimtrade.gui.options.ignore.IgnoreInputPanel; com.slimtrade.gui.windows.OptionsWindow; com.slimtrade.gui.options.IgnoreItemOptionPanel; com.slimtrade.gui.options.ignore.ItemIgnoreWindow; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.options.ignore,ItemIgnoreWindow,showWindow,8,1,1,38,0,com.slimtrade.gui.options.ignore.IgnoreInputPanel,com.slimtrade.gui.options.ignore.IgnoreInputPanel; com.slimtrade.gui.options.ignore.ItemIgnoreWindow
+assignment-3,com.slimtrade.gui.options.ignore,ItemIgnoreWindow,setVisible,4,2,1,47,0,com.slimtrade.gui.options.ignore.IgnoreInputPanel,com.slimtrade.gui.options.ignore.IgnoreInputPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupData,StashSearchGroupData,6,1,4,16,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupData,getPinTitle,3,1,0,23,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupData,toString,3,1,0,27,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,StashSearchGroupPanel,3,1,3,32,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,StashSearchGroupPanel,37,1,4,36,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.searching.StashSearchGroupPanel; com.slimtrade.gui.options.searching.StashSearchOptionPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,StashSearchGroupPanel,9,2,4,82,0,com.slimtrade.gui.options.searching.StashSearchGroupPanel,com.slimtrade.gui.options.searching.StashSearchGroupPanel; com.slimtrade.gui.components.AddRemoveContainer; com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,addListeners,16,1,0,92,0,com.slimtrade.gui.components.AddRemovePanel,com.slimtrade.gui.components.AddRemovePanel; com.slimtrade.gui.options.searching.StashSearchGroupPanel; com.slimtrade.gui.options.searching.StashSearchOptionPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,showHideRename,15,2,1,107,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,getGroupName,3,1,0,122,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,getSavedGroupName,3,1,0,126,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,updateHotkeyVisibility,3,1,1,130,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,updateGroupName,7,3,1,134,0,com.slimtrade.gui.options.searching.StashSearchOptionPanel,com.slimtrade.gui.options.searching.StashSearchOptionPanel; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,updateSavedGroupName,3,1,0,142,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,applyPendingGroupRename,5,2,0,146,0,com.slimtrade.gui.options.searching.StashSearchGroupPanel,com.slimtrade.gui.options.searching.StashSearchGroupPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,getData,7,2,0,152,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton; com.slimtrade.gui.components.AddRemoveContainer; com.slimtrade.gui.options.searching.StashSearchTermPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchOptionPanel,StashSearchOptionPanel,14,1,0,22,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.options.searching.StashSearchOptionPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchOptionPanel,addListeners,16,2,0,37,0,com.slimtrade.gui.options.searching.StashSearchGroupPanel,com.slimtrade.gui.options.searching.StashSearchGroupPanel; com.slimtrade.gui.options.searching.StashSearchSettingsPanel; com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.searching.StashSearchOptionPanel; com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.options.searching,StashSearchOptionPanel,tryAddNewGroup,8,3,0,52,0,com.slimtrade.gui.options.searching.StashSearchOptionPanel,com.slimtrade.gui.options.searching.StashSearchOptionPanel; com.slimtrade.gui.options.searching.StashSearchSettingsPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchOptionPanel,isDuplicateName,6,3,1,61,0,com.slimtrade.gui.options.searching.StashSearchGroupPanel,com.slimtrade.gui.options.searching.StashSearchGroupPanel; com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.options.searching,StashSearchOptionPanel,getNextId,15,4,0,68,0,com.slimtrade.gui.options.searching.StashSearchGroupPanel,com.slimtrade.gui.options.searching.StashSearchGroupPanel; com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.options.searching,StashSearchOptionPanel,addIdToReset,3,1,1,84,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchOptionPanel,save,13,2,0,88,0,com.slimtrade.gui.options.searching.StashSearchGroupPanel,com.slimtrade.gui.options.searching.StashSearchGroupPanel; com.slimtrade.gui.managers.FrameManager; com.slimtrade.gui.components.AddRemoveContainer; com.slimtrade.gui.options.searching.StashSearchSettingsPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchOptionPanel,load,8,2,0,105,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.options.searching,StashSearchSettingsPanel,StashSearchSettingsPanel,36,2,0,24,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.searching.StashSearchSettingsPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchSettingsPanel,addListeners,9,1,0,70,0,com.slimtrade.gui.options.searching.StashSearchSettingsPanel,com.slimtrade.gui.options.searching.StashSearchSettingsPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchSettingsPanel,onTextChange,3,1,1,72,0,com.slimtrade.gui.options.searching.StashSearchSettingsPanel,com.slimtrade.gui.options.searching.StashSearchSettingsPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchSettingsPanel,getNewSearchGroupName,3,1,0,80,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.options.searching,StashSearchSettingsPanel,clearText,3,1,0,84,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchSettingsPanel,setError,4,1,1,88,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchSettingsPanel,updateHotkeyButtonVisibility,6,1,0,93,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchSettingsPanel,save,4,1,0,100,0,com.slimtrade.gui.components.HotkeyButton,com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options.searching,StashSearchSettingsPanel,load,5,1,0,106,0,com.slimtrade.gui.options.searching.StashSearchSettingsPanel,com.slimtrade.gui.options.searching.StashSearchSettingsPanel; com.slimtrade.gui.components.HotkeyButton
+assignment-3,com.slimtrade.gui.options.searching,StashSearchTermData,StashSearchTermData,5,1,3,9,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchTermPanel,StashSearchTermPanel,11,1,1,23,0,com.slimtrade.gui.options.searching.StashSearchTermPanel,com.slimtrade.gui.options.searching.StashSearchTermPanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchTermPanel,StashSearchTermPanel,6,1,2,37,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchTermPanel,addListeners,5,1,0,44,0,com.slimtrade.gui.components.AddRemovePanel,com.slimtrade.gui.components.AddRemovePanel
+assignment-3,com.slimtrade.gui.options.searching,StashSearchTermPanel,getData,3,1,0,50,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,StashSearchWindow,8,1,1,25,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,StashSearchWindow,12,1,1,39,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.searching.StashSearchWindow
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,StashSearchWindow,29,4,1,57,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.searching.StashSearchWindow
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,handlePinSetup,4,2,0,92,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,buildButtonPanel,21,3,1,97,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.searching.StashSearchWindow
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,toString,3,1,0,99,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,createSearchButton,29,4,1,120,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.modules.theme.components.AdvancedButton; com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,click,8,3,1,138,0,com.slimtrade.core.utility.POEInterface,com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,getData,3,1,0,150,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,getPinTitle,4,2,0,154,0,com.slimtrade.gui.options.searching.StashSearchGroupData,com.slimtrade.gui.options.searching.StashSearchGroupData
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,onFontChanged,3,1,0,160,0,,
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,dispose,4,1,0,165,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.options.searching,StashSearchWindow,applyDefaultSizeAndLocation,4,1,0,172,0,,
+assignment-3,com.slimtrade.gui.options.stash,StashOptionPanel,StashOptionPanel,11,1,0,19,0,com.slimtrade.gui.options.AbstractOptionPanel,com.slimtrade.gui.options.AbstractOptionPanel; com.slimtrade.gui.options.stash.StashOptionPanel
+assignment-3,com.slimtrade.gui.options.stash,StashOptionPanel,addListeners,8,1,0,31,0,,
+assignment-3,com.slimtrade.gui.options.stash,StashOptionPanel,save,8,2,0,39,0,com.slimtrade.gui.components.AddRemoveContainer,com.slimtrade.gui.components.AddRemoveContainer; com.slimtrade.gui.options.stash.StashRow
+assignment-3,com.slimtrade.gui.options.stash,StashOptionPanel,load,11,2,0,49,0,com.slimtrade.gui.options.stash.StashRow,com.slimtrade.gui.options.stash.StashRow; com.slimtrade.gui.components.AddRemoveContainer
+assignment-3,com.slimtrade.gui.options.stash,StashRow,StashRow,18,3,1,24,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.options.stash.StashRow
+assignment-3,com.slimtrade.gui.options.stash,StashRow,addListeners,7,1,0,45,0,com.slimtrade.gui.components.AddRemovePanel,com.slimtrade.gui.components.AddRemovePanel
+assignment-3,com.slimtrade.gui.options.stash,StashRow,getData,3,1,0,52,0,,
+assignment-3,com.slimtrade.gui.options.stash,StashRow,setData,6,1,1,60,0,,
+assignment-3,com.slimtrade.gui.options.stash,StashTabCellRenderer,StashTabCellRenderer,4,1,0,10,0,,
+assignment-3,com.slimtrade.gui.options.stash,StashTabCellRenderer,setBackground,6,2,1,17,0,,
+assignment-3,com.slimtrade.gui.options.stash,StashTabCellRenderer,getListCellRendererComponent,12,2,5,24,0,com.slimtrade.gui.options.stash.StashTabCellRenderer,com.slimtrade.gui.options.stash.StashTabCellRenderer
+assignment-3,com.slimtrade.gui.overlays,AbstractOverlayFrame,AbstractOverlayFrame,11,1,2,23,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.overlays,AbstractOverlayFrame,addPanel,3,1,1,35,0,com.slimtrade.gui.messaging.OverlayExamplePanel,com.slimtrade.gui.messaging.OverlayExamplePanel
+assignment-3,com.slimtrade.gui.overlays,AbstractOverlayFrame,removePanel,3,1,1,39,0,com.slimtrade.gui.messaging.OverlayExamplePanel,com.slimtrade.gui.messaging.OverlayExamplePanel
+assignment-3,com.slimtrade.gui.overlays,AbstractOverlayFrame,setAnchor,3,1,1,43,0,com.slimtrade.gui.messaging.OverlayExamplePanel,com.slimtrade.gui.messaging.OverlayExamplePanel
+assignment-3,com.slimtrade.gui.overlays,AbstractOverlayFrame,setExpandDirection,3,1,1,47,0,com.slimtrade.gui.messaging.OverlayExamplePanel,com.slimtrade.gui.messaging.OverlayExamplePanel
+assignment-3,com.slimtrade.gui.overlays,AbstractOverlayFrame,getAnchorPoint,6,3,1,51,0,,
+assignment-3,com.slimtrade.gui.overlays,AbstractOverlayFrame,getAnchorPoint,5,2,1,58,0,,
+assignment-3,com.slimtrade.gui.overlays,AbstractOverlayFrame,onFontChanged,4,2,0,64,0,com.slimtrade.gui.messaging.NotificationPanel,com.slimtrade.gui.messaging.NotificationPanel
+assignment-3,com.slimtrade.gui.overlays,DummyMenubar,DummyMenubar,6,1,1,13,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.overlays,MenubarOverlay,MenubarOverlay,3,1,0,7,0,,
+assignment-3,com.slimtrade.gui.overlays,MessageOverlay,MessageOverlay,10,1,0,21,0,com.slimtrade.gui.overlays.MessageOverlay,com.slimtrade.gui.overlays.MessageOverlay; com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.gui.overlays,MessageOverlay,updateTabDisplay,11,4,0,32,0,com.slimtrade.gui.overlays.AbstractOverlayFrame,com.slimtrade.gui.overlays.AbstractOverlayFrame
+assignment-3,com.slimtrade.gui.overlays,MessageOverlay,onSave,4,1,0,43,0,com.slimtrade.gui.overlays.MessageOverlay,com.slimtrade.gui.overlays.MessageOverlay
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,OverlayInfoDialog,68,3,0,34,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.modules.saving.SaveFile; com.slimtrade.gui.components.LabeledSlider; com.slimtrade.gui.overlays.OverlayInfoDialog
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,addListeners,16,1,0,117,0,com.slimtrade.gui.overlays.AbstractOverlayFrame,com.slimtrade.gui.overlays.AbstractOverlayFrame; com.slimtrade.gui.overlays.OverlayInfoDialog; com.slimtrade.gui.messaging.NotificationPanel; com.slimtrade.gui.managers.FrameManager; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,restoreDefaults,7,1,0,132,0,,
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,adjustBorder,3,1,0,140,0,,
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,onThemeChange,3,1,0,144,0,com.slimtrade.gui.overlays.OverlayInfoDialog,com.slimtrade.gui.overlays.OverlayInfoDialog
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,save,13,1,0,152,0,com.slimtrade.core.utility.TradeUtil,com.slimtrade.core.utility.TradeUtil; com.slimtrade.gui.overlays.AbstractOverlayFrame; com.slimtrade.gui.menubar.MenubarDialog; com.slimtrade.gui.managers.FrameManager; com.slimtrade.gui.managers.MessageManager
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,load,9,1,0,169,0,com.slimtrade.core.utility.TradeUtil,com.slimtrade.core.utility.TradeUtil
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,onFontChanged,4,1,0,181,0,,
+assignment-3,com.slimtrade.gui.pinning,IPinnable,isPinned,0,1,0,7,0,,
+assignment-3,com.slimtrade.gui.pinning,IPinnable,unpin,0,1,0,9,0,,
+assignment-3,com.slimtrade.gui.pinning,IPinnable,applyPin,0,1,1,11,0,,
+assignment-3,com.slimtrade.gui.pinning,IPinnable,getPinTitle,0,1,0,13,0,,
+assignment-3,com.slimtrade.gui.pinning,IPinnable,getPinRect,0,1,0,15,0,,
+assignment-3,com.slimtrade.gui.pinning,PinData,PinData,4,1,2,10,0,,
+assignment-3,com.slimtrade.gui.pinning,PinManager,addAppWindow,3,1,1,15,0,com.slimtrade.gui.pinning.IPinnable,com.slimtrade.gui.pinning.IPinnable
+assignment-3,com.slimtrade.gui.pinning,PinManager,removePinnable,4,2,1,19,0,com.slimtrade.gui.pinning.IPinnable,com.slimtrade.gui.pinning.IPinnable
+assignment-3,com.slimtrade.gui.pinning,PinManager,applyAllPins,5,1,0,24,0,com.slimtrade.gui.pinning.PinManager,com.slimtrade.gui.pinning.PinManager
+assignment-3,com.slimtrade.gui.pinning,PinManager,applyAppPins,6,3,0,30,0,com.slimtrade.gui.pinning.IPinnable,com.slimtrade.gui.pinning.IPinnable
+assignment-3,com.slimtrade.gui.pinning,PinManager,applyCheatSheetPins,6,3,0,37,0,com.slimtrade.gui.pinning.IPinnable,com.slimtrade.gui.pinning.IPinnable
+assignment-3,com.slimtrade.gui.pinning,PinManager,applySearchWindowPins,13,5,0,44,0,com.slimtrade.gui.pinning.IPinnable,com.slimtrade.gui.pinning.IPinnable; com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.pinning,PinManager,saveAllPins,25,10,0,57,0,com.slimtrade.gui.pinning.IPinnable,com.slimtrade.gui.pinning.IPinnable; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.setup,AbstractSetupPanel,AbstractSetupPanel,6,1,1,15,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.setup,AbstractSetupPanel,isSetupValid,0,1,0,22,0,,
+assignment-3,com.slimtrade.gui.setup,AbstractSetupPanel,validateNextButton,3,1,0,24,0,com.slimtrade.gui.setup.AbstractSetupPanel,com.slimtrade.gui.setup.AbstractSetupPanel
+assignment-3,com.slimtrade.gui.setup,ClientSetupPanel,ClientSetupPanel,37,2,1,17,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.setup.AbstractSetupPanel; com.slimtrade.core.managers.SaveManager; com.slimtrade.gui.setup.ClientSetupPanel
+assignment-3,com.slimtrade.gui.setup,ClientSetupPanel,addListeners,10,2,0,59,0,com.slimtrade.gui.setup.AbstractSetupPanel,com.slimtrade.gui.setup.AbstractSetupPanel
+assignment-3,com.slimtrade.gui.setup,ClientSetupPanel,getClientPath,3,1,0,69,0,,
+assignment-3,com.slimtrade.gui.setup,ClientSetupPanel,updateUI,4,2,0,73,0,,
+assignment-3,com.slimtrade.gui.setup,ClientSetupPanel,isSetupValid,4,1,0,79,0,,
+assignment-3,com.slimtrade.gui.setup,FinishSetupPanel,FinishSetupPanel,10,1,0,10,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.setup,SetupWindow,SetupWindow,36,1,0,39,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.setup.SetupWindow
+assignment-3,com.slimtrade.gui.setup,SetupWindow,addListeners,20,4,0,81,0,com.slimtrade.gui.setup.SetupWindow,com.slimtrade.gui.setup.SetupWindow
+assignment-3,com.slimtrade.gui.setup,SetupWindow,finishSetup,11,4,0,101,0,com.slimtrade.gui.setup.ClientSetupPanel,com.slimtrade.gui.setup.ClientSetupPanel; com.slimtrade.modules.saving.SaveFile; com.slimtrade.gui.setup.StashFolderSetupPanel; com.slimtrade.App
+assignment-3,com.slimtrade.gui.setup,SetupWindow,showIndexedPanel,10,3,0,114,0,com.slimtrade.gui.setup.AbstractSetupPanel,com.slimtrade.gui.setup.AbstractSetupPanel
+assignment-3,com.slimtrade.gui.setup,SetupWindow,setup,22,5,0,125,0,com.slimtrade.gui.managers.SetupManager,com.slimtrade.gui.managers.SetupManager
+assignment-3,com.slimtrade.gui.setup,SetupWindow,getStashPanel,3,1,0,148,0,,
+assignment-3,com.slimtrade.gui.setup,StartSetupPanel,StartSetupPanel,8,1,0,10,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.setup,StashFolderSetupPanel,StashFolderSetupPanel,16,1,1,13,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.setup.AbstractSetupPanel
+assignment-3,com.slimtrade.gui.setup,StashFolderSetupPanel,isUsingFolders,3,1,0,32,0,,
+assignment-3,com.slimtrade.gui.setup,StashFolderSetupPanel,isSetupValid,3,1,0,36,0,,
+assignment-3,com.slimtrade.gui.setup,StashSetupPanel,StashSetupPanel,10,1,1,13,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.managers.FrameManager
+assignment-3,com.slimtrade.gui.setup,StashSetupPanel,isSetupValid,3,1,0,26,0,,
+assignment-3,com.slimtrade.gui.stash,GridPanel,cycleGrid,5,2,0,18,0,,
+assignment-3,com.slimtrade.gui.stash,GridPanel,paintComponent,15,4,1,24,0,,
+assignment-3,com.slimtrade.gui.stash,GridPanel,updateUI,6,1,0,41,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.stash,StashHelperBulkWrapper,StashHelperBulkWrapper,15,2,1,22,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.core.trading.TradeOffer
+assignment-3,com.slimtrade.gui.stash,StashHelperBulkWrapper,getHelperPanels,3,1,0,38,0,,
+assignment-3,com.slimtrade.gui.stash,StashHelperBulkWrapper,cleanup,4,2,0,42,0,com.slimtrade.gui.stash.StashHelperPanel,com.slimtrade.gui.stash.StashHelperPanel
+assignment-3,com.slimtrade.gui.stash,StashHelperBulkWrapper,setVisible,6,2,1,47,0,,
+assignment-3,com.slimtrade.gui.stash,StashHelperContainer,StashHelperContainer,10,1,0,27,0,com.slimtrade.gui.stash.StashHelperContainer,com.slimtrade.gui.stash.StashHelperContainer; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.stash,StashHelperContainer,updateLocation,7,2,0,39,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.stash,StashHelperContainer,addHelper,7,1,1,47,0,com.slimtrade.gui.stash.StashHelperContainer,com.slimtrade.gui.stash.StashHelperContainer
+assignment-3,com.slimtrade.gui.stash,StashHelperContainer,addHelper,5,1,1,55,0,com.slimtrade.gui.stash.StashHelperContainer,com.slimtrade.gui.stash.StashHelperContainer
+assignment-3,com.slimtrade.gui.stash,StashHelperContainer,refresh,6,1,0,61,0,com.slimtrade.gui.stash.StashHelperContainer,com.slimtrade.gui.stash.StashHelperContainer; com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.stash,StashHelperContainer,getContentPanel,3,1,0,68,0,,
+assignment-3,com.slimtrade.gui.stash,StashHelperContainer,onThemeChange,3,1,0,72,0,com.slimtrade.gui.stash.StashHelperContainer,com.slimtrade.gui.stash.StashHelperContainer
+assignment-3,com.slimtrade.gui.stash,StashHelperContainer,onSave,14,7,0,77,0,com.slimtrade.gui.stash.StashHelperPanel,com.slimtrade.gui.stash.StashHelperPanel; com.slimtrade.gui.stash.StashHighlighterFrame; com.slimtrade.gui.stash.StashHelperBulkWrapper
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,StashHelperPanel,5,1,1,36,0,com.slimtrade.core.utility.TradeUtil,com.slimtrade.core.utility.TradeUtil; com.slimtrade.gui.stash.StashHelperPanel
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,StashHelperPanel,7,1,2,42,0,com.slimtrade.core.trading.TradeOffer,com.slimtrade.core.trading.TradeOffer; com.slimtrade.core.utility.TradeUtil; com.slimtrade.gui.stash.StashHelperPanel
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,buildPanel,31,5,0,51,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.core.trading.TradeOffer; com.slimtrade.modules.theme.components.AdvancedButton; com.slimtrade.gui.components.CurrencyLabelFactory; com.slimtrade.gui.stash.StashHelperPanel; com.slimtrade.core.data.SaleItem
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,addListeners,28,6,0,86,0,com.slimtrade.gui.stash.StashHelperContainer,com.slimtrade.gui.stash.StashHelperContainer; com.slimtrade.gui.stash.StashHighlighterFrame; com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,click,10,4,1,88,0,com.slimtrade.gui.stash.StashHelperContainer,com.slimtrade.gui.stash.StashHelperContainer; com.slimtrade.core.utility.POEInterface
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,mouseEntered,7,2,1,100,0,com.slimtrade.gui.stash.StashHighlighterFrame,com.slimtrade.gui.stash.StashHighlighterFrame
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,mouseExited,6,2,1,109,0,com.slimtrade.gui.stash.StashHighlighterFrame,com.slimtrade.gui.stash.StashHighlighterFrame
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,getHighlighterFrame,3,1,0,119,0,,
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,createBorder,10,2,1,123,0,,
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,cleanup,7,3,0,134,0,com.slimtrade.gui.stash.StashHelperContainer,com.slimtrade.gui.stash.StashHelperContainer; com.slimtrade.gui.windows.AbstractDialog
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,updateUI,6,2,0,143,0,com.slimtrade.gui.stash.StashHelperPanel,com.slimtrade.gui.stash.StashHelperPanel
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,StashHighlighterFrame,17,1,1,19,0,com.slimtrade.core.trading.TradeOffer,com.slimtrade.core.trading.TradeOffer; com.slimtrade.gui.stash.StashHighlighterFrame
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,updateSizeAndLocation,11,1,0,36,0,com.slimtrade.gui.stash.StashHighlighterFrame,com.slimtrade.gui.stash.StashHighlighterFrame; com.slimtrade.core.saving.savefiles.StashSaveFile
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,isQuadTab,9,6,0,48,0,,
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,startTimer,3,1,0,60,0,,
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,stopTimer,3,1,0,64,0,,
+assignment-3,com.slimtrade.gui.windows,AbstractDialog,AbstractDialog,10,1,0,13,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.windows,AbstractDialog,dispose,4,1,0,24,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.windows,AbstractMainWindow,AbstractMainWindow,3,1,1,5,0,,
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,AbstractMovableDialog,43,13,0,25,0,com.slimtrade.core.jna.GlobalKeyboardListener,com.slimtrade.core.jna.GlobalKeyboardListener; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,mousePressed,8,2,1,54,0,,
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,mouseReleased,5,2,1,64,0,,
+assignment-3,com.slimtrade.gui.windows,AbstractWindow,AbstractWindow,7,1,1,14,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.windows,AbstractWindow,showOverlay,4,2,0,22,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,AbstractWindow,hideOverlay,4,1,0,28,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,BasicDialog,BasicDialog,10,1,0,15,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.windows,BasicDialog,updateBounds,3,1,0,26,0,com.slimtrade.core.utility.TradeUtil,com.slimtrade.core.utility.TradeUtil
+assignment-3,com.slimtrade.gui.windows,BasicDialog,getBufferedBounds,3,1,0,30,0,,
+assignment-3,com.slimtrade.gui.windows,BasicDialog,pack,4,1,0,34,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.windows,BasicDialog,setLocation,4,1,2,40,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.windows,BasicDialog,setLocation,4,1,1,46,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.windows,BasicDialog,setLocationRelativeTo,4,1,1,52,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.windows,BasicDialog,setMinimumSize,4,1,1,58,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.windows,BasicDialog,setSize,4,1,1,64,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.windows,BasicDialog,setSize,4,1,2,70,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.windows,BasicDialog,setBounds,4,1,4,76,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.windows,BasicDialog,setBounds,4,1,1,82,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.gui.windows,CheatSheetWindow,createCheatSheet,9,3,1,15,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager; com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CheatSheetWindow,CheatSheetWindow,16,2,1,25,0,com.slimtrade.core.managers.SaveManager,com.slimtrade.core.managers.SaveManager; com.slimtrade.core.data.CheatSheetData; com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CheatSheetWindow,applyDefaultSizeAndLocation,4,1,0,42,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,CustomDialog,3,1,1,66,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,CustomDialog,3,1,2,70,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,CustomDialog,66,4,3,74,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.theme.components.AdvancedButton; com.slimtrade.gui.windows.CustomDialog; com.slimtrade.gui.pinning.PinManager; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.messaging.NotificationIconButton
+assignment-3,com.slimtrade.gui.windows,CustomDialog,addListeners,27,5,0,155,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog; com.slimtrade.gui.messaging.PinButton; com.slimtrade.gui.pinning.PinManager; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,click,10,3,1,157,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,click,9,3,1,169,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog; com.slimtrade.gui.messaging.PinButton; com.slimtrade.gui.pinning.PinManager
+assignment-3,com.slimtrade.gui.windows,CustomDialog,addWindowMover,33,9,0,182,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog; com.slimtrade.core.jna.GlobalKeyboardListener; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.windows,CustomDialog,mousePressed,10,3,1,184,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,mouseDragged,15,7,1,197,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog; com.slimtrade.core.jna.GlobalKeyboardListener; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.windows,CustomDialog,addResizerListeners,50,7,0,221,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,mouseDragged,9,3,1,228,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,mouseDragged,7,2,1,241,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,mouseDragged,9,3,1,252,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,mouseDragged,7,2,1,265,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,addResizeClickListener,16,4,1,276,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,mousePressed,11,4,1,278,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,getTitleBarHeight,3,1,0,293,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,getBorderSize,3,1,0,297,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,colorBorders,4,1,0,301,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,getResizerSize,3,1,0,307,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,setTitle,5,1,1,313,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,getCleanTitle,3,1,0,320,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,setResizable,4,1,1,324,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,updateResizeVisibility,12,3,0,330,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,onThemeChange,3,1,0,344,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,isPinned,3,1,0,349,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,unpin,7,2,0,354,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog; com.slimtrade.gui.messaging.PinButton; com.slimtrade.gui.pinning.PinManager
+assignment-3,com.slimtrade.gui.windows,CustomDialog,applyPin,10,2,1,363,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog; com.slimtrade.gui.messaging.PinButton
+assignment-3,com.slimtrade.gui.windows,CustomDialog,getPinTitle,3,1,0,374,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,getPinRect,3,1,0,379,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,showOverlay,4,2,0,384,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,hideOverlay,4,1,0,390,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,CustomDialog,getContentPane,3,1,0,396,0,,
+assignment-3,com.slimtrade.gui.windows,CustomDialog,setContentPane,3,1,1,401,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.gui.windows,CustomDialog,dispose,6,1,0,406,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.pinning.PinManager
+assignment-3,com.slimtrade.gui.windows,DebugWindow,DebugWindow,24,2,0,12,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.windows,DummyWindow,DummyWindow,6,1,0,13,0,,
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,HistoryWindow,10,1,0,19,0,,
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,addTradeToPanel,11,4,2,33,0,com.slimtrade.gui.history.HistoryPanel,com.slimtrade.gui.history.HistoryPanel
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,clearHistory,6,1,0,45,0,com.slimtrade.gui.history.HistoryPanel,com.slimtrade.gui.history.HistoryPanel
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,handlePreloadTrade,3,1,1,52,0,com.slimtrade.gui.windows.HistoryWindow,com.slimtrade.gui.windows.HistoryWindow
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,handleTrade,3,1,1,57,0,com.slimtrade.gui.windows.HistoryWindow,com.slimtrade.gui.windows.HistoryWindow
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,onParserInit,3,1,0,62,0,,
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,onParserLoaded,7,1,0,67,0,com.slimtrade.gui.history.HistoryPanel,com.slimtrade.gui.history.HistoryPanel
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,applyDefaultSizeAndLocation,4,1,0,75,0,,
+assignment-3,com.slimtrade.gui.windows,LoadingWindow,LoadingWindow,10,1,1,17,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.windows,LoadingWindow,dispose,4,1,0,28,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,OptionsWindow,56,3,0,33,0,com.slimtrade.gui.windows.OptionsWindow,com.slimtrade.gui.windows.OptionsWindow; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,addListeners,13,1,0,97,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile; com.slimtrade.gui.managers.HotkeyManager; com.slimtrade.gui.windows.OptionsWindow; com.slimtrade.modules.updater.UpdateManager
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,createSidebar,24,2,0,111,0,com.slimtrade.gui.components.StyledLabel,com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,showPanel,4,2,1,143,0,,
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,reloadExampleTrades,4,1,0,148,0,com.slimtrade.gui.options.AbstractMacroOptionPanel,com.slimtrade.gui.options.AbstractMacroOptionPanel
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,showDonationPanel,6,1,0,153,0,com.slimtrade.gui.options.DonationPanel,com.slimtrade.gui.options.DonationPanel; com.slimtrade.gui.windows.OptionsWindow
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,getIgnorePanel,3,1,0,160,0,,
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,getHotkeyPanel,3,1,0,164,0,,
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,showUpdateButton,3,1,0,168,0,,
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,onSave,4,1,0,172,0,com.slimtrade.gui.windows.OptionsWindow,com.slimtrade.gui.windows.OptionsWindow; com.slimtrade.core.saving.savefiles.SettingsSaveFile
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,applyDefaultSizeAndLocation,4,1,0,178,0,,
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,PatchNotesWindow,34,3,0,31,0,com.slimtrade.gui.windows.PatchNotesWindow,com.slimtrade.gui.windows.PatchNotesWindow; com.slimtrade.modules.updater.UpdateManager; com.slimtrade.core.data.PatchNotesEntry
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,addListeners,17,2,0,80,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.gui.windows.OptionsWindow; com.slimtrade.gui.windows.PatchNotesWindow; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,updateSelectedPatchNotes,6,2,0,96,0,,
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,getCleanPatchNotes,14,5,3,103,0,com.slimtrade.core.utility.MarkdownParser,com.slimtrade.core.utility.MarkdownParser
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,setVisible,4,2,1,118,0,,
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,applyDefaultSizeAndLocation,4,1,0,124,0,,
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,StashGridWindow,31,1,0,29,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.modules.saving.SaveFile; com.slimtrade.gui.windows.StashGridWindow
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,addListeners,19,2,0,75,0,com.slimtrade.gui.windows.StashGridWindow,com.slimtrade.gui.windows.StashGridWindow; com.slimtrade.gui.setup.AbstractSetupPanel; com.slimtrade.gui.stash.GridPanel; com.slimtrade.gui.setup.SetupWindow; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,restorePreviousWindowVisibility,4,1,0,93,0,com.slimtrade.App,com.slimtrade.App; com.slimtrade.gui.managers.FrameManager
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,setBoundsUsingGrid,16,2,1,98,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,adjustTranslucentBackground,6,1,0,118,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,onThemeChange,4,1,0,125,0,com.slimtrade.gui.windows.StashGridWindow,com.slimtrade.gui.windows.StashGridWindow
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,save,6,1,0,131,0,com.slimtrade.gui.windows.CustomDialog,com.slimtrade.gui.windows.CustomDialog; com.slimtrade.gui.stash.StashHelperContainer
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,load,3,1,0,139,0,com.slimtrade.gui.windows.StashGridWindow,com.slimtrade.gui.windows.StashGridWindow
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,onFontChanged,3,1,0,144,0,com.slimtrade.gui.windows.StashGridWindow,com.slimtrade.gui.windows.StashGridWindow
+assignment-3,com.slimtrade.gui.windows,TestOverlayFrame,TestOverlayFrame,10,1,0,8,0,,
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,TutorialWindow,28,2,0,27,0,com.slimtrade.gui.windows.TutorialWindow,com.slimtrade.gui.windows.TutorialWindow; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,addListeners,23,3,0,64,0,com.slimtrade.gui.windows.TutorialWindow,com.slimtrade.gui.windows.TutorialWindow; com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,index,3,1,0,85,0,,
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,updatePageLabel,3,1,0,89,0,,
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,updateButtons,4,1,0,93,0,,
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,showFirstPanel,6,1,0,98,0,com.slimtrade.gui.windows.TutorialWindow,com.slimtrade.gui.windows.TutorialWindow
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,createFeatureOverviewPanel,15,1,0,109,0,com.slimtrade.gui.components.TutorialPanel,com.slimtrade.gui.components.TutorialPanel; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,createTradeMessagePanel,12,1,0,125,0,com.slimtrade.gui.components.TutorialPanel,com.slimtrade.gui.components.TutorialPanel
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,createStashHelperPanel,9,1,0,138,0,com.slimtrade.gui.components.TutorialPanel,com.slimtrade.gui.components.TutorialPanel
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,createTradeHistoryPanel,9,1,0,148,0,com.slimtrade.gui.components.TutorialPanel,com.slimtrade.gui.components.TutorialPanel
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,createChatScannerPanel,9,1,0,158,0,com.slimtrade.gui.components.TutorialPanel,com.slimtrade.gui.components.TutorialPanel
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,createSearchPanel,9,1,0,168,0,com.slimtrade.gui.components.TutorialPanel,com.slimtrade.gui.components.TutorialPanel
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,createGettingStartedPanel,8,1,0,178,0,com.slimtrade.gui.components.TutorialPanel,com.slimtrade.gui.components.TutorialPanel; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,applyDefaultSizeAndLocation,6,1,0,187,0,,
+assignment-3,com.slimtrade.gui.windows,UpdateProgressWindow,UpdateProgressWindow,35,2,2,26,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil; com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.components.StyledLabel
+assignment-3,com.slimtrade.gui.windows,UpdateProgressWindow,click,4,2,1,51,0,,
+assignment-3,com.slimtrade.gui.windows,UpdateProgressWindow,onThemeChange,3,1,0,68,0,,
+assignment-3,com.slimtrade.gui.windows,UpdateProgressWindow,dispose,5,1,0,73,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.gui.windows,UpdateProgressWindow,onDownloadProgress,3,1,1,80,0,,
+assignment-3,com.slimtrade.gui.windows,UpdateProgressWindow,onDownloadComplete,2,1,0,85,0,,
+assignment-3,com.slimtrade.gui.windows,UpdateProgressWindow,onDownloadFailed,3,1,0,90,0,,
+assignment-3,com.slimtrade.gui.windows,VisibilityDialog,VisibilityDialog,3,1,0,11,0,com.slimtrade.gui.managers.VisibilityManager,com.slimtrade.gui.managers.VisibilityManager
+assignment-3,com.slimtrade.gui.windows,VisibilityDialog,showOverlay,3,1,0,15,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,VisibilityDialog,hideOverlay,5,1,0,19,0,com.slimtrade.gui.windows.VisibilityDialog,com.slimtrade.gui.windows.VisibilityDialog
+assignment-3,com.slimtrade.gui.windows,VisibilityDialog,setVisible,5,1,1,25,0,,
+assignment-3,com.slimtrade.modules.filetailing,FileTailer,FileTailer,6,1,4,21,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.modules.filetailing,FileTailer,stop,3,1,0,28,0,,
+assignment-3,com.slimtrade.modules.filetailing,FileTailer,isLoaded,3,1,0,32,0,,
+assignment-3,com.slimtrade.modules.filetailing,FileTailer,createTailer,5,1,4,36,0,com.slimtrade.modules.filetailing.FileTailer,com.slimtrade.modules.filetailing.FileTailer
+assignment-3,com.slimtrade.modules.filetailing,FileTailer,launchThread,5,1,1,45,0,,
+assignment-3,com.slimtrade.modules.filetailing,FileTailer,run,26,5,0,51,0,com.slimtrade.modules.filetailing.FileTailerListener,com.slimtrade.modules.filetailing.FileTailerListener
+assignment-3,com.slimtrade.modules.filetailing,FileTailerListener,init,0,1,1,5,0,,
+assignment-3,com.slimtrade.modules.filetailing,FileTailerListener,fileNotFound,0,1,0,7,0,,
+assignment-3,com.slimtrade.modules.filetailing,FileTailerListener,fileRotated,0,1,0,9,0,,
+assignment-3,com.slimtrade.modules.filetailing,FileTailerListener,onLoad,0,1,0,11,0,,
+assignment-3,com.slimtrade.modules.filetailing,FileTailerListener,handle,0,1,1,13,0,,
+assignment-3,com.slimtrade.modules.listening,ListenManager,addListener,3,1,1,9,0,,
+assignment-3,com.slimtrade.modules.listening,ListenManager,removeListener,3,1,1,13,0,,
+assignment-3,com.slimtrade.modules.listening,ListenManager,removeAllListeners,3,1,0,17,0,,
+assignment-3,com.slimtrade.modules.listening,ListenManagerPanel,addListener,3,1,1,10,0,,
+assignment-3,com.slimtrade.modules.listening,ListenManagerPanel,removeListener,3,1,1,14,0,,
+assignment-3,com.slimtrade.modules.listening,ListenManagerPanel,removeAllListeners,3,1,0,18,0,,
+assignment-3,com.slimtrade.modules.saving,ISavable,save,0,1,0,5,0,,
+assignment-3,com.slimtrade.modules.saving,ISavable,load,0,1,0,7,0,,
+assignment-3,com.slimtrade.modules.saving,ISaveListener,onSave,0,1,0,5,0,,
+assignment-3,com.slimtrade.modules.saving,SaveFile,SaveFile,4,1,2,36,0,,
+assignment-3,com.slimtrade.modules.saving,SaveFile,saveFileVersion,3,1,0,42,0,,
+assignment-3,com.slimtrade.modules.saving,SaveFile,loadedExistingData,3,1,0,46,0,,
+assignment-3,com.slimtrade.modules.saving,SaveFile,fileExists,4,1,0,50,0,,
+assignment-3,com.slimtrade.modules.saving,SaveFile,registerSavable,3,1,1,55,0,,
+assignment-3,com.slimtrade.modules.saving,SaveFile,registerSavableContainer,10,4,1,65,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.modules.saving,SaveFile,revertChanges,5,2,0,81,0,com.slimtrade.modules.saving.ISavable,com.slimtrade.modules.saving.ISavable
+assignment-3,com.slimtrade.modules.saving,SaveFile,saveToDisk,3,1,0,90,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.modules.saving,SaveFile,saveToDisk,20,4,1,94,0,com.slimtrade.modules.saving.ISavable,com.slimtrade.modules.saving.ISavable; com.slimtrade.core.saving.savefiles.AbstractSaveFile; com.slimtrade.modules.saving.ISaveListener
+assignment-3,com.slimtrade.modules.saving,SaveFile,loadFromDisk,19,3,0,117,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile; com.slimtrade.modules.updater.ZLogger; com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.modules.saving,SaveFile,initData,8,1,0,140,0,,
+assignment-3,com.slimtrade.modules.saving,SaveFile,fetchSaveFileVersion,11,3,0,153,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.modules.saving,SaveFile,triggerSaveAfterIdle,13,2,0,164,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.modules.saving,SaveFile,run,3,1,0,174,0,com.slimtrade.modules.saving.SaveFile,com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.modules.saving,SaveFile,getFileAsString,14,2,1,182,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.modules.stopwatch,Stopwatch,start,3,1,0,10,0,,
+assignment-3,com.slimtrade.modules.stopwatch,Stopwatch,getElapsedSeconds,5,1,0,14,0,,
+assignment-3,com.slimtrade.modules.stopwatch,Stopwatch,getElapsedMilliSeconds,5,1,0,20,0,,
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,AdvancedButton,3,1,0,27,0,,
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,AdvancedButton,32,3,1,31,0,com.slimtrade.modules.theme.components.AdvancedButton,com.slimtrade.modules.theme.components.AdvancedButton
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,mousePressed,6,2,1,37,0,com.slimtrade.modules.theme.components.AdvancedButton,com.slimtrade.modules.theme.components.AdvancedButton
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,mouseReleased,6,2,1,45,0,com.slimtrade.modules.theme.components.AdvancedButton,com.slimtrade.modules.theme.components.AdvancedButton
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,mouseEntered,6,1,1,53,0,com.slimtrade.modules.theme.components.AdvancedButton,com.slimtrade.modules.theme.components.AdvancedButton
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,mouseExited,5,1,1,61,0,com.slimtrade.modules.theme.components.AdvancedButton,com.slimtrade.modules.theme.components.AdvancedButton
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,adjustState,9,3,0,70,0,,
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,setBackgroundKey,3,1,1,79,0,,
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,setForegroundKey,3,1,1,83,0,,
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,setAllowedMouseButtons,4,1,1,87,0,,
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,setAllowedMouseButtons,6,2,1,92,0,,
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,setBackgroundHover,4,1,1,99,0,,
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,setBackground,4,1,1,104,0,,
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,updateUI,5,3,0,110,0,com.slimtrade.modules.theme.components.AdvancedButton,com.slimtrade.modules.theme.components.AdvancedButton
+assignment-3,com.slimtrade.modules.theme.components,ColorCheckbox,ColorCheckbox,4,1,0,13,0,,
+assignment-3,com.slimtrade.modules.theme.components,ColorCombo,ColorCombo,9,2,0,11,0,,
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,ColorPanel,2,1,0,15,0,,
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,ColorPanel,3,1,1,22,0,,
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,setBackgroundKey,3,1,1,29,0,,
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,setColorMultiplier,5,3,1,33,0,,
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,updateUI,10,4,0,39,0,com.slimtrade.modules.theme.components.ColorPanel,com.slimtrade.modules.theme.components.ColorPanel
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,applyRange,5,3,3,53,0,,
+assignment-3,com.slimtrade.modules.theme,IDetailedFontChangeListener,onFontStyleChanged,0,1,0,6,0,,
+assignment-3,com.slimtrade.modules.theme,IDetailedFontChangeListener,onFontSizeChanged,0,1,0,8,0,,
+assignment-3,com.slimtrade.modules.theme,IDetailedFontChangeListener,onIconSizeChanged,0,1,0,10,0,,
+assignment-3,com.slimtrade.modules.theme,IFontChangeListener,onFontChanged,0,1,0,8,0,,
+assignment-3,com.slimtrade.modules.theme,IThemeListener,onThemeChange,0,1,0,5,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeColorVariantSetting,ThemeColorVariantSetting,6,1,1,12,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeColorVariantSetting,ThemeColorVariantSetting,6,1,2,19,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeColorVariantSetting,ThemeColorVariantSetting,6,1,3,26,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeColorVariantSetting,variant,3,1,0,33,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeColorVariantSetting,opposite,3,1,0,37,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeColorVariantSetting,colorBlind,4,2,0,41,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeColorVariantSetting,setColorBlind,4,1,1,46,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,addFrame,4,2,1,57,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,removeFrame,3,1,1,62,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getFrames,3,1,0,66,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,addStickyCombo,3,1,1,72,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,removeStickyCombo,3,1,1,76,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,setTheme,3,1,1,80,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,setTheme,34,9,2,84,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.modules.theme.IThemeListener
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getCurrentTheme,4,2,0,118,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,patchTheme,17,3,0,124,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getIcon,3,1,1,144,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getIcon,3,1,2,148,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getIcon,3,1,2,152,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getIcon,26,7,3,156,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getColorIcon,3,1,1,182,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getColorIcon,17,4,2,186,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getColorImage,15,3,2,205,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,setFont,14,6,1,221,0,com.slimtrade.modules.stopwatch.Stopwatch,com.slimtrade.modules.stopwatch.Stopwatch; com.slimtrade.core.managers.FontManager; com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,refreshDefaultFonts,14,4,0,236,0,com.slimtrade.core.managers.FontManager,com.slimtrade.core.managers.FontManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,changeComponentFont,9,3,2,251,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,setFontSize,11,3,1,261,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,setFontSizeRecursive,9,3,2,274,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getCachedIconSize,3,1,0,284,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,setIconSize,16,4,1,288,0,com.slimtrade.gui.windows.BasicDialog,com.slimtrade.gui.windows.BasicDialog
+assignment-3,com.slimtrade.modules.theme,ThemeManager,setIconSizeRecursive,10,4,2,308,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager; com.slimtrade.gui.buttons.BasicIconButton
+assignment-3,com.slimtrade.modules.theme,ThemeManager,recursiveUpdateUI,6,2,1,319,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,checkFontChange,11,9,0,326,0,com.slimtrade.modules.theme.IDetailedFontChangeListener,com.slimtrade.modules.theme.IDetailedFontChangeListener; com.slimtrade.modules.theme.IFontChangeListener
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getDarkerColor,4,2,2,345,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getLighterColor,4,2,2,350,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getBrightness,3,1,1,355,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,isDark,3,1,1,359,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,modify,8,1,2,363,0,com.slimtrade.core.utility.ZUtil,com.slimtrade.core.utility.ZUtil
+assignment-3,com.slimtrade.modules.theme,ThemeManager,lighter,3,1,1,372,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,lighter,3,1,2,376,0,com.slimtrade.modules.theme.ThemeManager,com.slimtrade.modules.theme.ThemeManager
+assignment-3,com.slimtrade.modules.theme,ThemeManager,colorIntValue,3,1,1,380,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,adjustAlpha,3,1,2,384,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,debugKeyValueDump,11,2,0,388,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,addThemeListener,3,1,1,405,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,removeThemeListener,3,1,1,409,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,addFontListener,3,1,1,413,0,,
+assignment-3,com.slimtrade.modules.theme,ThemeManager,removeFontChangeListener,3,1,1,417,0,,
+assignment-3,com.slimtrade.modules.updater.data,AppInfo,AppInfo,6,1,3,10,0,,
+assignment-3,com.slimtrade.modules.updater.data,AppVersion,AppVersion,33,5,1,26,0,,
+assignment-3,com.slimtrade.modules.updater.data,AppVersion,compareTo,15,12,1,57,0,,
+assignment-3,com.slimtrade.modules.updater.data,AppVersion,equals,5,2,1,74,0,com.slimtrade.modules.updater.data.AppVersion,com.slimtrade.modules.updater.data.AppVersion
+assignment-3,com.slimtrade.modules.updater.data,AppVersion,toString,3,1,0,81,0,,
+assignment-3,com.slimtrade.modules.updater.data,ReleaseVersion,ReleaseVersion,8,1,5,18,0,,
+assignment-3,com.slimtrade.modules.updater.data,ReleaseVersion,ReleaseVersion,3,1,1,27,0,,
+assignment-3,com.slimtrade.modules.updater.data,ReleaseVersion,ReleaseVersion,9,1,1,31,0,,
+assignment-3,com.slimtrade.modules.updater.data,ReleaseVersion,compareTo,3,1,1,41,0,com.slimtrade.modules.updater.data.AppVersion,com.slimtrade.modules.updater.data.AppVersion
+assignment-3,com.slimtrade.modules.updater.data,ReleaseVersion,toString,3,1,0,46,0,com.slimtrade.modules.updater.data.AppVersion,com.slimtrade.modules.updater.data.AppVersion
+assignment-3,com.slimtrade.modules.updater,IUpdateProgressListener,onDownloadProgress,0,1,1,10,0,,
+assignment-3,com.slimtrade.modules.updater,IUpdateProgressListener,onDownloadComplete,0,1,0,12,0,,
+assignment-3,com.slimtrade.modules.updater,IUpdateProgressListener,onDownloadFailed,0,1,0,14,0,,
+assignment-3,com.slimtrade.modules.updater,UpdateManager,UpdateManager,9,2,5,74,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger; com.slimtrade.modules.updater.UpdateUtil
+assignment-3,com.slimtrade.modules.updater,UpdateManager,runUpdateProcess,21,2,0,92,0,com.slimtrade.App,com.slimtrade.App; com.slimtrade.modules.updater.UpdateManager; com.slimtrade.modules.updater.ZLogger; com.slimtrade.gui.managers.VisibilityManager
+assignment-3,com.slimtrade.modules.updater,UpdateManager,runUpdateProcessFromSwing,3,1,0,115,0,,
+assignment-3,com.slimtrade.modules.updater,UpdateManager,continueUpdateProcess,30,11,1,122,0,com.slimtrade.modules.updater.UpdateManager,com.slimtrade.modules.updater.UpdateManager
+assignment-3,com.slimtrade.modules.updater,UpdateManager,isUpdateAvailable,3,1,0,161,0,com.slimtrade.modules.updater.UpdateManager,com.slimtrade.modules.updater.UpdateManager
+assignment-3,com.slimtrade.modules.updater,UpdateManager,isUpdateAvailable,17,7,1,170,0,com.slimtrade.modules.updater.data.AppVersion,com.slimtrade.modules.updater.data.AppVersion; com.slimtrade.modules.updater.UpdateManager; com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,UpdateManager,runProcess,21,1,3,194,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,UpdateManager,fetchLatestRelease,5,2,0,222,0,com.slimtrade.modules.updater.UpdateManager,com.slimtrade.modules.updater.UpdateManager
+assignment-3,com.slimtrade.modules.updater,UpdateManager,fetchLatestReleaseFromAll,13,4,0,228,0,com.slimtrade.modules.updater.UpdateManager,com.slimtrade.modules.updater.UpdateManager
+assignment-3,com.slimtrade.modules.updater,UpdateManager,getPatchNotes,3,1,1,242,0,com.slimtrade.modules.updater.UpdateManager,com.slimtrade.modules.updater.UpdateManager
+assignment-3,com.slimtrade.modules.updater,UpdateManager,getPatchNotes,18,7,2,246,0,com.slimtrade.modules.updater.UpdateManager,com.slimtrade.modules.updater.UpdateManager; com.slimtrade.modules.updater.data.AppVersion; com.slimtrade.core.saving.savefiles.PatchNotesSaveFile; com.slimtrade.modules.saving.SaveFile
+assignment-3,com.slimtrade.modules.updater,UpdateManager,fetchDataFromGitHub,24,2,1,269,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,UpdateManager,getLaunchPath,11,2,0,297,0,com.slimtrade.modules.updater.UpdateUtil,com.slimtrade.modules.updater.UpdateUtil
+assignment-3,com.slimtrade.modules.updater,UpdateManager,getLatestRelease,3,1,0,308,0,,
+assignment-3,com.slimtrade.modules.updater,UpdateManager,getCurrentUpdateAction,3,1,0,312,0,,
+assignment-3,com.slimtrade.modules.updater,UpdateManager,addProgressListener,3,1,1,320,0,,
+assignment-3,com.slimtrade.modules.updater,UpdateManager,removeProgressListener,3,1,1,324,0,,
+assignment-3,com.slimtrade.modules.updater,UpdateManager,downloadFile,39,8,0,332,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger; com.slimtrade.modules.updater.UpdateManager; com.slimtrade.modules.updater.IUpdateProgressListener
+assignment-3,com.slimtrade.modules.updater,UpdateManager,patch,25,2,0,377,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,UpdateManager,clean,24,2,0,404,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,UpdateManager,runPeriodicUpdateCheck,14,2,0,430,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger; com.slimtrade.modules.updater.UpdateManager; com.slimtrade.gui.managers.FrameManager
+assignment-3,com.slimtrade.modules.updater,UpdateUtil,validateDirectory,5,2,1,8,0,,
+assignment-3,com.slimtrade.modules.updater,UpdateUtil,cleanFileSeparators,3,1,1,14,0,,
+assignment-3,com.slimtrade.modules.updater,ZLogger,open,29,6,2,33,0,com.slimtrade.modules.updater.UpdateUtil,com.slimtrade.modules.updater.UpdateUtil
+assignment-3,com.slimtrade.modules.updater,ZLogger,err,3,1,1,62,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,ZLogger,log,3,1,1,66,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,ZLogger,log,15,4,2,70,0,,
+assignment-3,com.slimtrade.modules.updater,ZLogger,log,3,2,1,85,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,ZLogger,log,3,2,1,90,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,ZLogger,err,3,2,1,95,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,ZLogger,getLaunchArg,3,1,0,100,0,,
+assignment-3,com.slimtrade.modules.updater,ZLogger,close,12,2,0,104,0,,
+assignment-3,com.slimtrade.modules.updater,ZLogger,cleanOldLogFiles,28,6,0,116,0,com.slimtrade.modules.updater.ZLogger,com.slimtrade.modules.updater.ZLogger
+assignment-3,com.slimtrade.modules.updater,ZLogger,fileNameToTimestamp,3,1,1,146,0,,
+assignment-3,(default package),AppTest,sampleTest,3,1,0,7,1,,
+assignment-3,(default package),ParserTest,beforeAll,3,1,0,21,0,,
+assignment-3,(default package),ParserTest,beforeEach,10,2,0,26,0,com.slimtrade.core.chatparser.ChatParser,com.slimtrade.core.chatparser.ChatParser
+assignment-3,(default package),ParserTest,waitForParser,17,3,0,38,0,,
+assignment-3,(default package),ParserTest,dndTest,13,2,0,55,1,com.slimtrade.core.chatparser.ChatParser,com.slimtrade.core.chatparser.ChatParser
+assignment-3,(default package),ParserTest,scannerTest,14,1,0,69,1,com.slimtrade.core.chatparser.ChatParser,com.slimtrade.core.chatparser.ChatParser; com.slimtrade.modules.saving.SaveFile
+assignment-3,(default package),ParserTest,onParserLoaded,3,1,0,84,0,,
+assignment-3,(default package),ReleaseTest,checkAppSettings,9,2,0,17,1,com.slimtrade.App,com.slimtrade.App
+assignment-3,(default package),ReleaseTest,checkDebugFlags,13,1,0,29,1,,

@@ -1,0 +1,357 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+assignment-3,com.slimtrade,App,main,Complex Method,Cyclomatic complexity of the method is 9,72
+assignment-3,com.slimtrade,App,main,Long Statement,The length of the statement "updateManager=new UpdateManager(References.AUTHOR`References.GITHUB_REPO`SaveManager.getSaveDirectory()`appInfo`appInfo.appVersion.isPreRelease);" is 145.,72
+assignment-3,com.slimtrade,App,readAppInfo,Long Statement,The length of the statement "InputStream stream=new BufferedInputStream(Objects.requireNonNull(UpdateManager.class.getClassLoader().getResourceAsStream("project.properties")));" is 147.,262
+assignment-3,com.slimtrade,App,readAppInfo,Long Statement,The length of the statement "ZLogger.err("Properties not found! Create a 'project.properties' file in the resources folder` then add the lines 'version=${project.version}' and 'artifactId=${project.artifactId}'.");" is 185.,262
+assignment-3,com.slimtrade.core.chatparser,ChatParser,parseLine,Complex Method,Cyclomatic complexity of the method is 12,72
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handleChatScanner,Complex Conditional,The conditional expression entry.allowGlobalAndTradeChat && (messageType.equals("#") || messageType.equals("$")) is complex.,111
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handleChatScanner,Complex Method,Cyclomatic complexity of the method is 20,111
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handleChatScanner,Long Statement,The length of the statement "for ( IChatScannerListener listener : chatScannerListeners) listener.onScannerMessage(tailer.isLoaded()`entry`playerMessage);" is 125.,111
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handleTradeOffer,Complex Method,Cyclomatic complexity of the method is 8,173
+assignment-3,com.slimtrade.core.chatparser,ChatParser,handleDndToggle,Complex Method,Cyclomatic complexity of the method is 9,201
+assignment-3,com.slimtrade.core.data,IgnoreItemData,getRemainingMinutes,Magic Number,The method contains a magic number: 1000f,42
+assignment-3,com.slimtrade.core.data,IgnoreItemData,getRemainingMinutes,Magic Number,The method contains a magic number: 60,42
+assignment-3,com.slimtrade.core.data,SaleItem,getItems,Complex Method,Cyclomatic complexity of the method is 8,31
+assignment-3,com.slimtrade.core.data,SaleItem,getItems,Magic Number,The method contains a magic number: 2,31
+assignment-3,com.slimtrade.core.data,SaleItem,getItems,Magic Number,The method contains a magic number: 2,31
+assignment-3,com.slimtrade.core.hotkeys,HotkeyData,hashCode,Magic Number,The method contains a magic number: 17,37
+assignment-3,com.slimtrade.core.hotkeys,HotkeyData,hashCode,Magic Number,The method contains a magic number: 31,37
+assignment-3,com.slimtrade.core.hotkeys,HotkeyData,hashCode,Magic Number,The method contains a magic number: 31,37
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,nativeKeyPressed,Complex Conditional,The conditional expression e.getKeyCode() == NativeKeyEvent.VC_CONTROL_L || e.getKeyCode() == NativeKeyEvent.VC_CONTROL_R || e.getKeyCode() == NativeKeyEvent.VC_ALT_L || e.getKeyCode() == NativeKeyEvent.VC_ALT_R || e.getKeyCode() == NativeKeyEvent.VC_SHIFT_L || e.getKeyCode() == NativeKeyEvent.VC_SHIFT_R || e.getKeyCode() == NativeKeyEvent.VC_NUM_LOCK || e.getKeyCode() == NativeKeyEvent.VC_SCROLL_LOCK || e.getKeyCode() == NativeKeyEvent.VC_CAPS_LOCK || e.getKeyCode() == NativeKeyEvent.META_L_MASK || e.getKeyCode() == NativeKeyEvent.VC_UNDEFINED || NativeKeyEvent.getKeyText(e.getKeyCode()).contains("Unknown") is complex.,21
+assignment-3,com.slimtrade.core.jna,GlobalKeyboardListener,nativeKeyPressed,Long Statement,The length of the statement "if (e.getKeyCode() == NativeKeyEvent.VC_CONTROL_L || e.getKeyCode() == NativeKeyEvent.VC_CONTROL_R || e.getKeyCode() == NativeKeyEvent.VC_ALT_L || e.getKeyCode() == NativeKeyEvent.VC_ALT_R || e.getKeyCode() == NativeKeyEvent.VC_SHIFT_L || e.getKeyCode() == NativeKeyEvent.VC_SHIFT_R || e.getKeyCode() == NativeKeyEvent.VC_NUM_LOCK || e.getKeyCode() == NativeKeyEvent.VC_SCROLL_LOCK || e.getKeyCode() == NativeKeyEvent.VC_CAPS_LOCK || e.getKeyCode() == NativeKeyEvent.META_L_MASK || e.getKeyCode() == NativeKeyEvent.VC_UNDEFINED || NativeKeyEvent.getKeyText(e.getKeyCode()).contains("Unknown")) {" is 595.,21
+assignment-3,com.slimtrade.core.managers,AudioManager,addDefaultSoundFiles,Magic Number,The method contains a magic number: 5,50
+assignment-3,com.slimtrade.core.managers,AudioManager,addDefaultSoundFiles,Magic Number,The method contains a magic number: 9,50
+assignment-3,com.slimtrade.core.managers,AudioManager,getClip,Empty catch clause,The method has an empty catch block.,126
+assignment-3,com.slimtrade.core.managers,AudioManager,percentToRange,Magic Number,The method contains a magic number: 100,221
+assignment-3,com.slimtrade.core.managers,FontManager,loadFonts,Long Statement,The length of the statement "koreanFont=Font.createFont(Font.TRUETYPE_FONT`Objects.requireNonNull(FontManager.class.getResourceAsStream("/font/IBMPlexSansKR-Regular.ttf")));" is 144.,50
+assignment-3,com.slimtrade.core.managers,FontManager,loadFonts,Long Statement,The length of the statement "thaiFont=Font.createFont(Font.TRUETYPE_FONT`Objects.requireNonNull(FontManager.class.getResourceAsStream("/font/IBMPlexSansThai-Regular.ttf")));" is 144.,50
+assignment-3,com.slimtrade.core.managers,FontManager,loadFonts,Magic Number,The method contains a magic number: 12,50
+assignment-3,com.slimtrade.core.managers,FontManager,setPreferredFont,Magic Number,The method contains a magic number: 12,70
+assignment-3,com.slimtrade.core.managers,FontManager,getFont,Complex Method,Cyclomatic complexity of the method is 14,84
+assignment-3,com.slimtrade.core.managers,FontManager,getAllFonts,Magic Number,The method contains a magic number: 12,107
+assignment-3,com.slimtrade.core.managers,LockManager,closeLock,Empty catch clause,The method has an empty catch block.,47
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,setMode,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@50c448ff,34
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,startListenerThread,Complex Method,Cyclomatic complexity of the method is 8,92
+assignment-3,com.slimtrade.core.managers,QuickPasteManager,startListenerThread,Empty catch clause,The method has an empty catch block.,92
+assignment-3,com.slimtrade.core.managers,SaveManager,getCommonDirectories,Magic Number,The method contains a magic number: 65,132
+assignment-3,com.slimtrade.core.managers,SaveManager,getCommonDirectories,Magic Number,The method contains a magic number: 90,132
+assignment-3,com.slimtrade.core.saving.legacy,SaveFilePatcherManager,debugReport,Complex Method,Cyclomatic complexity of the method is 8,93
+assignment-3,com.slimtrade.core.saving.legacy,SaveFilePatcherManager,debugReport,Long Statement,The length of the statement "ZLogger.log("=== Comparison Report for [" + from.getClass().getSimpleName() + "] & ["+ to.getClass().getSimpleName()+ "] ===");" is 127.,93
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherOverlay0to1,patch,Long Statement,The length of the statement "SaveFile<LegacyOverlaySave0> legacySaveFile=new SaveFile<>(SaveManager.getSaveDirectory() + "overlay.json"`LegacyOverlaySave0.class);" is 133.,20
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherOverlay0to1,patch,Long Statement,The length of the statement "int messageHeightIncrease=LegacyOverlaySave0.DEFAULT_MESSAGE_SIZE.height + LegacyOverlaySave0.TOTAL_BORDER_SIZE + legacyData.messageSizeIncrease;" is 145.,20
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherOverlay0to1,patch,Long Statement,The length of the statement "if (legacyData.menubarButtonLocation == LegacyOverlaySave0.LegacyMenubarButtonLocation.NE || legacyData.menubarButtonLocation == LegacyOverlaySave0.LegacyMenubarButtonLocation.SE) menubarLocation.x+=legacyData.menubarWidth;" is 223.,20
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherOverlay0to1,patch,Long Statement,The length of the statement "if (legacyData.menubarButtonLocation == LegacyOverlaySave0.LegacyMenubarButtonLocation.SW || legacyData.menubarButtonLocation == LegacyOverlaySave0.LegacyMenubarButtonLocation.SE) menubarLocation.y+=legacyData.menubarHeight;" is 224.,20
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner0to1,patch,Long Statement,The length of the statement "SaveFile<LegacyScannerSave0> legacySaveFile=new SaveFile<>(SaveManager.getSaveDirectory() + "scanner.json"`LegacyScannerSave0.class);" is 133.,20
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherScanner1to2,requiresPatch,Magic Number,The method contains a magic number: 2,10
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings0to1,handleFieldConversions,Complex Method,Cyclomatic complexity of the method is 9,59
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings0to1,handleFieldConversions,Long Statement,The length of the statement "for ( LegacySettingsSave0.LegacyMacroButton macro : legacySaveFile.incomingMacros) incomingMacros.add(macro.toMacroButton());" is 125.,59
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings0to1,handleFieldConversions,Long Statement,The length of the statement "for ( LegacySettingsSave0.LegacyMacroButton macro : legacySaveFile.outgoingMacros) outgoingMacros.add(macro.toMacroButton());" is 125.,59
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherSettings1to2,requiresPatch,Magic Number,The method contains a magic number: 2,9
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherStash0to1,patch,Long Statement,The length of the statement "SaveFile<LegacyStashSave0> legacySaveFile=new SaveFile<>(SaveManager.getSaveDirectory() + "stash.json"`LegacyStashSave0.class);" is 127.,19
+assignment-3,com.slimtrade.core.saving.legacy.patcher,PatcherStash0to1,patch,Long Statement,The length of the statement "SaveManager.stashSaveFile.data.gridRect=new Rectangle(legacyData.gridX`legacyData.gridY`legacyData.gridWidth`legacyData.gridHeight);" is 132.,19
+assignment-3,com.slimtrade.core.saving.savefiles,ChatScannerSaveFile,getTargetFileVersion,Magic Number,The method contains a magic number: 2,13
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 5,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 25,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 7,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 15,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 22,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 4,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 5,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 17,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 14,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 24,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 22,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,SettingsSaveFile,Magic Number,The method contains a magic number: 2,118
+assignment-3,com.slimtrade.core.saving.savefiles,SettingsSaveFile,getTargetFileVersion,Magic Number,The method contains a magic number: 2,147
+assignment-3,com.slimtrade.core.saving.savefiles,StashSaveFile,buildCache,Magic Number,The method contains a magic number: 12f,16
+assignment-3,com.slimtrade.core.saving.savefiles,StashSaveFile,buildCache,Magic Number,The method contains a magic number: 12f,16
+assignment-3,com.slimtrade.core.saving.savefiles,StashSaveFile,buildCache,Magic Number,The method contains a magic number: 24f,16
+assignment-3,com.slimtrade.core.saving.savefiles,StashSaveFile,buildCache,Magic Number,The method contains a magic number: 24f,16
+assignment-3,com.slimtrade.core.trading,TradeOffer,getMessageType,Complex Method,Cyclomatic complexity of the method is 15,114
+assignment-3,com.slimtrade.core.trading,TradeOffer,getMessageType,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6d339ac,114
+assignment-3,com.slimtrade.core.trading,TradeOffer,getStashTabColor,Complex Method,Cyclomatic complexity of the method is 8,139
+assignment-3,com.slimtrade.core.trading,TradeOffer,getExampleTrade,Magic Number,The method contains a magic number: 100,192
+assignment-3,com.slimtrade.core.trading,TradeOffer,getExampleTrade,Magic Number,The method contains a magic number: 3,192
+assignment-3,com.slimtrade.core.trading,TradeOffer,getExampleTrade,Magic Number,The method contains a magic number: 5,192
+assignment-3,com.slimtrade.core.utility,MacroButton,MacroButton,Long Parameter List,The method has 6 parameters. ,26
+assignment-3,com.slimtrade.core.utility,POEInterface,pasteFromClipboard,Magic Number,The method contains a magic number: 10,49
+assignment-3,com.slimtrade.core.utility,POEInterface,runCommand,Magic Number,The method contains a magic number: 60,113
+assignment-3,com.slimtrade.core.utility,POEInterface,runCommand,Magic Number,The method contains a magic number: 70,113
+assignment-3,com.slimtrade.core.utility,POEInterface,focusGame,Magic Number,The method contains a magic number: 512,133
+assignment-3,com.slimtrade.core.utility,POEInterface,focusGame,Magic Number,The method contains a magic number: 512,133
+assignment-3,com.slimtrade.core.utility,POEInterface,focusGame,Magic Number,The method contains a magic number: 100,133
+assignment-3,com.slimtrade.core.utility,POEInterface,getFocusedWindowTitle,Magic Number,The method contains a magic number: 2,190
+assignment-3,com.slimtrade.core.utility,POEInterface,searchInStash,Magic Number,The method contains a magic number: 100,207
+assignment-3,com.slimtrade.core.utility,TradeUtil,getBufferedBounds,Magic Number,The method contains a magic number: 3,51
+assignment-3,com.slimtrade.core.utility,TradeUtil,getBufferedBounds,Magic Number,The method contains a magic number: 2,51
+assignment-3,com.slimtrade.core.utility,TradeUtil,getBufferedBounds,Magic Number,The method contains a magic number: 2,51
+assignment-3,com.slimtrade.core.utility,TradeUtil,getAudioPercent,Magic Number,The method contains a magic number: 100,60
+assignment-3,com.slimtrade.core.utility,TradeUtil,getAudioVolume,Magic Number,The method contains a magic number: 100.0,66
+assignment-3,com.slimtrade.core.utility,TradeUtil,isValidImagePath,Complex Conditional,The conditional expression !f.exists() || contentType == null || !contentType.startsWith("image") is complex.,134
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 1000,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 60,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 60,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 1000,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 60,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 60,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 60,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 1000,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 24,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 60,173
+assignment-3,com.slimtrade.core.utility,TradeUtil,dateDifference,Magic Number,The method contains a magic number: 30,173
+assignment-3,com.slimtrade.core.utility,ZUtil,getCommandList,Complex Method,Cyclomatic complexity of the method is 10,49
+assignment-3,com.slimtrade.core.utility,ZUtil,getCommandList,Long Statement,The length of the statement "clean=clean.replaceAll("\\{price}"`NUMBER_FORMATTER.format(pasteReplacement.priceQuantity) + " " + pasteReplacement.priceName);" is 127.,49
+assignment-3,com.slimtrade.core.utility,ZUtil,getBufferedReader,Long Statement,The length of the statement "streamReader=new InputStreamReader(Objects.requireNonNull(ZUtil.class.getResourceAsStream(path))`StandardCharsets.UTF_8);" is 121.,266
+assignment-3,com.slimtrade.gui.buttons,BasicIconButton,updateUI,Magic Number,The method contains a magic number: 3,50
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerCustomizerPanel,getData,Long Statement,The length of the statement "return new ChatScannerEntry(headerLabel.getText()`searchTermsPanel.getSearchTerms()`searchTermsPanel.getIgnoreTerms()`macroPanel.getMacros()`chatCheckbox.isSelected()`whisperCheckbox.isSelected()`metaCheckbox.isSelected());" is 223.,64
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerEntry,ChatScannerEntry,Long Parameter List,The method has 7 parameters. ,50
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,applyDefaultSizeAndLocation,Magic Number,The method contains a magic number: 900,312
+assignment-3,com.slimtrade.gui.chatscanner,ChatScannerWindow,applyDefaultSizeAndLocation,Magic Number,The method contains a magic number: 700,312
+assignment-3,com.slimtrade.gui.components,AudioListCellRenderer,getListCellRendererComponent,Long Parameter List,The method has 5 parameters. ,18
+assignment-3,com.slimtrade.gui.components,FontListCellRenderer,getListCellRendererComponent,Long Parameter List,The method has 5 parameters. ,13
+assignment-3,com.slimtrade.gui.components,InsetBorder,paintBorder,Long Parameter List,The method has 6 parameters. ,41
+assignment-3,com.slimtrade.gui.components,LimitCombo,LimitCombo,Magic Number,The method contains a magic number: 10,7
+assignment-3,com.slimtrade.gui.history,DateString,toString,Long Statement,The length of the statement "DateTimeFormatter formatter=DateTimeFormatter.ofPattern(SaveManager.settingsSaveFile.data.historyDateFormat.getFormat());" is 121.,19
+assignment-3,com.slimtrade.gui.history,HistoryPanel,HistoryPanel,Magic Number,The method contains a magic number: 2,24
+assignment-3,com.slimtrade.gui.history,HistoryTable,HistoryTable,Complex Conditional,The conditional expression columnNames[i].equals("Time") || columnNames[i].equals("Date") || columnNames[i].equals("Price") is complex.,13
+assignment-3,com.slimtrade.gui.history,PlayerNameCellRenderer,getTableCellRendererComponent,Long Parameter List,The method has 6 parameters. ,16
+assignment-3,com.slimtrade.gui.history,SaleItemCellRenderer,getTableCellRendererComponent,Long Parameter List,The method has 6 parameters. ,19
+assignment-3,com.slimtrade.gui.history,TimeString,toString,Long Statement,The length of the statement "DateTimeFormatter formatter=DateTimeFormatter.ofPattern(SaveManager.settingsSaveFile.data.historyTimeFormat.getFormat());" is 121.,19
+assignment-3,com.slimtrade.gui.managers,FrameManager,init,Long Statement,The length of the statement "Window[] runningWindows=new Window[]{messageManager`optionsWindow`historyWindow`chatScannerWindow`menubarIcon`menubarDialog`stashHelperContainer`tutorialWindow`patchNotesWindow};" is 178.,65
+assignment-3,com.slimtrade.gui.managers,FrameManager,init,Long Statement,The length of the statement "defaultSizeAndLocationWindows=new IDefaultSizeAndLocation[]{optionsWindow`historyWindow`chatScannerWindow`tutorialWindow`patchNotesWindow};" is 139.,65
+assignment-3,com.slimtrade.gui.managers,FrameManager,setWindowVisibility,Complex Method,Cyclomatic complexity of the method is 8,132
+assignment-3,com.slimtrade.gui.managers,FrameManager,buildSearchWindows,Complex Method,Cyclomatic complexity of the method is 13,180
+assignment-3,com.slimtrade.gui.managers,FrameManager,requestRestoreUIDefaults,Long Statement,The length of the statement "int result=JOptionPane.showConfirmDialog(optionsWindow`"Are you sure you want to reset the UI to its default state?\n" + "This will clear all pins and reset the size and location of most windows."`"Reset SlimTrade UI"`JOptionPane.YES_NO_OPTION);" is 245.,251
+assignment-3,com.slimtrade.gui.managers,HotkeyManager,loadHotkeys,Long Statement,The length of the statement "registerHotkey(SaveManager.settingsSaveFile.data.closeTradeHotkey`new SwingActionHotkey(() -> FrameManager.messageManager.closeOldestTrade()));" is 143.,24
+assignment-3,com.slimtrade.gui.managers,MessageManager,MessageManager,Magic Number,The method contains a magic number: 10,71
+assignment-3,com.slimtrade.gui.managers,MessageManager,addMessage,Complex Method,Cyclomatic complexity of the method is 10,168
+assignment-3,com.slimtrade.gui.managers,MessageManager,addMessage,Long Statement,The length of the statement "if (!SaveManager.settingsSaveFile.data.enableIncomingTrades && tradeOffer.offerType == TradeOfferType.INCOMING_TRADE) return;" is 125.,168
+assignment-3,com.slimtrade.gui.managers,MessageManager,addMessage,Long Statement,The length of the statement "if (!SaveManager.settingsSaveFile.data.enableOutgoingTrades && tradeOffer.offerType == TradeOfferType.OUTGOING_TRADE) return;" is 125.,168
+assignment-3,com.slimtrade.gui.managers,MessageManager,addMessage,Long Statement,The length of the statement "SoundComponent sound=AudioManager.getPriceThresholdSound(tradeOffer.priceName`(int)Math.floor(tradeOffer.priceQuantity));" is 121.,168
+assignment-3,com.slimtrade.gui.managers,MessageManager,addMessage,Magic Number,The method contains a magic number: 20,168
+assignment-3,com.slimtrade.gui.managers,MessageManager,recheckMessageCollapse,Complex Conditional,The conditional expression SaveManager.settingsSaveFile.data.collapseMessages && !expanded && i >= SaveManager.settingsSaveFile.data.messageCountBeforeCollapse is complex.,221
+assignment-3,com.slimtrade.gui.managers,MessageManager,recheckMessageCollapse,Long Statement,The length of the statement "if (SaveManager.settingsSaveFile.data.collapseMessages && !expanded && i >= SaveManager.settingsSaveFile.data.messageCountBeforeCollapse) comp.setVisible(false);" is 161.,221
+assignment-3,com.slimtrade.gui.managers,MessageManager,recheckMessageCollapse,Long Statement,The length of the statement "if (SaveManager.settingsSaveFile.data.collapseMessages && messageContainer.getComponentCount() > SaveManager.settingsSaveFile.data.messageCountBeforeCollapse) {" is 160.,221
+assignment-3,com.slimtrade.gui.managers,MessageManager,addPanel,Magic Number,The method contains a magic number: 9999,238
+assignment-3,com.slimtrade.gui.managers,MessageManager,quickCloseIncoming,Complex Conditional,The conditional expression trade.offerType == TradeOfferType.INCOMING_TRADE && trade.itemName.equals(targetOffer.itemName) && trade.priceName.equals(targetOffer.priceName) && trade.priceQuantity == targetOffer.priceQuantity is complex.,283
+assignment-3,com.slimtrade.gui.managers,MessageManager,quickCloseIncoming,Long Statement,The length of the statement "if (trade.offerType == TradeOfferType.INCOMING_TRADE && trade.itemName.equals(targetOffer.itemName) && trade.priceName.equals(targetOffer.priceName) && trade.priceQuantity == targetOffer.priceQuantity) {" is 203.,283
+assignment-3,com.slimtrade.gui.managers,MessageManager,quickCloseIgnore,Complex Method,Cyclomatic complexity of the method is 8,303
+assignment-3,com.slimtrade.gui.managers,MessageManager,updateExpandText,Long Statement,The length of the statement "int hiddenMessageCount=messageContainer.getComponentCount() - SaveManager.settingsSaveFile.data.messageCountBeforeCollapse;" is 123.,362
+assignment-3,com.slimtrade.gui.managers,MessageManager,refreshFadeData,Magic Number,The method contains a magic number: 1000,383
+assignment-3,com.slimtrade.gui.managers,MessageManager,refreshFadeData,Magic Number,The method contains a magic number: 100f,383
+assignment-3,com.slimtrade.gui.managers,MessageManager,getMessageComponents,Long Statement,The length of the statement "return SaveManager.settingsSaveFile.data.useMessageTabs ? tabbedPane.getTabbedComponents() : messageContainer.getComponents();" is 126.,393
+assignment-3,com.slimtrade.gui.managers,MessageManager,getMessageComponent,Long Statement,The length of the statement "return (NotificationPanel)(SaveManager.settingsSaveFile.data.useMessageTabs ? tabbedPane.getComponentAt(index) : messageContainer.getComponent(index));" is 151.,397
+assignment-3,com.slimtrade.gui.managers,MessageManager,getMessageCount,Long Statement,The length of the statement "return SaveManager.settingsSaveFile.data.useMessageTabs ? tabbedPane.getTabCount() : messageContainer.getComponentCount();" is 122.,401
+assignment-3,com.slimtrade.gui.managers,MessageManager,refresh,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(this`SaveManager.overlaySaveFile.data.messageLocation`SaveManager.overlaySaveFile.data.messageExpandDirection);" is 138.,405
+assignment-3,com.slimtrade.gui.managers,SystemTrayManager,init,Long Statement,The length of the statement "Image img=new ImageIcon(Objects.requireNonNull(SystemTrayManager.class.getResource(DefaultIcon.CHAOS_ORB.path()))).getImage().getScaledInstance(16`16`Image.SCALE_SMOOTH);" is 170.,22
+assignment-3,com.slimtrade.gui.managers,SystemTrayManager,init,Magic Number,The method contains a magic number: 16,22
+assignment-3,com.slimtrade.gui.managers,SystemTrayManager,init,Magic Number,The method contains a magic number: 16,22
+assignment-3,com.slimtrade.gui.managers,VisibilityManager,hideOverlay,Complex Conditional,The conditional expression !show || !SaveManager.settingsSaveFile.data.hideWhenPOENotFocused || App.debugUIAlwaysOnTop is complex.,26
+assignment-3,com.slimtrade.gui.menubar,MenubarButton,MenubarButton,Magic Number,The method contains a magic number: 6,8
+assignment-3,com.slimtrade.gui.menubar,MenubarButtonDialog,onFontChanged,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(this`SaveManager.overlaySaveFile.data.menubarLocation`SaveManager.overlaySaveFile.data.menubarAnchor);" is 129.,36
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,rebuild,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(this`SaveManager.overlaySaveFile.data.menubarLocation`SaveManager.overlaySaveFile.data.menubarAnchor);" is 129.,58
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,getOrderedComponents,Long Statement,The length of the statement "components=new Component[]{optionsButton`historyButton`chatScannerButton`hideoutButton`dndButton`horizontalSeparator`verticalSeparator`exitButton};" is 147.,103
+assignment-3,com.slimtrade.gui.menubar,MenubarDialog,handleResize,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(this`SaveManager.overlaySaveFile.data.menubarLocation`SaveManager.overlaySaveFile.data.menubarAnchor);" is 129.,121
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,NotificationPanel,Magic Number,The method contains a magic number: 2,73
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,NotificationPanel,Magic Number,The method contains a magic number: 2,73
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,NotificationPanel,Magic Number,The method contains a magic number: 2,73
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,NotificationPanel,Magic Number,The method contains a magic number: 2,73
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,NotificationPanel,Magic Number,The method contains a magic number: 4,73
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,NotificationPanel,Magic Number,The method contains a magic number: 1.1f,73
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,addMacrosToPanel,Complex Method,Cyclomatic complexity of the method is 9,139
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,addMacrosToPanel,Long Statement,The length of the statement "if (!hotkeyMap.containsKey(macro.hotkeyData)) hotkeyMap.put(macro.hotkeyData`new NotificationPanelHotkey(macro`this`pasteReplacement));" is 135.,139
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,addMacrosToPanel,Magic Number,The method contains a magic number: 4,139
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,setWidth,Magic Number,The method contains a magic number: 10000,184
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,startTimer,Magic Number,The method contains a magic number: 1000,205
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,incrementTimer,Magic Number,The method contains a magic number: 60,213
+assignment-3,com.slimtrade.gui.messaging,NotificationPanel,incrementTimer,Magic Number,The method contains a magic number: 60000,213
+assignment-3,com.slimtrade.gui.messaging,NotificationTextButton,updateUI,Magic Number,The method contains a magic number: 4,15
+assignment-3,com.slimtrade.gui.messaging,OverlayExamplePanel,paintComponent,Complex Conditional,The conditional expression anchor == Anchor.BOTTOM_LEFT || anchor == Anchor.BOTTOM_RIGHT || expandDirection == ExpandDirection.UPWARDS is complex.,48
+assignment-3,com.slimtrade.gui.messaging,OverlayExamplePanel,paintComponent,Long Statement,The length of the statement "if (anchor == Anchor.BOTTOM_LEFT || anchor == Anchor.BOTTOM_RIGHT || expandDirection == ExpandDirection.UPWARDS) y=getSize().height - iconSize;" is 143.,48
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,TradeMessagePanel,Complex Conditional,The conditional expression FrameManager.stashHelperContainer != null && tradeOffer.offerType == TradeOfferType.INCOMING_TRADE && createListeners is complex.,29
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,TradeMessagePanel,Long Statement,The length of the statement "this.pasteReplacement=new PasteReplacement(tradeOffer.message`tradeOffer.playerName`tradeOffer.itemName`tradeOffer.itemQuantity`tradeOffer.priceName`tradeOffer.priceQuantity);" is 175.,29
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,TradeMessagePanel,Long Statement,The length of the statement "if (FrameManager.stashHelperContainer != null && tradeOffer.offerType == TradeOfferType.INCOMING_TRADE && createListeners) {" is 124.,29
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,TradeMessagePanel,Long Statement,The length of the statement "CurrencyLabelFactory.applyItemToComponent(pricePanel`new SaleItem(tradeOffer.priceName`tradeOffer.priceQuantity).toArrayList());" is 128.,29
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,addListeners,Complex Method,Cyclomatic complexity of the method is 9,61
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,resolveMessageColor,Complex Conditional,The conditional expression tradeOffer.offerType == TradeOfferType.INCOMING_TRADE && SaveManager.settingsSaveFile.data.applyStashColorToMessage && stashTabColor != StashTabColor.ZERO is complex.,105
+assignment-3,com.slimtrade.gui.messaging,TradeMessagePanel,resolveMessageColor,Long Statement,The length of the statement "if (tradeOffer.offerType == TradeOfferType.INCOMING_TRADE && SaveManager.settingsSaveFile.data.applyStashColorToMessage && stashTabColor != StashTabColor.ZERO) {" is 161.,105
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,AbstractMacroOptionPanel,Long Statement,The length of the statement "addComponent(inbuiltMacroPanel("Close Button"`"Close Message"`"Close all outgoing messages EXCEPT the clicked message"));" is 121.,35
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,AbstractMacroOptionPanel,Long Statement,The length of the statement "addComponent(new JLabel("Run one or more commands using {player}` {item}` {price}` {zone}` and {message} for text replacement."));" is 130.,35
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,AbstractMacroOptionPanel,Magic Number,The method contains a magic number: 2,35
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,AbstractMacroOptionPanel,Magic Number,The method contains a magic number: 4,35
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,inbuiltMacroPanel,Magic Number,The method contains a magic number: 20,97
+assignment-3,com.slimtrade.gui.options,AbstractMacroOptionPanel,reloadExampleTrade,Long Statement,The length of the statement "ChatScannerMessagePanel panel=new ChatScannerMessagePanel(chatScannerEntry`new PlayerMessage("ScannerPlayer789"`CommonText.LOREM_IPSUM_SHORT)`false);" is 149.,196
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,AbstractOptionPanel,Magic Number,The method contains a magic number: 96,30
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,AbstractOptionPanel,Magic Number,The method contains a magic number: 236,30
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,AbstractOptionPanel,Magic Number,The method contains a magic number: 122,30
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,addHeader,Magic Number,The method contains a magic number: 2,57
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,addComponent,Magic Number,The method contains a magic number: 2,72
+assignment-3,com.slimtrade.gui.options,AbstractOptionPanel,incorrectAddMethod,Long Statement,The length of the statement "ZLogger.err("[OptionPanel] Components should not be added directly to an OptionPanel! Use addHeader() or addPanel() instead.");" is 127.,146
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,AudioOptionPanel,Long Statement,The length of the statement "addComponent(new JLabel("Add audio files to the audio folder` then refresh. Custom files will then be available in all audio dropdowns."));" is 139.,40
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,AudioOptionPanel,Long Statement,The length of the statement "JLabel label=new StyledLabel("Only supports .wav files. Online file converters are available if you have different formats.").bold();" is 133.,40
+assignment-3,com.slimtrade.gui.options,AudioOptionPanel,addRow,Long Statement,The length of the statement "previewButton.addActionListener(e -> AudioManager.playSoundPercent((Sound)soundCombo.getSelectedItem()`volumeSlider.getValue()));" is 129.,89
+assignment-3,com.slimtrade.gui.options,CheatSheetsOptionPanel,addRow,Magic Number,The method contains a magic number: 20,56
+assignment-3,com.slimtrade.gui.options,CheatSheetsOptionPanel,save,Complex Conditional,The conditional expression matchingWindows != FrameManager.cheatSheetWindows.size() || matchingWindows != rows.size() || forceRebuild is complex.,99
+assignment-3,com.slimtrade.gui.options,DebugOptionPanel,addListeners,Long Statement,The length of the statement "incomingMessageButton.addActionListener(e -> FrameManager.messageManager.addMessage(TradeOffer.getExampleTrade(TradeOfferType.INCOMING_TRADE)));" is 144.,63
+assignment-3,com.slimtrade.gui.options,DebugOptionPanel,addListeners,Long Statement,The length of the statement "outgoingMessageButton.addActionListener(e -> FrameManager.messageManager.addMessage(TradeOffer.getExampleTrade(TradeOfferType.OUTGOING_TRADE)));" is 144.,63
+assignment-3,com.slimtrade.gui.options,DebugOptionPanel,addListeners,Long Statement,The length of the statement "scannerMessageButton.addActionListener(e -> FrameManager.messageManager.addScannerMessage(new ChatScannerEntry("alch")`new PlayerMessage("CoolTrader123"`"wtb alch for chaos")));" is 177.,63
+assignment-3,com.slimtrade.gui.options,DebugOptionPanel,addListeners,Magic Number,The method contains a magic number: 12,63
+assignment-3,com.slimtrade.gui.options,DisplayOptionPanel,addListeners,Long Statement,The length of the statement "themeCombo.addActionListener(e -> SwingUtilities.invokeLater(() -> ThemeManager.setTheme((Theme)themeCombo.getSelectedItem())));" is 128.,48
+assignment-3,com.slimtrade.gui.options,DisplayOptionPanel,addListeners,Long Statement,The length of the statement "colorBlindCheckBox.addActionListener(e -> SaveManager.settingsSaveFile.data.triggerColorBlindModeChange(colorBlindCheckBox.isSelected()));" is 138.,48
+assignment-3,com.slimtrade.gui.options,DisplayPreviewPanel,updateUI,Magic Number,The method contains a magic number: 2,82
+assignment-3,com.slimtrade.gui.options,DonationPanel,createButtonPanel,Magic Number,The method contains a magic number: 10,47
+assignment-3,com.slimtrade.gui.options,HeaderPanel,HeaderPanel,Magic Number,The method contains a magic number: 2,20
+assignment-3,com.slimtrade.gui.options,HotkeyOptionPanel,addHotkey,Magic Number,The method contains a magic number: 2,78
+assignment-3,com.slimtrade.gui.options,IgnoreItemOptionPanel,addNewRow,Magic Number,The method contains a magic number: 10,46
+assignment-3,com.slimtrade.gui.options,IgnoreItemOptionPanel,addNewRow,Magic Number,The method contains a magic number: 20,46
+assignment-3,com.slimtrade.gui.options,MacroCustomizerPanel,MacroCustomizerPanel,Magic Number,The method contains a magic number: 2,38
+assignment-3,com.slimtrade.gui.options,TradeColorPreviewPanel,TradeColorPreviewPanel,Magic Number,The method contains a magic number: 10,19
+assignment-3,com.slimtrade.gui.options,TradeColorPreviewPanel,TradeColorPreviewPanel,Magic Number,The method contains a magic number: 4,19
+assignment-3,com.slimtrade.gui.options.audio,AudioThresholdRow,addListeners,Long Statement,The length of the statement "previewButton.addActionListener(e -> AudioManager.playSoundPercent((Sound)soundCombo.getSelectedItem()`volumeSlider.getValue()));" is 129.,56
+assignment-3,com.slimtrade.gui.options.general,DisplaySettingsPanel,load,Long Statement,The length of the statement "if (SaveManager.settingsSaveFile.data.preferredFontName != null) fontCombo.setSelectedItem(SaveManager.settingsSaveFile.data.preferredFontName);" is 144.,105
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,MessageSettingsPanel,Long Statement,The length of the statement "fadeOpacitySlider.setPreferredSize(new Dimension(Math.round(getPreferredSize().width * 0.75f)`fadeOpacitySlider.getPreferredSize().height));" is 140.,42
+assignment-3,com.slimtrade.gui.options.general,MessageSettingsPanel,MessageSettingsPanel,Magic Number,The method contains a magic number: 0.75f,42
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreInputPanel,IgnoreInputPanel,Magic Number,The method contains a magic number: 300,17
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreInputPanel,IgnoreInputPanel,Magic Number,The method contains a magic number: 10,17
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreInputPanel,IgnoreInputPanel,Magic Number,The method contains a magic number: 60,17
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreRowComponents,IgnoreRowComponents,Magic Number,The method contains a magic number: 1000,24
+assignment-3,com.slimtrade.gui.options.ignore,IgnoreRowComponents,IgnoreRowComponents,Magic Number,The method contains a magic number: 60,24
+assignment-3,com.slimtrade.gui.options.ignore,ItemIgnoreWindow,ItemIgnoreWindow,Magic Number,The method contains a magic number: 20,15
+assignment-3,com.slimtrade.gui.options.ignore,ItemIgnoreWindow,showWindow,Magic Number,The method contains a magic number: 60,38
+assignment-3,com.slimtrade.gui.options.searching,StashSearchGroupPanel,StashSearchGroupPanel,Magic Number,The method contains a magic number: 2,36
+assignment-3,com.slimtrade.gui.options.searching,StashSearchOptionPanel,StashSearchOptionPanel,Long Statement,The length of the statement "addComponent(new JLabel("Pastes search terms into any POE window with a search bar (stashes` skill tree` vendors` etc)."));" is 123.,22
+assignment-3,com.slimtrade.gui.options.stash,StashRow,getData,Long Statement,The length of the statement "return new StashTabData(nameInput.getText()`(MatchType)matchTypeCombo.getSelectedItem()`(StashTabType)stashTypeCombo.getSelectedItem()`colorCombo.getSelectedIndex());" is 166.,52
+assignment-3,com.slimtrade.gui.options.stash,StashTabCellRenderer,StashTabCellRenderer,Magic Number,The method contains a magic number: 30,10
+assignment-3,com.slimtrade.gui.options.stash,StashTabCellRenderer,StashTabCellRenderer,Magic Number,The method contains a magic number: 20,10
+assignment-3,com.slimtrade.gui.options.stash,StashTabCellRenderer,getListCellRendererComponent,Long Parameter List,The method has 5 parameters. ,24
+assignment-3,com.slimtrade.gui.overlays,AbstractOverlayFrame,AbstractOverlayFrame,Magic Number,The method contains a magic number: 0.75f,23
+assignment-3,com.slimtrade.gui.overlays,MessageOverlay,onSave,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(this`SaveManager.overlaySaveFile.data.messageLocation`SaveManager.overlaySaveFile.data.messageExpandDirection);" is 138.,43
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,OverlayInfoDialog,Magic Number,The method contains a magic number: 170,34
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,OverlayInfoDialog,Magic Number,The method contains a magic number: 20,34
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,OverlayInfoDialog,Magic Number,The method contains a magic number: 14,34
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,OverlayInfoDialog,Magic Number,The method contains a magic number: 10,34
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,OverlayInfoDialog,Magic Number,The method contains a magic number: 20,34
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,addListeners,Long Statement,The length of the statement "menubarAnchorCombo.addActionListener(e -> FrameManager.menubarOverlay.setAnchor((Anchor)menubarAnchorCombo.getSelectedItem()));" is 127.,117
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,addListeners,Long Statement,The length of the statement "expandCombo.addActionListener(e -> FrameManager.messageOverlay.setExpandDirection((ExpandDirection)expandCombo.getSelectedItem()));" is 131.,117
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,adjustBorder,Magic Number,The method contains a magic number: 2,140
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,save,Long Statement,The length of the statement "SaveManager.overlaySaveFile.data.menubarLocation=FrameManager.menubarOverlay.getAnchorPoint(SaveManager.overlaySaveFile.data.menubarAnchor);" is 140.,152
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,save,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(FrameManager.menubarDialog`SaveManager.overlaySaveFile.data.menubarLocation`SaveManager.overlaySaveFile.data.menubarAnchor);" is 151.,152
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,save,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(FrameManager.menubarIcon`SaveManager.overlaySaveFile.data.menubarLocation`SaveManager.overlaySaveFile.data.menubarAnchor);" is 149.,152
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,load,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(FrameManager.messageOverlay`SaveManager.overlaySaveFile.data.messageLocation`SaveManager.overlaySaveFile.data.messageExpandDirection);" is 161.,169
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,load,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(FrameManager.menubarOverlay`SaveManager.overlaySaveFile.data.menubarLocation`SaveManager.overlaySaveFile.data.menubarAnchor);" is 152.,169
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,load,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(FrameManager.menubarDialog`SaveManager.overlaySaveFile.data.menubarLocation`SaveManager.overlaySaveFile.data.menubarAnchor);" is 151.,169
+assignment-3,com.slimtrade.gui.overlays,OverlayInfoDialog,load,Long Statement,The length of the statement "TradeUtil.applyAnchorPoint(FrameManager.menubarIcon`SaveManager.overlaySaveFile.data.menubarLocation`SaveManager.overlaySaveFile.data.menubarAnchor);" is 149.,169
+assignment-3,com.slimtrade.gui.pinning,PinManager,saveAllPins,Complex Method,Cyclomatic complexity of the method is 10,57
+assignment-3,com.slimtrade.gui.pinning,PinManager,saveAllPins,Long Statement,The length of the statement "if (window.isPinned()) SaveManager.pinSaveFile.data.combinedSearchWindow=new PinData(window.getPinTitle()`window.getPinRect());" is 127.,57
+assignment-3,com.slimtrade.gui.setup,ClientSetupPanel,ClientSetupPanel,Magic Number,The method contains a magic number: 10,17
+assignment-3,com.slimtrade.gui.setup,SetupWindow,SetupWindow,Long Statement,The length of the statement "images.add(new ImageIcon(Objects.requireNonNull(getClass().getResource(DefaultIcon.CHAOS_ORB.path()))).getImage().getScaledInstance(32`32`Image.SCALE_SMOOTH));" is 159.,39
+assignment-3,com.slimtrade.gui.setup,SetupWindow,SetupWindow,Magic Number,The method contains a magic number: 32,39
+assignment-3,com.slimtrade.gui.setup,SetupWindow,SetupWindow,Magic Number,The method contains a magic number: 32,39
+assignment-3,com.slimtrade.gui.setup,SetupWindow,SetupWindow,Magic Number,The method contains a magic number: 5,39
+assignment-3,com.slimtrade.gui.setup,SetupWindow,SetupWindow,Magic Number,The method contains a magic number: 10,39
+assignment-3,com.slimtrade.gui.setup,SetupWindow,SetupWindow,Magic Number,The method contains a magic number: 300,39
+assignment-3,com.slimtrade.gui.setup,SetupWindow,SetupWindow,Magic Number,The method contains a magic number: 200,39
+assignment-3,com.slimtrade.gui.setup,SetupWindow,showIndexedPanel,Magic Number,The method contains a magic number: 2,114
+assignment-3,com.slimtrade.gui.setup,StashFolderSetupPanel,StashFolderSetupPanel,Magic Number,The method contains a magic number: 20,13
+assignment-3,com.slimtrade.gui.setup,StashFolderSetupPanel,StashFolderSetupPanel,Magic Number,The method contains a magic number: 5,13
+assignment-3,com.slimtrade.gui.stash,GridPanel,paintComponent,Magic Number,The method contains a magic number: 12,24
+assignment-3,com.slimtrade.gui.stash,GridPanel,paintComponent,Magic Number,The method contains a magic number: 24,24
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,createBorder,Magic Number,The method contains a magic number: 6,123
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,createBorder,Magic Number,The method contains a magic number: 4,123
+assignment-3,com.slimtrade.gui.stash,StashHelperPanel,createBorder,Magic Number,The method contains a magic number: 2,123
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,StashHighlighterFrame,Magic Number,The method contains a magic number: 2,19
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,StashHighlighterFrame,Magic Number,The method contains a magic number: 2000,19
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,updateSizeAndLocation,Long Statement,The length of the statement "Dimension cellSize=isQuadTab ? SaveManager.stashSaveFile.data.getCellSizeQuad() : SaveManager.stashSaveFile.data.getCellSize();" is 127.,36
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,updateSizeAndLocation,Magic Number,The method contains a magic number: 24f,36
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,updateSizeAndLocation,Magic Number,The method contains a magic number: 12f,36
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,isQuadTab,Long Statement,The length of the statement "if (savedStashTab.matchType == MatchType.EXACT_MATCH && tradeOffer.stashTabName.equals(savedStashTab.stashTabName)) return savedStashTab.stashTabType == StashTabType.QUAD;" is 171.,48
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,isQuadTab,Long Statement,The length of the statement "else if (savedStashTab.matchType == MatchType.CONTAINS_TEXT && tradeOffer.stashTabName.contains(savedStashTab.stashTabName)) return savedStashTab.stashTabType == StashTabType.QUAD;" is 180.,48
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,isQuadTab,Magic Number,The method contains a magic number: 12,48
+assignment-3,com.slimtrade.gui.stash,StashHighlighterFrame,isQuadTab,Magic Number,The method contains a magic number: 12,48
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,AbstractMovableDialog,Complex Conditional,The conditional expression !App.globalKeyboardListener.isShiftPressed() && screenLock || screenBounds == null is complex.,25
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,AbstractMovableDialog,Complex Method,Cyclomatic complexity of the method is 13,25
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,AbstractMovableDialog,Long Statement,The length of the statement "if (targetX > screenBounds.x + screenBounds.width - getWidth() - borderOffset * 2) targetX=screenBounds.x + screenBounds.width - getWidth() - borderOffset * 2;" is 159.,25
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,AbstractMovableDialog,Long Statement,The length of the statement "if (targetY > screenBounds.y + screenBounds.height - getHeight() - borderOffset * 2) targetY=screenBounds.y + screenBounds.height - getHeight() - borderOffset * 2;" is 163.,25
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,AbstractMovableDialog,Magic Number,The method contains a magic number: 2,25
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,AbstractMovableDialog,Magic Number,The method contains a magic number: 2,25
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,AbstractMovableDialog,Magic Number,The method contains a magic number: 2,25
+assignment-3,com.slimtrade.gui.windows,AbstractMovableDialog,AbstractMovableDialog,Magic Number,The method contains a magic number: 2,25
+assignment-3,com.slimtrade.gui.windows,CustomDialog,CustomDialog,Magic Number,The method contains a magic number: 400,74
+assignment-3,com.slimtrade.gui.windows,CustomDialog,CustomDialog,Magic Number,The method contains a magic number: 400,74
+assignment-3,com.slimtrade.gui.windows,CustomDialog,addWindowMover,Complex Method,Cyclomatic complexity of the method is 9,182
+assignment-3,com.slimtrade.gui.windows,CustomDialog,addWindowMover,Long Statement,The length of the statement "if (targetPoint.x > screenBounds.x + screenBounds.width - getWidth() + getResizerSize()) targetPoint.x=screenBounds.x + screenBounds.width - getWidth() + getResizerSize();" is 171.,182
+assignment-3,com.slimtrade.gui.windows,CustomDialog,addWindowMover,Long Statement,The length of the statement "if (targetPoint.y > screenBounds.y + screenBounds.height - getHeight() + getResizerSize()) targetPoint.y=screenBounds.y + screenBounds.height - getHeight() + getResizerSize();" is 175.,182
+assignment-3,com.slimtrade.gui.windows,CustomDialog,mouseDragged,Long Statement,The length of the statement "if (targetPoint.x > screenBounds.x + screenBounds.width - getWidth() + getResizerSize()) targetPoint.x=screenBounds.x + screenBounds.width - getWidth() + getResizerSize();" is 171.,197
+assignment-3,com.slimtrade.gui.windows,CustomDialog,mouseDragged,Long Statement,The length of the statement "if (targetPoint.y > screenBounds.y + screenBounds.height - getHeight() + getResizerSize()) targetPoint.y=screenBounds.y + screenBounds.height - getHeight() + getResizerSize();" is 175.,197
+assignment-3,com.slimtrade.gui.windows,CustomDialog,colorBorders,Long Statement,The length of the statement "titleBarPanel.setBorder(BorderFactory.createMatteBorder(BORDER_SIZE`BORDER_SIZE`0`BORDER_SIZE`UIManager.getColor("Separator.foreground")));" is 139.,301
+assignment-3,com.slimtrade.gui.windows,CustomDialog,setContentPane,Long Statement,The length of the statement "ZLogger.err("The contentPane of a CustomDialog cannot be changed! Use the contentPanel variable or getContentPane() instead.");" is 127.,401
+assignment-3,com.slimtrade.gui.windows,DebugWindow,DebugWindow,Magic Number,The method contains a magic number: 400,12
+assignment-3,com.slimtrade.gui.windows,DebugWindow,DebugWindow,Magic Number,The method contains a magic number: 600,12
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,HistoryWindow,Magic Number,The method contains a magic number: 300,19
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,HistoryWindow,Magic Number,The method contains a magic number: 200,19
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,applyDefaultSizeAndLocation,Magic Number,The method contains a magic number: 600,75
+assignment-3,com.slimtrade.gui.windows,HistoryWindow,applyDefaultSizeAndLocation,Magic Number,The method contains a magic number: 400,75
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,OptionsWindow,Long Statement,The length of the statement "OptionPanel[] panelList=new OptionPanel[]{general`display`audio`stash`incomingMacros`outgoingMacros`hotkeys`ignoreItems`cheatSheets`stashSearch`information`donate};" is 164.,33
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,OptionsWindow,Magic Number,The method contains a magic number: 5,33
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,OptionsWindow,Magic Number,The method contains a magic number: 5,33
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,OptionsWindow,Magic Number,The method contains a magic number: 20,33
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,OptionsWindow,Magic Number,The method contains a magic number: 500,33
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,OptionsWindow,Magic Number,The method contains a magic number: 400,33
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,applyDefaultSizeAndLocation,Magic Number,The method contains a magic number: 1000,178
+assignment-3,com.slimtrade.gui.windows,OptionsWindow,applyDefaultSizeAndLocation,Magic Number,The method contains a magic number: 650,178
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,PatchNotesWindow,Magic Number,The method contains a magic number: 400,31
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,PatchNotesWindow,Magic Number,The method contains a magic number: 400,31
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,applyDefaultSizeAndLocation,Magic Number,The method contains a magic number: 600,124
+assignment-3,com.slimtrade.gui.windows,PatchNotesWindow,applyDefaultSizeAndLocation,Magic Number,The method contains a magic number: 600,124
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,StashGridWindow,Long Statement,The length of the statement "ZUtil.addStrutsToBorderPanel(gridBorderPanel`new Insets(INSET_VERTICAL`INSET_HORIZONTAL`INSET_VERTICAL`INSET_HORIZONTAL));" is 122.,29
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,StashGridWindow,Magic Number,The method contains a magic number: 10,29
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,StashGridWindow,Magic Number,The method contains a magic number: 500,29
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,StashGridWindow,Magic Number,The method contains a magic number: 500,29
+assignment-3,com.slimtrade.gui.windows,StashGridWindow,adjustTranslucentBackground,Magic Number,The method contains a magic number: 30,118
+assignment-3,com.slimtrade.gui.windows,TestOverlayFrame,TestOverlayFrame,Magic Number,The method contains a magic number: 47,8
+assignment-3,com.slimtrade.gui.windows,TestOverlayFrame,TestOverlayFrame,Magic Number,The method contains a magic number: 43,8
+assignment-3,com.slimtrade.gui.windows,TestOverlayFrame,TestOverlayFrame,Magic Number,The method contains a magic number: 43,8
+assignment-3,com.slimtrade.gui.windows,TestOverlayFrame,TestOverlayFrame,Magic Number,The method contains a magic number: 20,8
+assignment-3,com.slimtrade.gui.windows,TestOverlayFrame,TestOverlayFrame,Magic Number,The method contains a magic number: 20,8
+assignment-3,com.slimtrade.gui.windows,TutorialWindow,TutorialWindow,Magic Number,The method contains a magic number: 10,27
+assignment-3,com.slimtrade.modules.saving,SaveFile,fetchSaveFileVersion,Empty catch clause,The method has an empty catch block.,153
+assignment-3,com.slimtrade.modules.saving,SaveFile,triggerSaveAfterIdle,Magic Number,The method contains a magic number: 1500,164
+assignment-3,com.slimtrade.modules.stopwatch,Stopwatch,getElapsedSeconds,Magic Number,The method contains a magic number: 1000000,14
+assignment-3,com.slimtrade.modules.stopwatch,Stopwatch,getElapsedSeconds,Magic Number,The method contains a magic number: 1000f,14
+assignment-3,com.slimtrade.modules.stopwatch,Stopwatch,getElapsedMilliSeconds,Magic Number,The method contains a magic number: 1000000,20
+assignment-3,com.slimtrade.modules.theme.components,AdvancedButton,AdvancedButton,Magic Number,The method contains a magic number: 3,31
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,setColorMultiplier,Magic Number,The method contains a magic number: 10,33
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,setColorMultiplier,Magic Number,The method contains a magic number: 10,33
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,updateUI,Long Statement,The length of the statement "color=new Color(applyRange(0`255`color.getRed() * colorMultiplier)`applyRange(0`255`color.getGreen() * colorMultiplier)`applyRange(0`255`color.getBlue() * colorMultiplier));" is 173.,39
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,updateUI,Magic Number,The method contains a magic number: 255,39
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,updateUI,Magic Number,The method contains a magic number: 255,39
+assignment-3,com.slimtrade.modules.theme.components,ColorPanel,updateUI,Magic Number,The method contains a magic number: 255,39
+assignment-3,com.slimtrade.modules.theme,ThemeManager,setTheme,Complex Method,Cyclomatic complexity of the method is 9,84
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getColorIcon,Long Statement,The length of the statement "ImageIcon icon=new ImageIcon(getColorImage(img`UIManager.getColor("Button.foreground")).getScaledInstance(size`size`Image.SCALE_SMOOTH));" is 137.,186
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getColorImage,Magic Number,The method contains a magic number: 2,205
+assignment-3,com.slimtrade.modules.theme,ThemeManager,checkFontChange,Complex Method,Cyclomatic complexity of the method is 9,326
+assignment-3,com.slimtrade.modules.theme,ThemeManager,checkFontChange,Long Statement,The length of the statement "if (fontStyleWasChanged) for ( IDetailedFontChangeListener listener : detailedFontChangeListeners) listener.onFontStyleChanged();" is 129.,326
+assignment-3,com.slimtrade.modules.theme,ThemeManager,checkFontChange,Long Statement,The length of the statement "if (fontSizeWasChanged) for ( IDetailedFontChangeListener listener : detailedFontChangeListeners) listener.onFontSizeChanged();" is 127.,326
+assignment-3,com.slimtrade.modules.theme,ThemeManager,checkFontChange,Long Statement,The length of the statement "if (iconSizeWasChanged) for ( IDetailedFontChangeListener listener : detailedFontChangeListeners) listener.onIconSizeChanged();" is 127.,326
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getBrightness,Magic Number,The method contains a magic number: 0.2126f,355
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getBrightness,Magic Number,The method contains a magic number: 0.7152f,355
+assignment-3,com.slimtrade.modules.theme,ThemeManager,getBrightness,Magic Number,The method contains a magic number: 0.0722f,355
+assignment-3,com.slimtrade.modules.theme,ThemeManager,isDark,Magic Number,The method contains a magic number: 128,359
+assignment-3,com.slimtrade.modules.theme,ThemeManager,modify,Magic Number,The method contains a magic number: 255,363
+assignment-3,com.slimtrade.modules.updater.data,AppVersion,AppVersion,Magic Number,The method contains a magic number: 5,26
+assignment-3,com.slimtrade.modules.updater.data,AppVersion,compareTo,Complex Method,Cyclomatic complexity of the method is 12,57
+assignment-3,com.slimtrade.modules.updater.data,ReleaseVersion,ReleaseVersion,Long Parameter List,The method has 5 parameters. ,18
+assignment-3,com.slimtrade.modules.updater,UpdateManager,UpdateManager,Long Parameter List,The method has 5 parameters. ,74
+assignment-3,com.slimtrade.modules.updater,UpdateManager,continueUpdateProcess,Complex Method,Cyclomatic complexity of the method is 11,122
+assignment-3,com.slimtrade.modules.updater,UpdateManager,getPatchNotes,Long Statement,The length of the statement "if (currentVersion.equals(SaveManager.patchNotesSaveFile.data.getAppVersion())) return SaveManager.patchNotesSaveFile.data.entries;" is 131.,246
+assignment-3,com.slimtrade.modules.updater,UpdateManager,downloadFile,Complex Method,Cyclomatic complexity of the method is 8,332
+assignment-3,com.slimtrade.modules.updater,UpdateManager,downloadFile,Long Statement,The length of the statement "BufferedOutputStream outputStream=new BufferedOutputStream(Files.newOutputStream(Paths.get(DIRECTORY + TEMP_FILE_NAME)));" is 121.,332
+assignment-3,com.slimtrade.modules.updater,UpdateManager,downloadFile,Magic Number,The method contains a magic number: 100,332
+assignment-3,com.slimtrade.modules.updater,ZLogger,cleanOldLogFiles,Empty catch clause,The method has an empty catch block.,116
+assignment-3,com.slimtrade.modules.updater,ZLogger,cleanOldLogFiles,Magic Number,The method contains a magic number: 20,116
+assignment-3,com.slimtrade.modules.updater,ZLogger,fileNameToTimestamp,Long Statement,The length of the statement "return fileName.replaceFirst(FILE_PREFIX`"").replaceFirst("_"`" ").replaceAll("-"`"/").replaceAll("[hm]"`":").replaceAll("s"`"").replaceAll("\\.txt"`"");" is 153.,146
+assignment-3,(default package),ParserTest,waitForParser,Magic Number,The method contains a magic number: 50,38
+assignment-3,(default package),ParserTest,waitForParser,Magic Number,The method contains a magic number: 50,38
+assignment-3,(default package),ParserTest,dndTest,Magic Number,The method contains a magic number: 8,55
+assignment-3,(default package),ParserTest,dndTest,Magic Number,The method contains a magic number: 8,55
+assignment-3,(default package),ParserTest,scannerTest,Magic Number,The method contains a magic number: 10,69
