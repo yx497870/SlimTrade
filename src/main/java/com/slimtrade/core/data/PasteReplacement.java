@@ -4,10 +4,10 @@ public class PasteReplacement {
 
     public final String message;
     public final String playerName;
-    public final String itemName; // Item Quanitity + Item Name
-    public final int itemQuantity; // Item Quanitity + Item Name
-    public final String priceName; // Price Quantity + Price Name
-    public final double priceQuantity; // Price Quantity + Price Name
+    public final String itemName;
+    public final int itemQuantity;
+    public final String priceName;
+    public final double priceQuantity;
 
     public PasteReplacement(String player) {
         this.message = "";
@@ -18,13 +18,51 @@ public class PasteReplacement {
         this.priceQuantity = 0;
     }
 
-    public PasteReplacement(String message, String player, String itemName, int itemQuantity, String priceName, double priceQuantity) {
-        this.message = message;
-        this.playerName = player;
-        this.itemName = itemName;
-        this.itemQuantity = itemQuantity;
-        this.priceName = priceName;
-        this.priceQuantity = priceQuantity;
+    public PasteReplacement(ReplacementParams params) {
+        this.message = params.message;
+        this.playerName = params.playerName;
+        this.itemName = params.itemName;
+        this.itemQuantity = params.itemQuantity;
+        this.priceName = params.priceName;
+        this.priceQuantity = params.priceQuantity;
     }
 
+    public static class ReplacementParams {
+        private String message;
+        private String playerName;
+        private String itemName;
+        private int itemQuantity;
+        private String priceName;
+        private double priceQuantity;
+
+        public ReplacementParams setMessage(String message) {
+            this.message = message;
+            return this;
+        }
+
+        public ReplacementParams setPlayerName(String playerName) {
+            this.playerName = playerName;
+            return this;
+        }
+
+        public ReplacementParams setItemName(String itemName) {
+            this.itemName = itemName;
+            return this;
+        }
+
+        public ReplacementParams setItemQuantity(int itemQuantity) {
+            this.itemQuantity = itemQuantity;
+            return this;
+        }
+
+        public ReplacementParams setPriceName(String priceName) {
+            this.priceName = priceName;
+            return this;
+        }
+
+        public ReplacementParams setPriceQuantity(double priceQuantity) {
+            this.priceQuantity = priceQuantity;
+            return this;
+        }
+    }
 }

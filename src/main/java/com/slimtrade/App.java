@@ -206,34 +206,88 @@ public class App {
     public static void launchApp() {
         assert SwingUtilities.isEventDispatchThread();
 
+        cleanupSetupWindow();
+        revertSaveFiles();
+        reloadExampleTrades();
+        applyPinsAndShowFrames();
+        initializeChatParser();
+        loadHotkeys();
+        setAppStateRunning();
+        showTutorialIfNeeded();
+        showUpdateIfAvailable();
+        showPatchNotesIfCleanUpdate();
+    }
+
+    private static void cleanupSetupWindow() {
         if (FrameManager.setupWindow != null) {
             FrameManager.setupWindow.dispose();
             FrameManager.setupWindow = null;
         }
         isRunningSetup = false;
+    }
+
+    private static void revertSaveFiles() {
         SaveManager.settingsSaveFile.revertChanges();
         SaveManager.stashSaveFile.revertChanges();
         SaveManager.chatScannerSaveFile.revertChanges();
         SaveManager.overlaySaveFile.revertChanges();
-        FrameManager.optionsWindow.reloadExampleTrades();
+    }
 
+    private static void reloadExampleTrades() {
+        FrameManager.optionsWindow.reloadExampleTrades();
+    }
+
+    private static void applyPinsAndShowFrames() {
         PinManager.applyAllPins();
         FrameManager.showAppFrames();
         SystemTrayManager.showDefault();
+    }
 
-        initParser();
+    private static void initializeChatParser() {
+        if (chatParser != null) {
+            chatParser.close();
+            chatParser.removeAllListeners();
+        }
+        chatParser = new ChatParser();
+        chatParser.addOnInitCallback(FrameManager.historyWindow);
+        chatParser.addOnLoadedCallback(FrameManager.historyWindow);
+        chatParser.addPreloadTradeListener(FrameManager.historyWindow);
+        chatParser.addTradeListener(FrameManager.historyWindow);
+        chatParser.addTradeListener(FrameManager.messageManager);
+        chatParser.addChatScannerListener(FrameManager.messageManager);
+        chatParser.addJoinedAreaListener(FrameManager.messageManager);
+        chatParser.addOnLoadedCallback(FrameManager.menubarIcon);
+        chatParser.addOnLoadedCallback(FrameManager.menubarDialog);
+        chatParser.addDndListener(FrameManager.menubarIcon);
+        chatParser.addDndListener(FrameManager.menubarDialog);
+        chatParser.open(SaveManager.settingsSaveFile.data.clientPath);
+    }
+
+    private static void loadHotkeys() {
         HotkeyManager.loadHotkeys();
-        App.setState(AppState.RUNNING);
+    }
 
+    private static void setAppStateRunning() {
+        App.setState(AppState.RUNNING);
+    }
+
+    private static void showTutorialIfNeeded() {
         if (SaveManager.appStateSaveFile.data.tutorialVersion < TutorialWindow.TUTORIAL_VERSION) {
             SwingUtilities.invokeLater(() -> FrameManager.tutorialWindow.setVisible(true));
             SaveManager.appStateSaveFile.data.tutorialVersion = TutorialWindow.TUTORIAL_VERSION;
             SaveManager.appStateSaveFile.saveToDisk(false);
         }
+    }
+
+    private static void showUpdateIfAvailable() {
         if (updateIsAvailable) FrameManager.displayUpdateAvailable();
+    }
+
+    private static void showPatchNotesIfCleanUpdate() {
         if (updateManager.getCurrentUpdateAction() == UpdateAction.CLEAN)
             SwingUtilities.invokeLater(() -> FrameManager.patchNotesWindow.setVisible(true));
     }
+
 
     public static void initParser() {
         if (chatParser != null) {
@@ -278,14 +332,37 @@ public class App {
     private static void parseLaunchArgs(String[] args) {
         for (String arg : args) {
             arg = arg.toLowerCase();
-            if (arg.equals("-nu") || arg.equals("-noupdate")) noUpdate = true;
-            if (arg.equals("-nl") || arg.equals("-nolock")) noLock = true;
-            if (arg.equals("-d") || arg.equals("-debug")) debug = true;
-            if (arg.equals("-o") || arg.equals("-options")) showOptionsOnLaunch = true;
-            if (arg.equals("-ui")) debugUIAlwaysOnTop = true;
-            if (arg.equals("-setup")) forceSetup = true;
+            processArgument(arg);
         }
     }
+
+    private static void processArgument(String arg) {
+        switch (arg) {
+            case "-nu":
+            case "-noupdate":
+                noUpdate = true;
+                break;
+            case "-nl":
+            case "-nolock":
+                noLock = true;
+                break;
+            case "-d":
+            case "-debug":
+                debug = true;
+                break;
+            case "-o":
+            case "-options":
+                showOptionsOnLaunch = true;
+                break;
+            case "-ui":
+                debugUIAlwaysOnTop = true;
+                break;
+            case "-setup":
+                forceSetup = true;
+                break;
+        }
+    }
+
 
     // FIXME: This
     public static void setState(AppState state) {
