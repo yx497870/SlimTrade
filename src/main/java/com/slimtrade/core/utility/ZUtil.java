@@ -203,8 +203,13 @@ public class ZUtil {
     }
 
     public static String getVolumeText(int volume) {
-        return volume == 0 ? "Muted" : "" + volume + "%";
+        if (volume == 0) {
+            return "Muted";
+        } else {
+            return volume + "%";
+        }
     }
+
 
     public static void printStackTrace() {
         StackTraceElement[] elements = Thread.currentThread().getStackTrace();

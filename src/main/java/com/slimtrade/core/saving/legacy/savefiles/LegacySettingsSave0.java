@@ -36,9 +36,9 @@ public class LegacySettingsSave0 extends AbstractSaveFile {
     public boolean colorBlindMode = false;
     @SerializedName("colorTheme")
     public LegacyColorTheme theme = LegacyColorTheme.SOLARIZED_LIGHT;
-    //    public QuickPasteSetting quickPasteSetting = QuickPasteSetting.DISABLED;
+
     public HotkeyData quickPasteHotkey = null;
-//    public boolean autoUpdate = true;
+
 
     // Messaging
     @SerializedName("collapseExcessiveMessages")
